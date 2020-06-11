@@ -1,0 +1,58 @@
+
+El programa Pythia (descripción en referencia \cite{sjostrand_introduction_2015}) es una herramienta estándar para la generación de colisiones de alta energía con mas de 35 a\~nos de desarrollo y actualización, este comprende un conjunto coherente de modelos físicos para la evolución de un proceso difícil de pocos cuerpos a un estado final multihadrónico complejo. Contiene una biblioteca de procesos y modelos complejos para los estados inicial y final del \textit{parton showers} (ver referencia \cite{nagy_what_2018}), múltiples interacciones de \textit{parton-parton}, \textit{beam remnants}, \textit{tring fragmentation} y \textit{article decays}. También tiene un conjunto de utilidades e interfaces para programas externos.  
+
+Si bien las versiones anteriores se escribieron en Fortran, Pythia 8 representa una reescritura completa en $C ++$. Su versión mas actual es una opción atractiva para los estudios de física del \textbf{LHC} pero el programa también se utiliza para una multitud de otros estudios fenomenológicos o experimentales.
+
+Las principales tareas realizadas por el programa incluyen la exploración de las consecuencias experimentales de los modelos teóricos, el desarrollo de estrategias de búsqueda, la interpretación de datos experimentales y el estudio del rendimiento del detector. De este modo, abarca toda la vida útil de un experimento, desde los primeros conceptos de diseño para el detector hasta la presentación final de los datos. %En este caso particular, sin embargo, Pythia solo se usa para hadronizar la muestra de \textbf{MC} producida por MadGraph.
+
+\subsubsection{Limitaciones}
+
+Los modelos de física incorporados en Pythia se centran en colisiones de partículas de alta energía que tienen energías de centro de masa (\textbf{CM}) mayores de 10 GeV, correspondientes a una energía de haz fijo de protón-protón (pp) de $\geq 50~GeV$. Esta limitación se debe a la aproximación de un continuo de estados finales permitidos que se utilizan en varios lugares de Pythia, especialmente para los cálculos de la sección transversal hadron-hadron, total y diferencial, y como base para el modelo de fragmentación de cuerdas. Con energías inferiores a $10~GeV$, ingresamos a la región de resonancia hadrónica, donde estas aproximaciones se rompen, y por lo tanto los resultados producidos por Pythia no serían confiables. El límite de $10~GeV$ se elige como una escala típica; para la aniquilación positrón-electrón ($e+$ $e-$) sería posible ir algo más bajo, mientras que para las colisiones pp los modelos no son particularmente confiables cerca del límite inferior.
+
+En el extremo opuesto, solo conocemos pruebas explícitas de la física de Pythia que modela hasta energías \textbf{CM} de aproximadamente $100~TeV$, que corresponde a una energía de haz de objetivo fijo de $pp~\leq~10^{10}~GeV$. 
+
+El programa solo funciona con colisiones hadron-hadron o lepton-lepton, las instalaciones internas para manejar las colisiones protón-núcleo o núcleo-núcleo no están previstas en absoluto. Entre los hadrones incluidos se encuentra el (anti)protón, (anti)neutrón, el pión y, como caso especial, el Pomeron. Todavía no hay ninguna disposición para las colisiones de leptones-hadrones o para los haces de fotones entrantes.
+
+La produción de partículas salientes es en vacío y la simulación de la interacción de las partículas producidas con el material detector no está incluida en Pythia. Las interfaces con los códigos de simulación de detectores externos pueden ser escritas directamente por el usuario o realizadas a través de la interfaz HepMC.
+
+\subsubsection{Procesos incluidos}
+
+Una gran cantidad de procesos están disponibles internamente, y aún más a través de interfaces para programas externos. Las adiciones internas recientes incluyen varios escenarios para la física de Hidden Valley, procesos adicionales que involucran dimensiones adicionales, más procesos supersimétricos (\textbf{SUSY}), manejo extendido de R-hadrones y más estados de charmonium y bottomonium. En la correspondiente última versión 8.2, los siguientes procesos están disponibles internamente:
+
+\begin{itemize}
+\item[-] \textbf{Los procesos de Electroweak (EW) :} incluyen la producción rápida de fotones, la producción individual de $\gamma^*/Z$ y $W\pm$, así como la producción de pares de bosones débiles con correlaciones de fermiones completas para $V V \rightarrow 4f$, ademas de los procesos de colisión de fotones del tipo $\gamma \gamma \rightarrow ff$.
+\item[-] \textbf{Producción de fermiones de cuarta generación :} a través de interacciones electro-débiles o fuertes.
+\item[-] \textbf{Los procesos de Higgs :} incluyen la producción del bosón Higgs del modelo estándar (\textbf{ME}), así como los múltiples bosones Higgs de un modelo genérico de dos dobletes de Higgs (\textbf{2HDM}). También es posible modificar la correlación angular del decaimiento de Higgs $h \rightarrow V V \rightarrow 4f$ debido a acoplamientos anómalos de $hV V$. La implementación interna de SUSY también utiliza la implementación $2HDM$ para su sector Higgs.
+\item[-] \textbf{Los procesos SUSY :} incluyen la producción de pares de partículas \textbf{SUSY}, así como la producción resonante de squarks a través de la paridad \textit{R} que viola la interacción \textbf{UDD}. Las interferencias electro debil se han tenido en cuenta cuando sean relevantes. Se puede hacer que tanto los squarks como los gluinos formen R-hadrones de larga vida, que posteriormente se descomponen. En el medio, es posible cambiar el contenido de sabor ordinario de los hadrones R, mediante interacciones (implementadas por el usuario) con el material del detector.
+\item[-] \textbf{Los procesos de calibre de bosones :} se incluyen la producción de un $Z'$ (con interferencia completa de $\gamma^*/Z/Z'$), un $W^{'\pm}$ y un bosón de calibre de acoplamiento horizontal (entre generaciones) $R^0$.
+\item[-] \textbf{Otros Procesos :} Los procesos QCD, procesos simétricos de izquierda a derecha, producción de leptoquark, procesos de composición, procesos de Hidden Valley, procesos extradimensionales, producción Top, Onia.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

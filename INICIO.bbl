@@ -1,0 +1,298 @@
+\begin{thebibliography}{38}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Alwall \textit{et~al.}(2014)Alwall, Frederix, Frixione, Hirschi,
+  Maltoni, Mattelaer, Shao, Stelzer, Torrielli, y Zaro}]{alwall_automated_2014}
+\textsc{Alwall, J., Frederix, R., Frixione, S., Hirschi, V., Maltoni, F.,
+  Mattelaer, O., Shao, H.S., Stelzer, T., Torrielli, P., y Zaro, M.}
+\newblock The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower simulations.
+\newblock \textit{J. High Energ. Phys.} \textbf{2014}(7):79 (2014).
+\newblock ArXiv: 1405.0301
+
+\bibitem[{Battiston(2008)}]{battiston_anti_2008}
+\textsc{Battiston, R.}
+\newblock The anti matter spectrometer ({AMS}-02): a particle physics detector
+  in space.
+\newblock \textit{J. Phys.: Conf. Ser.} \textbf{116}:012001 (2008)
+
+\bibitem[{Bergh(1999)}]{bergh_early_1999}
+\textsc{Bergh, S.v.d.}
+\newblock The {Early} {History} of {Dark} {Matter}.
+\newblock \textit{PUBL ASTRON SOC PAC} \textbf{111}(760):657--660 (1999).
+\newblock ArXiv: astro-ph/9904251
+
+\bibitem[{Binoth \textit{et~al.}(2008)Binoth, Guffanti, Guillet, Heinrich,
+  Karg, Kauer, Mertsch, Reiter, Reuter, y Sanguinetti}]{binoth_precise_2008}
+\textsc{Binoth, T., Guffanti, A., Guillet, J.P., Heinrich, G., Karg, S., Kauer,
+  N., Mertsch, P., Reiter, T., Reuter, J., y Sanguinetti, G.}
+\newblock Precise predictions for {LHC} using a {GOLEM}.
+\newblock \textit{Nuclear Physics B - Proceedings Supplements}
+  \textbf{183}:91--96 (2008).
+\newblock ArXiv: 0807.0605
+
+\bibitem[{Buckley \textit{et~al.}(2015)Buckley, Ferrando, Lloyd, Nordstrom,
+  Page, Ruefenacht, Schoenherr, y Watt}]{buckley_lhapdf6_2015}
+\textsc{Buckley, A., Ferrando, J., Lloyd, S., Nordstrom, K., Page, B.,
+  Ruefenacht, M., Schoenherr, M., y Watt, G.}
+\newblock {LHAPDF6}: parton density access in the {LHC} precision era.
+\newblock \textit{Eur. Phys. J. C} \textbf{75}(3):132 (2015).
+\newblock ArXiv: 1412.7420
+
+\bibitem[{Buonocore \textit{et~al.}(2019)Buonocore, Frugiuele, Maltoni,
+  Mattelaer, y Tramontano}]{buonocore_event_2019}
+\textsc{Buonocore, L., Frugiuele, C., Maltoni, F., Mattelaer, O., y Tramontano,
+  F.}
+\newblock Event generation for beam dump experiments.
+\newblock \textit{J. High Energ. Phys.} \textbf{2019}(5):28 (2019).
+\newblock ArXiv: 1812.06771
+
+\bibitem[{Bílek \textit{et~al.}(2018)Bílek, Thies, Kroupa, y
+  Famaey}]{bilek_mond_2018}
+\textsc{Bílek, M., Thies, I., Kroupa, P., y Famaey, B.}
+\newblock {MOND} simulation suggests the origin of some peculiarities in the
+  {Local} {Group}.
+\newblock \textit{A\&A} \textbf{614}:A59 (2018).
+\newblock ArXiv: 1712.04938
+
+\bibitem[{Collaboration(2019)}]{planck_collaboration_planck_2019}
+\textsc{Collaboration, P.}
+\newblock Planck 2018 results. {VI}. {Cosmological} parameters.
+\newblock \textit{arXiv:1807.06209 [astro-ph]}  (2019).
+\newblock ArXiv: 1807.06209
+
+\bibitem[{Colless y Dunn(1996)}]{colless_structure_1996}
+\textsc{Colless, M. y Dunn, A.M.}
+\newblock Structure and {Dynamics} of the {Coma} {Cluster}.
+\newblock \textit{ApJ} \textbf{458}:435 (1996).
+\newblock ArXiv: astro-ph/9508070
+
+\bibitem[{Conte \textit{et~al.}(2013)Conte, Fuks, y
+  Serret}]{conte_madanalysis_2013}
+\textsc{Conte, E., Fuks, B., y Serret, G.}
+\newblock {MadAnalysis} 5, a user-friendly framework for collider
+  phenomenology.
+\newblock \textit{Computer Physics Communications} \textbf{184}(1):222--256
+  (2013).
+\newblock ArXiv: 1206.1599
+
+\bibitem[{de~Favereau \textit{et~al.}(2014{\natexlab{a}})de~Favereau, Delaere,
+  Demin, Giammanco, Lemaître, Mertens, y
+  Selvaggi}]{de_favereau_delphes_2014-1}
+\textsc{de~Favereau, J., Delaere, C., Demin, P., Giammanco, A., Lemaître, V.,
+  Mertens, A., y Selvaggi, M.}
+\newblock {DELPHES} 3, {A} modular framework for fast simulation of a generic
+  collider experiment.
+\newblock \textit{J. High Energ. Phys.} \textbf{2014}(2):57
+  (2014{\natexlab{a}}).
+\newblock ArXiv: 1307.6346
+
+\bibitem[{de~Favereau \textit{et~al.}(2014{\natexlab{b}})de~Favereau, Delaere,
+  Demin, Giammanco, Lemaître, Mertens, y Selvaggi}]{de_favereau_delphes_2014}
+\textsc{de~Favereau, J., Delaere, C., Demin, P., Giammanco, A., Lemaître, V.,
+  Mertens, A., y Selvaggi, M.}
+\newblock {DELPHES} 3, {A} modular framework for fast simulation of a generic
+  collider experiment.
+\newblock \textit{J. High Energ. Phys.} \textbf{2014}(2):57
+  (2014{\natexlab{b}}).
+\newblock ArXiv: 1307.6346
+
+\bibitem[{Denner \textit{et~al.}(2017)Denner, Dittmaier, y
+  Hofer}]{denner_collier_2017}
+\textsc{Denner, A., Dittmaier, S., y Hofer, L.}
+\newblock Collier: a fortran-based {Complex} {One}-{Loop} {LIbrary} in
+  {Extended} {Regularizations}.
+\newblock \textit{Computer Physics Communications} \textbf{212}:220--238
+  (2017).
+\newblock ArXiv: 1604.06792
+
+\bibitem[{Deur(2020)}]{deur_relativistic_2020}
+\textsc{Deur, A.}
+\newblock Relativistic corrections to the rotation curves of disk galaxies.
+\newblock \textit{arXiv:2004.05905 [astro-ph, physics:gr-qc]}  (2020).
+\newblock ArXiv: 2004.05905
+
+\bibitem[{Ellis y Zanderighi(2008)}]{ellis_scalar_2008}
+\textsc{Ellis, R.K. y Zanderighi, G.}
+\newblock Scalar one-loop integrals for {QCD}.
+\newblock \textit{J. High Energy Phys.} \textbf{2008}(02):002--002 (2008).
+\newblock ArXiv: 0712.1851
+
+\bibitem[{Fosalba \textit{et~al.}(2015)Fosalba, Crocce, Gaztanaga, y
+  Castander}]{fosalba_mice_2015}
+\textsc{Fosalba, P., Crocce, M., Gaztanaga, E., y Castander, F.J.}
+\newblock The {MICE} {Grand} {Challenge} {Lightcone} {Simulation} {I}: {Dark}
+  matter clustering.
+\newblock \textit{arXiv:1312.1707 [astro-ph]}  (2015).
+\newblock ArXiv: 1312.1707
+
+\bibitem[{Hirschi y Peraro(2016)}]{hirschi_tensor_2016}
+\textsc{Hirschi, V. y Peraro, T.}
+\newblock Tensor integrand reduction via {Laurent} expansion.
+\newblock \textit{J. High Energ. Phys.} \textbf{2016}(6):60 (2016).
+\newblock ArXiv: 1604.01363
+
+\bibitem[{Hooper y Kribs(2004)}]{hooper_kaluza-klein_2004}
+\textsc{Hooper, D. y Kribs, G.D.}
+\newblock Kaluza-{Klein} {Dark} {Matter} and the {Positron} {Excess}.
+\newblock \textit{Phys. Rev. D} \textbf{70}(11):115004 (2004).
+\newblock ArXiv: hep-ph/0406026
+
+\bibitem[{Li \textit{et~al.}(2017)Li, Mendez, Giovacchini, Haino, y
+  Hoffman}]{li_antiproton_2017}
+\textsc{Li, Z.Y., Mendez, C.J.D., Giovacchini, F., Haino, S., y Hoffman, J.}
+\newblock Antiproton identification below threshold with the {AMS}-02 {RICH}
+  detector.
+\newblock \textit{Chinese Phys. C} \textbf{41}(5):056001 (2017).
+\newblock Publisher: IOP Publishing
+
+\bibitem[{Marsh(2019)}]{marsh_strings_2019}
+\textsc{Marsh, G.E.}
+\newblock Strings, {Topological} {Change} and {Dark} {Matter}.
+\newblock \textit{arXiv:1909.01077 [gr-qc, physics:hep-th, physics:physics]}
+  (2019).
+\newblock ArXiv: 1909.01077
+
+\bibitem[{Mastrolia \textit{et~al.}(2012)Mastrolia, Mirabella, y
+  Peraro}]{mastrolia_integrand_2012}
+\textsc{Mastrolia, P., Mirabella, E., y Peraro, T.}
+\newblock Integrand reduction of one-loop scattering amplitudes through
+  {Laurent} series expansion.
+\newblock \textit{J. High Energ. Phys.} \textbf{2012}(6):95 (2012).
+\newblock ArXiv: 1203.0291
+
+\bibitem[{Mielke \textit{et~al.}(2006)Mielke, Fuchs, y
+  Schunck}]{mielke_dark_2006}
+\textsc{Mielke, E.W., Fuchs, B., y Schunck, F.E.}
+\newblock Dark {Matter} {Halos} as {Bose}-{Einstein} {Condensates}.
+\newblock \textit{The Tenth Marcel Grossmann Meeting} p\'ags. 39--58 (2006).
+\newblock ArXiv: astro-ph/0608526
+
+\bibitem[{Munshi y Jain(2001)}]{munshi_statistics_2001}
+\textsc{Munshi, D. y Jain, B.}
+\newblock Statistics of {Weak} {Lensing} at {Small} {Angular} {Scales}:
+  {Analytical} {Predictions} for {Lower} {Order} {Moments}.
+\newblock \textit{Monthly Notices of the Royal Astronomical Society}
+  \textbf{322}(1):107--120 (2001).
+\newblock ArXiv: astro-ph/9912330
+
+\bibitem[{Nagy y Soper(2018)}]{nagy_what_2018}
+\textsc{Nagy, Z. y Soper, D.E.}
+\newblock What is a parton shower?
+\newblock \textit{Phys. Rev. D} \textbf{98}(1):014034 (2018).
+\newblock ArXiv: 1705.08093
+
+\bibitem[{Peraro(2014)}]{peraro_ninja_2014}
+\textsc{Peraro, T.}
+\newblock Ninja: {Automated} {Integrand} {Reduction} via {Laurent} {Expansion}
+  for {One}-{Loop} {Amplitudes}.
+\newblock \textit{Computer Physics Communications} \textbf{185}(10):2771--2797
+  (2014).
+\newblock ArXiv: 1403.1229
+
+\bibitem[{Rojas(2008)}]{rojas_teorigravitacion_2008}
+\textsc{Rojas, G.}
+\newblock Teoría de gravitación no simétrica.
+\newblock \textit{Integración: Temas de matemáticas} \textbf{26}(2):77--88
+  (2008).
+\newblock Publisher: Universidad Industrial de Santander Section: Integración:
+  Temas de matemáticas
+
+\bibitem[{Romao y Silva(2012)}]{romao_resource_2012}
+\textsc{Romao, J.C. y Silva, J.P.}
+\newblock A resource for signs and {Feynman} diagrams of the {Standard}
+  {Model}.
+\newblock \textit{Int. J. Mod. Phys. A} \textbf{27}(26):1230025 (2012).
+\newblock ArXiv: 1209.6213
+
+\bibitem[{Rubakov(2009)}]{rubakov_harrison--zeldovich_2009}
+\textsc{Rubakov, V.A.}
+\newblock Harrison--{Zeldovich} spectrum from conformal invariance.
+\newblock \textit{J. Cosmol. Astropart. Phys.} \textbf{2009}(09):030--030
+  (2009).
+\newblock ArXiv: 0906.3693
+
+\bibitem[{Santamaria(1993)}]{santamaria_masses_1993}
+\textsc{Santamaria, A.}
+\newblock Masses, {Mixings}, {Yukawa} {Couplings} and their {Symmetries}.
+\newblock \textit{Physics Letters B} \textbf{305}(1-2):90--97 (1993).
+\newblock ArXiv: hep-ph/9302301
+
+\bibitem[{Schäfer \textit{et~al.}(2020)Schäfer, Fourestey, y
+  Kneib}]{schafer_lenstool-hpc_2020}
+\textsc{Schäfer, C., Fourestey, G., y Kneib, J.P.}
+\newblock Lenstool-{HPC}: {A} {High} {Performance} {Computing} based mass
+  modelling tool for cluster-scale gravitational lenses.
+\newblock \textit{arXiv:2004.06352 [astro-ph]}  (2020).
+\newblock ArXiv: 2004.06352
+
+\bibitem[{Servant y Tait(2003)}]{servant_is_2003}
+\textsc{Servant, G. y Tait, T.M.P.}
+\newblock Is the {Lightest} {Kaluza}-{Klein} {Particle} a {Viable} {Dark}
+  {Matter} {Candidate}?
+\newblock \textit{Nuclear Physics B} \textbf{650}(1-2):391--419 (2003).
+\newblock ArXiv: hep-ph/0206071
+
+\bibitem[{Sjöstrand \textit{et~al.}(2015{\natexlab{a}})Sjöstrand, Ask,
+  Christiansen, Corke, Desai, Ilten, Mrenna, Prestel, Rasmussen, y
+  Skands}]{sjostrand_introduction_2015-1}
+\textsc{Sjöstrand, T., Ask, S., Christiansen, J.R., Corke, R., Desai, N.,
+  Ilten, P., Mrenna, S., Prestel, S., Rasmussen, C.O., y Skands, P.Z.}
+\newblock An {Introduction} to {PYTHIA} 8.2.
+\newblock \textit{Computer Physics Communications} \textbf{191}:159--177
+  (2015{\natexlab{a}}).
+\newblock ArXiv: 1410.3012
+
+\bibitem[{Sjöstrand \textit{et~al.}(2015{\natexlab{b}})Sjöstrand, Ask,
+  Christiansen, Corke, Desai, Ilten, Mrenna, Prestel, Rasmussen, y
+  Skands}]{sjostrand_introduction_2015}
+\textsc{Sjöstrand, T., Ask, S., Christiansen, J.R., Corke, R., Desai, N.,
+  Ilten, P., Mrenna, S., Prestel, S., Rasmussen, C.O., y Skands, P.Z.}
+\newblock An {Introduction} to {PYTHIA} 8.2.
+\newblock \textit{Computer Physics Communications} \textbf{191}:159--177
+  (2015{\natexlab{b}}).
+\newblock ArXiv: 1410.3012
+
+\bibitem[{van~der Marel \textit{et~al.}(2012)van~der Marel, Besla, Cox, Sohn, y
+  Anderson}]{van_der_marel_m31_2012}
+\textsc{van~der Marel, R.P., Besla, G., Cox, T.J., Sohn, S.T., y Anderson, J.}
+\newblock The {M31} {Velocity} {Vector}. {III}. {Future} {Milky}
+  {Way}-{M31}-{M33} {Orbital} {Evolution}, {Merging}, and {Fate} of the {Sun}.
+\newblock \textit{ApJ} \textbf{753}(1):9 (2012).
+\newblock ArXiv: 1205.6865
+
+\bibitem[{van Hameren(2011)}]{van_hameren_oneloop_2011}
+\textsc{van Hameren, A.}
+\newblock {OneLOop}: for the evaluation of one-loop scalar functions.
+\newblock \textit{Computer Physics Communications} \textbf{182}(11):2427--2438
+  (2011).
+\newblock ArXiv: 1007.4716
+
+\bibitem[{Wang(2018)}]{wang_novel_2018}
+\textsc{Wang, F.}
+\newblock A novel pulsed fiber laser: {Further} study on the bias-pumped
+  gain-switched fiber laser.
+\newblock \textit{Laser Phys. Lett.} \textbf{15}(8):085105 (2018).
+\newblock ArXiv: 1804.00444
+
+\bibitem[{Wells(2015)}]{wells_upgraded_2015}
+\textsc{Wells, P.S.}
+\newblock The upgraded {ATLAS} and {CMS} detectors and their physics
+  capabilities.
+\newblock \textit{Philosophical Transactions of the Royal Society A:
+  Mathematical, Physical and Engineering Sciences} \textbf{373}(2032):20140046
+  (2015).
+\newblock Publisher: Royal Society
+
+\bibitem[{Wu y Kroupa(2015)}]{wu_galactic_2015}
+\textsc{Wu, X. y Kroupa, P.}
+\newblock Galactic rotation curves, the baryon-to-dark-halo-mass relation and
+  space-time scale invariance.
+\newblock \textit{Monthly Notices of the Royal Astronomical Society}
+  \textbf{446}(1):330--344 (2015).
+\newblock ArXiv: 1410.2256
+
+\end{thebibliography}

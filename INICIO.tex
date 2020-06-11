@@ -1,0 +1,234 @@
+\documentclass[12pt,english]{report}
+
+\usepackage{paquetes_todos}
+
+\usepackage[showboxes]{textpos}
+%\setlength{\baselineskip}{1}
+
+\newenvironment{itemize_f}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}
+%\setlength\itemsep{-.2cm} %
+\usepackage{framed}
+
+\usepackage{lineno}
+\linenumbers
+\usepackage{natbib}
+\usepackage{dsfont}
+\usepackage{listings} % entorno para programacion
+\usepackage{pdflscape} % entorno para rotar hoja
+\begin{document}
+% Portada
+\title{Activity report Thesis}
+\author{Francisco Martínez Sánchez}
+\prevdegrees{Bs. Physics}
+%\prevdegrees{Grados previos}
+\institute{UNISON}
+\department{DIFUS}
+\degree{Master}
+\supervisor{Dr. Alfredo Castañeda}
+\city{Sonora/Hermosillo}
+\degreemonth{Mes}
+\degreeyear{Año}
+\maketitle
+%\begin{acknowledgements}
+
+%\end{acknowledgements}
+
+\tableofcontents
+\clearpage
+\listoftables
+\clearpage
+\listoffigures
+\clearpage
+
+\begin{abstract}
+\end{abstract}
+
+%\begin{summary}
+%\end{summary}
+
+\pagenumbering{arabic}
+
+
+
+\input{link.tex}
+%overleaf
+%local
+\input{Introduccion/Introduccion.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Cap Fisica de Particulas %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Física de Partículas.}
+\input{Fisica_de_Particulas/Introduccion.tex}
+
+	\section{El Universo y su evolución.} 
+	\input{Fisica_de_Particulas/Universo.tex}
+	
+	\section{Modelo Estándar.} 	
+	\input{Fisica_de_Particulas/Modelo_estandar.tex}
+	
+		\subsection{Composición de la Materia y Fuerzas Fundamentales} 
+		\input{Fisica_de_Particulas/Materia_y_Fuerzas.tex}
+		
+		\subsection{Simetrías y Lagrangiano.} 
+		\input{Fisica_de_Particulas/lagrangiano_modelo_estandar.tex}
+	
+		\subsection{Insuficiencias del modelo.}
+		\input{Fisica_de_Particulas/Insuficiencias_ME.tex}
+	
+	
+	\section{M\'as all\'a del modelo est\'andar con la Materia Oscura.}
+	\input{Fisica_de_Particulas/Materia_Oscura.tex}
+	
+		\subsection{Evidencias observacionales.}
+		\input{Fisica_de_Particulas/Pruebas_Oscuras.tex}
+		
+		%\subsection{Alternativas Teóricas}
+		%\input{Fisica_de_Particulas/Alternativas_Oscura.tex}
+		
+		\subsection{Composición de la Materia Oscura.}
+		\input{Fisica_de_Particulas/Materia_Oscura_Composicion.tex}
+		
+		%\subsection{Modelos de Extensión.}		
+		\subsection{Partículas supersimetrías.}
+		\input{Fisica_de_Particulas/Supersimetria.tex}
+		
+		
+		\subsection{Extensión del Modelo Estándar con Supersimetría.}
+		\input{Fisica_de_Particulas/MSSM.tex}
+					
+		
+		\subsection{Modelo Dark-SUSY.}		
+		\input{Fisica_de_Particulas/Dark_matter_model.tex}
+		
+				
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Cap Antecedentes Teóricos %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Experimento y Simulación.}
+\input{Analisis_y_Resultados/Introduccion.tex}
+		
+	\section{Física de Altas Energías.}
+	\input{Analisis_y_Resultados/materia_oscura_LHC.tex}
+		
+		\subsection{Actualizando HLC.}	
+		\input{Analisis_y_Resultados/LHC_Actualizacion.tex}
+	
+	\section{Experimento CMS.}
+	\input{Analisis_y_Resultados/Experimento_CMS_del_CERN.tex}
+	
+	
+		\subsection{Identificación y Reconstrucción de Muones.}
+		\input{Analisis_y_Resultados/Reconstruccion_Muones.tex}
+		%\subsection{Actualizando CMS.*}	
+		%\input{Analisis_y_Resultados/CMS_Actualizacion.tex}
+		
+	\section{Simulación en Altas Energías.}
+	\input{Analisis_y_Resultados/Simulacion.tex}
+	
+		\subsection{Implementando ROOT.}\label{C_root}
+		\input{Analisis_y_Resultados/Root.tex}
+		
+		%\subsection{Visualización de eventos con EVE.}
+		%\input{Analisis_y_Resultados/EVE.tex}
+		
+		\subsection{Altas Energías con MadGraph.}\label{C_madgraph}
+		\input{Analisis_y_Resultados/MadGraph.tex}
+
+		\subsection{Hadronizacion con Pythia 8.}\label{C_pythia8}
+		\input{Analisis_y_Resultados/Pythia.tex}
+
+		\subsection{Simulando el detector con Delphes 3.}\label{C_delphes}
+		\input{Analisis_y_Resultados/Delphes.tex}
+
+	%\section{Modelo de señal y generación de eventos Monte Carlo.}	
+	%\input{Analisis_y_Resultados/Generacion_MC.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Other %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Simulación y Análisis de Resultados.}
+\input{Simulacion/Introduccion.tex}
+
+    \section{Herramientas de caracterización.}
+    \input{Simulacion/Herramientas_de_simulacion.tex}
+    
+        \subsection{Generación de los datos.}\label{Cap_genera}
+        \input{Simulacion/Proyecto_Generacion.tex}
+        
+        \subsection{Procesamiento y conversión de los datos.}
+        \input{Simulacion/Procesamiento.tex}
+        
+        \subsection{Métodos de regresión de datos.}
+        \input{Simulacion/Regresion.tex}\label{Cap_regresion}
+        % \subsection{Módulos para el procesamiento estadistico.}
+    
+	\section{Análisis de eventos.}
+    \input{Simulacion/Muones_por_Entradas.tex}
+    
+    \section{Generalidades de las propiedades independientes de los muones.}
+    \input{Simulacion/Propiedades_generales.tex}
+    
+	\section{Reconstrucción de los fotones oscuros.}
+	
+		\subsection{Reconstrucción de los eventos con 4 muones.}
+		\input{Simulacion/Reconstruye_4muones.tex}
+		
+		\subsection{Reconstrucción de los eventos con menos de 4 muones.}	
+		\input{Simulacion/Reconstruye_menosde4muones.tex}
+		
+		\subsection{Reconstrucción total de fotones oscuros.}	
+		\input{Simulacion/Reconstruye_fotones_oscuros.tex}
+
+    
+    \section{Aislamiento.}
+    
+
+    
+    %\section{Muon efficiency parametrization}
+
+%\section{Integration of Dark-SUSY model}
+
+%\section{Delphes Simulation}
+
+%\section{Muon system}
+
+%\subsection{CMS detector}
+
+%\subsection{Luminosity Era}
+
+%\chapter{Simulation}
+
+%\section{Parton Level and Hadronization}
+
+%\section{Detector simulation}
+
+%\chapter{Next steps}
+
+%% Resultados y Analisis
+%\input{Analisis_y_Resultados/Introduccion.tex}
+
+%\input{Analisis_y_Resultados/Analisis_y_Resultados.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Anexos %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Anexo A}\label{anexoA}
+\input{Anexos/Experimentos_Oscura.tex}
+
+
+
+%\bibliographystyle{UNAMThesis}
+%\bibliographystyle{abbrv}
+%\bibliographystyle{APA}
+\bibliographystyle{UNAMThesis} % estilo bibliografico
+\bibliography{ParticleUnison}
+\addcontentsline{toc}{chapter}{Referencias Bibliográficas}
+\end{document}

@@ -1,0 +1,32 @@
+\babel@toc {spanish}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1-1}{\ignorespaces (a) Representaci\IeC {\'o}n de la evoluci\IeC {\'o}n del universo a lo largo de 13.77 mil millones de a\~nos. P\IeC {\'a}gina de origen: \url {https://wmap.gsfc.nasa.gov/media/060915/index.html}}}{4}{figure.1.1}
+\contentsline {figure}{\numberline {1-2}{\ignorespaces Clasificaci\IeC {\'o}n de las part\IeC {\'\i }culas seg\IeC {\'u}n el modelo est\IeC {\'a}ndar de las part\IeC {\'\i }culas elementales.}}{7}{figure.1.2}
+\contentsline {figure}{\numberline {1-3}{\ignorespaces Diagrama de c\IeC {\'u}mulo de galaxias que act\IeC {\'u}a como lente gravitatoria para una galaxia muy distante. P\IeC {\'a}gina de origen: \url {https://alquimiayciencias.blogspot.com/2013/06/explicando-la-materia-oscura-cualquiera.html}}}{12}{figure.1.3}
+\contentsline {figure}{\numberline {1-4}{\ignorespaces (a) Coalisi\IeC {\'o}n de dos c\IeC {\'u}mulos de galaxias 1E 0657-56 conocida como \href {https://en.wikipedia.org/wiki/Bullet_Cluster}{c\IeC {\'u}mulo bala}. , (b) Simulaci\IeC {\'o}n por computadora de la futura colisi\IeC {\'o}n prevista de las dos galaxias m\IeC {\'a}s grandes del Grupo Local, Andr\IeC {\'o}meda (M31) y la V\IeC {\'\i }a L\IeC {\'a}ctea. }}{13}{figure.1.4}
+\contentsline {figure}{\numberline {1-5}{\ignorespaces Extensi\IeC {\'o}n del Modelo Estandar bajo la existencia de la supersimetr\IeC {\'\i }a (\href {https://en.wikipedia.org/wiki/Supersymmetry}{\textbf {SUSY}}). }}{16}{figure.1.5}
+\contentsline {figure}{\numberline {1-6}{\ignorespaces Ilustraci\IeC {\'o}n esquem\IeC {\'a}tica de la conexi\IeC {\'o}n entre el sector oscuro y el modelo est\IeC {\'a}ndar, los cuales est\IeC {\'a}n conectados mediante un t\IeC {\'e}rmino de mezcla din\IeC {\'a}mica.}}{21}{figure.1.6}
+\contentsline {figure}{\numberline {1-7}{\ignorespaces Flujo de positrones medido por el experimento AMS-02, comparado con los experimentos PAMELA, Fermi-LAT, MASS, CAPIRCE, AMS-01 y HEAT.}}{22}{figure.1.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2-1}{\ignorespaces Diagrama de los experimentos que componen el centro de investigaci\IeC {\'o}n del \href {https://es.wikipedia.org/wiki/Organizaci\%C3\%B3n_Europea_para_la_Investigaci\%C3\%B3n_Nuclear}{\textbf {CERN}}. }}{24}{figure.2.1}
+\contentsline {figure}{\numberline {2-2}{\ignorespaces Plan de actualizaci\IeC {\'o}n del experimento \href {https://es.wikipedia.org/wiki/Gran_colisionador_de_hadrones}{\textbf {LHC}}. Pagina de origen: \url {https://hilumilhc.web.cern.ch/content/hl-lhc-project}.}}{26}{figure.2.2}
+\contentsline {figure}{\numberline {2-3}{\ignorespaces Detector de solenoide de mu\IeC {\'o}n compacto. El detector consta de varias capas, cada una responsable de medir diferentes tipos de part\IeC {\'\i }culas. Pagina de origen: \url {http://ippog.web.cern.ch/resources/2011/cms-slice-july-2010-version}.}}{27}{figure.2.3}
+\contentsline {figure}{\numberline {2-4}{\ignorespaces Probabilidad de localizaci\IeC {\'o}n de los muones en condiciones de Run-2 y HL.}}{30}{figure.2.4}
+\contentsline {figure}{\numberline {2-5}{\ignorespaces Resoluci\IeC {\'o}n del momento de los muones en condiciones de Run-2 y HL.}}{30}{figure.2.5}
+\contentsline {figure}{\numberline {2-6}{\ignorespaces Eficiencia de reconstrucci\IeC {\'o}n de los muones en condiciones de Run-2 y HL.}}{32}{figure.2.6}
+\contentsline {figure}{\numberline {2-7}{\ignorespaces Perfil de dise\IeC {\~n}o b\IeC {\'a}sico de la geometr\IeC {\'\i }a del detector gen\IeC {\'e}rico asumido en Delphes. Adaptado de art\IeC {\'\i }culo de origen \cite {alwall_automated_2014}.}}{38}{figure.2.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3-1}{\ignorespaces Secuencia l\IeC {\'o}gica del an\IeC {\'a}lisis del proyecto.}}{39}{figure.3.1}
+\contentsline {figure}{\numberline {3-2}{\ignorespaces Estructura del proyecto de generaci\IeC {\'o}n.}}{41}{figure.3.2}
+\contentsline {figure}{\numberline {3-3}{\ignorespaces Diagrama de flujo de programaci\IeC {\'o}n del proyecto de generaci\IeC {\'o}n.}}{43}{figure.3.3}
+\contentsline {figure}{\numberline {3-4}{\ignorespaces Estructura del proyecto interpretador de la informaci\IeC {\'o}n contenida en los archivos $*.root$. Pagina del proyecto \url {https://github.com/franky8939/DarkSUSY/blob/master/modules/darkSUSY/classDarkSUSY.py}}}{44}{figure.3.4}
+\contentsline {figure}{\numberline {3-5}{\ignorespaces Estructura de los metadatos con la informaci\IeC {\'o}n filtrada. Pagina del proyecto \url {https://github.com/franky8939/DarkSUSY/blob/master/00-Convertidores/genera_h5.py}}}{45}{figure.3.5}
+\contentsline {figure}{\numberline {3-6}{\ignorespaces Diagrama de la estructura general de la red neuronal.}}{47}{figure.3.6}
+\contentsline {figure}{\numberline {3-7}{\ignorespaces Distribuciones de frecuencia de las entradas $f^{(j,~k)}$ ante cambios de \texttt {TcPhoD}, \texttt {MPhoD} y \texttt {MNeuD}.}}{49}{figure.3.7}
+\contentsline {figure}{\numberline {3-8}{\ignorespaces Distribuciones de frecuencia de las entradas $f^{(j,~k)}$ ante cambios de \texttt {MNeuD}.}}{51}{figure.3.8}
+\contentsline {figure}{\numberline {3-9}{\ignorespaces Resultados de la regresi\IeC {\'o}n de los valores de frecuencia $f^{(4\mu ,~k)}$.}}{52}{figure.3.9}
+\contentsline {figure}{\numberline {3-10}{\ignorespaces Caracterizaci\IeC {\'o}n global de los momentos transversales de nuestra poblaci\IeC {\'o}n de muones reconstruidos.}}{55}{figure.3.10}
+\contentsline {figure}{\numberline {3-11}{\ignorespaces Grupo total de datos generados para los eventos de interes.}}{56}{figure.3.11}
+\contentsline {figure}{\numberline {3-12}{\ignorespaces .}}{56}{figure.3.12}
+\contentsline {figure}{\numberline {3-13}{\ignorespaces Diagrama de flujo de programaci\IeC {\'o}n para el an\IeC {\'a}lisis de los eventos con 3 y dos muones.}}{57}{figure.3.13}
+\contentsline {figure}{\numberline {3-14}{\ignorespaces An\IeC {\'a}lisis del porciento de reconstrucci\IeC {\'o}n de lo fotones oscuros.}}{57}{figure.3.14}

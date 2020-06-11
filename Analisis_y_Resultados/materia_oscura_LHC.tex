@@ -1,0 +1,58 @@
+La Organización Europea para la Investigación Nuclearo \CERN (\textbf{C}onseil \textbf{E}uropéen pour la \textbf{R}echerche \textbf{N}ucléaire) es una organización de investigación europea que opera el laboratorio de física de partículas más grande del mundo, está situado en Suiza cerca a la frontera con Francia, entre la comuna de Saint-Genis-Pouilly y la comuna de Meyrin. La función principal del \CERN ~ es proporcionar los aceleradores de partículas y otra infraestructura necesaria para la investigación de física de alta energía; como resultado, se han construido numerosos experimentos en el \CERN ~ a través de colaboraciones internacionales. El sitio principal de Meyrin alberga una gran instalación informática, que se utiliza principalmente para almacenar y analizar datos de experimentos, así como para simular eventos. Los investigadores necesitan acceso remoto a estas instalaciones, por lo que el laboratorio ha sido históricamente un importante centro de red de área amplia. En la Fig. \ref{cern}a se muestra un diagrama de las instalaciones y los proyectos en los que está dividido. 
+
+El \CERN ~ es fundamentalmente un conjunto interconectado de aceleradores de partículas cuyo primer elemento, el Sincro-Ciclotrón de protones o \textbf{SC} (\textbf{S}ynchro-\textbf{C}yclotron) se empiezó a construir a mediados de 1955, sustituido por el Gran Coalisión de Hadrones  o \LHC (\textbf{L}arge \textbf{H}adron \textbf{C}ollider) puesto en funcionamiento el 2008. En la actualidad, gran parte de la actividad experimental que se realiza en el \CERN ~ está concentrada en la construcción de los experimentos para el \LHC:
+\begin{itemize_f}
+\item[-] \textbf{ATLAS} (\textbf{A T}oroidal \textbf{L}HC \textbf{A}pparatu\textbf{S}) : Investiga una amplia gama de física, desde la búsqueda del bosón de Higgs hasta dimensiones adicionales y partículas que podrían formar materia oscura. Aunque tiene los mismos objetivos científicos que el experimento \CMS, utiliza diferentes soluciones técnicas y un diseño de sistema magnético diferente.
+
+\textbf{Página del proyecto :} \url{https://atlas.cern/}%\url{https://home.cern/science/experiments/atlas} %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\item[-] \CMS \href{https://en.wikipedia.org/wiki/Compact_Muon_Solenoid}{(\textbf{C}ompact \textbf{M}uon \textbf{S}olenoid) :} Tiene un amplio programa de física que va desde el estudio del Modelo estándar (incluido el bosón de Higgs) hasta la búsqueda de dimensiones y partículas adicionales que podrían formar materia oscura. Está construido alrededor de un gran imán de solenoide.
+
+\textbf{Página del proyecto :} \url{https://cms.cern/detector}%\url{https://home.cern/science/experiments/cms} %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\item[-] \href{https://es.wikipedia.org/wiki/LHCb}{\textbf{LHCb} (\textbf{L}arge \textbf{H}adron \textbf{C}ollider \textbf{b}eauty) :} experimento especializado en física del \quark ~ b, algunos de cuyos objetivos son la medida de parámetros de violación de simetría \textbf{CP} en las desintegraciones de hadrones que contengan dicho \quark ~ o la medida de precisión de las fracciones de desintegración (``branching ratios'') de algunos procesos extremadamente infrecuentes.
+
+\textbf{Página del proyecto :} \url{http://lhcb-public.web.cern.ch/lhcb-public/}
+
+\item[-] \href{https://en.wikipedia.org/wiki/ALICE_experiment}{\textbf{ALICE} (\textbf{A L}arge \textbf{I}on \textbf{C}ollider \textbf{E}xperiment) :} es un detector de iones pesados, estudiar la física de la materia que interactúa fuertemente a densidades de energía extremas, donde se forma una fase de la materia llamada plasma quark-gluón. 
+
+\textbf{Página del proyecto :} \url{http://aliceinfo.cern.ch/Public/Welcome.html}
+
+%\item[-] \href{https://en.wikipedia.org/wiki/Proton_Synchrotron}{\textbf{PS} (\textbf{P}roton \textbf{S}ynchrotron) :} es un componente clave en el complejo acelerador del \CERN, donde generalmente acelera los protones suministrados por el Proton Synchrotron Booster o los iones pesados del Anillo de iones de baja energía (LEIR). En el curso de su historia, ha hecho malabarismos con muchos tipos diferentes de partículas, alimentándolas directamente a experimentos o aceleradores más potentes.
+
+%\item[-] SPS
+\end{itemize_f}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=.9\textwidth]{Analisis_y_Resultados/imagenes/cern.png}
+\caption{Diagrama de los experimentos que componen el centro de investigación del \CERN. %(b) Imagenes del experimento \LHC. Adaptada de la página: \url{https://theconversation.com/goodbye-for-a-while-to-the-large-hadron-collider-12238}.
+}
+    \label{cern}
+\end{figure}
+
+Uno de los experimentos considerado por sus resultados de los mas importantes es el \CMS, el cual es uno de los detectores multi-usos del \CERN ~ como se puedo constatar anteriormente, dicho detector tiene la capacidad de cubrir un amplio rango de procesos físicos, siendo este junto con el experimento \textbf{ATLAS} los que reportaron la observación de la partícula de Higgs en el 2012. El mismo es uno de los recursos principales para las investigaciones relacionadas con la exploración de la materia oscura.
+
+El experimento \LHC ~está continuamente en proceso de actualización con el objetivo de proporcionar mediciones más precisas de nuevas partículas y permitiendo observar raros procesos teorizados y de esta intentar aumentar  nuestros conocimientos de la materia oscura. Esto se debe a que el número de eventos de un dado proceso producidos en un colisionador está dado por:
+\begin{equation}
+N = L \sigma
+\end{equation}
+donde $\sigma$ es la sección eficaz del proceso físico y $L$ es la luminosidad integrada del acelerador.
+
+La luminosidad instantánea es uno de los parámetros más importantes para caracterizar el funcio­namiento del acelerador, definida como el número de partículas (protones o iones pesados en el caso del \LHC) por unidad de tiempo y unidad de área, y puede calcularse mediante la relación:
+\begin{equation}
+\mathcal{L} = f_{rev} n_b \dfrac{N_1 N_2}{A}
+\end{equation}
+donde $f_{rev}$ es la frecuencia de revolución, $n_b$ es el número de bunches (paquetes de protones) por haz, $N_i$ es el número de partículas en cada bunch y $A$ es la sección efectiva del haz, que puede expresarse en término de los parámetros del acelerador como:
+\begin{equation}
+A = \dfrac{4 \pi \epsilon_n \beta^*}{\gamma F}
+\end{equation}
+donde $\epsilon_n$ es la emitancia transversal normalizada (la dispersión transversal media de las partículas del
+haz en el espacio de coordenadas e impulsos), $\beta*$ es la función de amplitud en el punto de interacción, relacionada al poder de focalización de los cuadrupolos), $\gamma$ es el factor relativista de Lorentz y $F$ es un factor de reducción geométrico, debido al ángulo de cruce de los haces en el punto de interacción.
+
+
+
+
+
+
+

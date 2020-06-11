@@ -1,0 +1,40 @@
+El proceso de simulación de procesos de altas energías posee muchas desventajas, entre ellas están los altos requerimientos computacionales para generar las simulaciones y para guardar los resultados, por lo que se hace necesario para la investigación el uso de poderosas supercomputadoras como el \textbf{ACARUS}(\textbf{Á}rea de \textbf{C}ómputo de \textbf{A}lto \textbf{R}endimiento de la \textbf{U}niversidad de \textbf{S}onora), recurso dedicado a la investigación de los cuerpos académicos de la universidad.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{Simulacion/imagenes/proyecto_darksusy.png}
+\caption{Estructura del proyecto de generación y diagrama de flujo de programación del mismo. Pagina del proyecto \url{https://github.com/franky8939/GeneradorDarkSUSY}}
+\label{genera_darksusy}
+\end{figure}
+
+Para poder hacer uso eficiente de los recursos puestos a disposición por e
+
+
+\begin{lstlisting}[language=java]
+genera_v5.py [-h] [-Event EVENT] [-Ma_DNeu MA_DNEU] [-Ma_LNeu MA_LNEU]
+                  [-Ma_DPho MA_DPHO] [-Tc_DPho TC_DPHO] [-Mode MODE]
+                  [-Card CARD] [-Name NAME] [-Dir_Madg DIR_MADG]
+                  [-Dir_temp_Madg DIR_TEMP_MADG] [-Dir_Source DIR_SOURCE]
+                  [-Dir_Out DIR_OUT]
+optional arguments:
+  -h, --help                    show this help message and exit
+  -Event EVENT                  Number of Event
+  -Ma_DNeu MA_DNEU              Mass of the Dark Neutralino
+  -Ma_LNeu MA_LNEU              Mass of the Lightest Neutalino
+  -Ma_DPho MA_DPHO              Mass of the Dark Photon
+  -Tc_DPho TC_DPHO              Life time of the Dark Photon
+  -Mode MODE                    condition using "in" or "out"
+  -Card CARD                    Card using "CMS" or "HL"
+  -Name NAME                    Name of root file out
+  -Dir_Madg DIR_MADG            Directory of Madgraph
+  -Dir_temp_Madg DIR_TEMP_MADG  Directory of temporal install Madgraph
+  -Dir_Source DIR_SOURCE        Directory where source stay
+  -Dir_Out DIR_OUT              Directory of result
+\end{lstlisting}
+
+
+
+
+
+
+
+

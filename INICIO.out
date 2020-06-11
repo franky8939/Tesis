@@ -1,0 +1,36 @@
+\BOOKMARK [0][-]{chapter.1}{F\355sica de Part\355culas.}{}% 1
+\BOOKMARK [1][-]{section.1.1}{El Universo y su evoluci\363n.}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Modelo Est\341ndar.}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Composici\363n de la Materia y Fuerzas Fundamentales}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Simetr\355as y Lagrangiano.}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Insuficiencias del modelo.}{section.1.2}% 6
+\BOOKMARK [1][-]{section.1.3}{M\341s all\341 del modelo est\341ndar con la Materia Oscura.}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.3.1}{Evidencias observacionales.}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.2}{Composici\363n de la Materia Oscura.}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.3}{Part\355culas supersimetr\355as.}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.4}{Extensi\363n del Modelo Est\341ndar con Supersimetr\355a.}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.5}{Modelo Dark-SUSY.}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.6}{Formulaci\363n Te\363rica}{section.1.3}% 13
+\BOOKMARK [0][-]{chapter.2}{Experimento y Simulaci\363n.}{}% 14
+\BOOKMARK [1][-]{section.2.1}{F\355sica de Altas Energ\355as.}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.1.1}{Actualizando HLC.}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{Experimento CMS.}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{Identificaci\363n y Reconstrucci\363n de Muones.}{section.2.2}% 18
+\BOOKMARK [1][-]{section.2.3}{Simulaci\363n en Altas Energ\355as.}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.3.1}{Implementando ROOT.}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.2}{Altas Energ\355as con MadGraph.}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.3}{Hadronizacion con Pythia 8.}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.4}{Simulando el detector con Delphes 3.}{section.2.3}% 23
+\BOOKMARK [0][-]{chapter.3}{Simulaci\363n y An\341lisis de Resultados.}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Herramientas de caracterizaci\363n.}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.1.1}{Generaci\363n de los datos.}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.2}{Procesamiento y conversi\363n de los datos.}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.3}{M\351todos de regresi\363n de datos.}{section.3.1}% 28
+\BOOKMARK [1][-]{section.3.2}{An\341lisis de eventos.}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.3}{Generalidades de las propiedades independientes de los muones.}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Reconstrucci\363n de los fotones oscuros.}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.4.1}{Reconstrucci\363n de los eventos con 4 muones.}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.2}{Reconstrucci\363n de los eventos con menos de 4 muones.}{section.3.4}% 33
+\BOOKMARK [2][-]{subsection.3.4.3}{Reconstrucci\363n total de fotones oscuros.}{section.3.4}% 34
+\BOOKMARK [1][-]{section.3.5}{Aislamiento.}{chapter.3}% 35
+\BOOKMARK [0][-]{chapter*.6}{Referencias Bibliogr\341ficas}{}% 36

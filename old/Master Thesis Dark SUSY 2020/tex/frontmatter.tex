@@ -1,0 +1,192 @@
+% !TEX root = ../thesis-sample.tex
+
+% --------- FRONT MATTER PAGES ---------------------
+% Title of the thesis
+\title{Simulation studies for XXXXXXXX}
+
+% Author name
+\author{Francisco}
+
+% Previous degrees
+\bsdepartment{XXXXX}
+\bsschool{XXXXX}
+\bsgrad{May 2009}
+
+%\msdepartment{Aeronautical and Astronautical Engineering}
+%\msschool{Purdue University}
+%\msgrad{May 2013}
+%\showmsdegree % you can show or hide the MS degree line 
+\hidemsdegree
+
+% PhD degree commands
+%Committee
+\showcommitteepage % hide this page if you're doing a MS thesis
+%\hidecommitteepage 
+\committee{ %
+Alfredo M. Castaneda Hernandez, Physics Professor (DIFUS) Universidad de Sonora\\ 
+Dissertation Director\\ % remember to add a space between committee members
+
+XXXXXX, Physics Professor (DIFUS) Universidad de Sonora, \\
+Committee Member
+}
+
+% Chair must be entered separately for formatting reasons.
+\chair{A. Castaneda}
+\chairtitle{Physics Professor}
+% Department
+\department{Department of Physics Research}
+
+%\phdgrad{XXXX, 2020}
+%\defensedate{December 1, 2018}
+% Year of completion for copyright page and perhaps other places
+%\year=2020
+
+% Copyright page
+%\copyrightholder{Someone else}
+
+% Dedication
+\dedication{ %
+Include a fancy quote or dedication
+}
+
+% Acknowledgments
+\acknowledgments{
+    Here you can acknowledge all of those people who have helped you to reach this point.
+}
+
+% -----------------------------------------------------------------
+% Typically only one of Preface/Foreward/Prologue would be in your thesis.
+% To choose one simply delete the others and they will automatically dissappear
+
+% Preface
+
+%\preface{
+%    This is the preface. 
+%    It's another front matter page that offers additional detail into your work.
+%    Typically, only one (preface OR prologue OR foreword) is used. 
+%    You can remove the other sections by deleting them inside %\texttt{tex/frontmatter.tex} or using the appropriate show or hide commands.
+%}
+
+%\prologue{
+%    This is the prologe. 
+%    It's another front matter page that offers additional detail into your work.
+%    Typically, only one (preface OR prologue OR foreword) is used. 
+%    You can remove the other sections by deleting them inside %\texttt{tex/frontmatter.tex} or using the appropriate show or hide commands.
+%}
+
+%\foreword[2]{
+%    This is the forword. 
+%    It's another front matter page that offers additional detail into your work.
+%    Typically, only one (preface OR prologue OR foreword) is used. 
+%    You can remove the other sections by deleting them inside %\texttt{tex/frontmatter.tex} or using the appropriate show or hide commands.
+%}
+% ----------------------------------------------------------------------
+
+% commands to show or hide front matter pages
+
+%\showcopyright
+\showabstract
+\showcommitteepage
+\showdedication
+\showacknowledgments
+%\showpreface
+%\showprologue
+%\showforeword
+
+% ------------ TABLE OF CONTENTS ----------------------
+% Commands to hide or show lists of figures, tables, etc.
+\showlistoffigures
+\showlistoftables
+\hidenomenclature
+
+% --------- ACRONYMS and SYMBOLS ------------------------------
+% TODO Deprecate the entire acronym package and switch to glossaries
+
+% You can either use the acronymn or glossaries package (both work)
+% Definition of any abbreviations used.
+\abbreviations{
+    \acro{CRTBP}{Circular Restricted Three Body Problem}
+    \acro{NSA}{National Security Agency}
+    \acro{SSME}{Space Shuttle Main Engine}
+}
+% call an abbreviation using \ac{abbrev}
+
+% symbols and acronyms only show up when used in the text
+\symbols{
+    \acro{J}{Moment of Inertia}
+}       
+
+% if you want acronymn (simpler) then change these to show
+\hidelistofabbreviations
+\hidelistofsymbols
+
+% if you want glossaries (more powerful) then leave above as hide
+% GLOSSARIES package options - automatically turns off front pages from acronym package
+
+% acronymns and symbols are basically the same, but there are two provided 
+% locations where they can show up
+\setabbreviationstyle[acronym]{long-short}
+\setabbreviationstyle[abbreviation]{long-short}
+\makeglossaries
+% you can hide/show the glossaries page
+\showglossarieslistofabbreviations
+\showglossarieslistofsymbols
+\showglossariesglossaryofterms
+
+
+
+% acronyms defined in glossaries
+\newabbreviation{crtbp}{CRTBP}{Circular Restricted Three Body Problem}
+\newabbreviation{lidar}{LIDAR}{Light Detection and Ranging}
+% defining abbreviations like this allows for autocompletion
+\newglossaryentry{filo}{
+    name={FILO},
+    type=\glsxtrabbrvtype,
+    description={first in last out},
+    first={first in last out (FILO)}
+}
+
+% glossary entries
+\newglossaryentry{linux}{
+    name=Linux,
+    description={is a generic term referring to the family of Unix-like computer operating systems that use the Linux kernel},
+    plural=Linuces
+}
+
+\newglossaryentry{matrix}{
+    name={matrix},
+    plural={matrices},
+    description={rectangular array of quanttities}
+}
+
+% symbols
+\newglossaryentry{M}{
+    type=symbols,
+    name={\ensuremath{M}},
+    sort=M,
+    description={a \gls{matrix}}
+}
+
+\newglossaryentry{F}{
+    type=symbols,
+    name={\ensuremath{F}},
+    sort=F,
+    description={External Force}
+}
+% Some abstract text
+\abstract{
+This is the abstract. 
+
+
+\lipsum[1]
+}
+
+% La concentración esta en el orden rojo, verde y azul
+\definecolor{azul50}{rgb}{0.2,0.30,0.50} 
+\definecolor{gris50}{rgb}{0.02,0.05,0.10} 
+\definecolor{gris10}{rgb}{0.80,0.80,0.80} 
+\definecolor{verde}{rgb}{0,0.50,0}
+\definecolor{morado}{rgb}{0.6,.3,.5}
+
+
+

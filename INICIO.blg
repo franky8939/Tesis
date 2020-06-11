@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: INICIO.aux
+The style file: UNAMThesis.bst
+Database file #1: ParticleUnison.bib
+Warning--I didn't find a database entry for "ams:cern"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 38 entries,
+            3165 wiz_defined-function locations,
+            897 strings with 12039 characters,
+and the built_in function-call counts, 26260 in all, are:
+= -- 2164
+> -- 1260
+< -- 22
++ -- 450
+- -- 390
+* -- 2116
+:= -- 3865
+add.period$ -- 113
+call.type$ -- 38
+change.case$ -- 319
+chr.to.int$ -- 36
+cite$ -- 38
+duplicate$ -- 1971
+empty$ -- 1855
+format.name$ -- 498
+if$ -- 5222
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 422
+newline$ -- 234
+num.names$ -- 152
+pop$ -- 784
+preamble$ -- 1
+purify$ -- 282
+quote$ -- 0
+skip$ -- 711
+stack$ -- 0
+substring$ -- 1106
+swap$ -- 1131
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 342
+warning$ -- 0
+while$ -- 164
+width$ -- 0
+write$ -- 569
+(There was 1 warning)

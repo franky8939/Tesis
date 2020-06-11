@@ -1,0 +1,112 @@
+%\subsection*{Simetrías}
+
+Dada la existencia de disímiles partículas, elementales y compuestas, sugirió la necesidad de hacer uso de simetrías para entender las relaciones entre ellas, estás existen cuando la expresión matemática de las leyes de la física es independiente (invariante) del sistema de referencia, estas simetrías son internas ya que relacionan partículas entre sí. La búsqueda de la simetría responsable de las similitudes entre los hadrones condujo a la formulación de la teoría de quarks, como base del espacio donde opera el grupo clasificador de hadrones \textbf{SU(3)}. Aparte de los grupos de clasificación hay grupos que corresponden a \textit{simetrías espontáneamente rotas}. 
+
+El papel de las simetrías  en la física de partículas elementales subió a un rango superior en la década de los cincuenta cuando se les identificó  como determinantes de la dinámica al postularse como simetrías locales, es decir cuando se exige que las transformaciones que forman el grupo correspondiente varíen de punto a punto en el espacio cuatridimensional cotidiano. A estas simetrías se les denomina simetrías de norma y para que sean exactas se requiere la existencia de campos que representan las fuerzas (las partículas cuyo intercambio entre las partículas ordinarias son la causa de las interacciones conocidas o de nuevas interacciones). Así la interacción electromagnética es consecuencia ineludible de la simetría de norma asociada al grupo $\mathbf{U(1)}$, las interacciones débiles junto con las electromagnéticas resultan de la simetría de norma $\mathbf{SU(2) \otimes U(1)}$, y las interacciones entre quarks de una simetría de norma $\mathbf{SU(3)_c}$ que opera en el espacio tridimensional de color.
+    
+Sin embargo las partículas responsables de interacciones deben ser de masa cero, como lo es el fotón,  si las simetrías de norma son exactas y explícitas. Esta última cualidad es opuesta a la de ser espontáneamente rota. Siendo un hecho experimental el que las interacciones débiles (responsables de la radioactividad) son de muy corto alcance, deben ser entonces los mediadores de esta interacción de masa muy grande. Esto solo se concibe si la simetría de norma correspondiente a esta interacción está espontáneamente rota. Para que este fenómeno acontezca es necesario un ingrediente adicional en el modelo o cuadro completo., este es el bosón de Higgs. El \ME ~ consiste entonces en un contenido de materia, los quarks y los leptones en tres familias, con una dinámica dictada por la simetría de norma $\mathbf{U(1) \otimes SU(2) \otimes SU(3)_c}$ y con un elemento adicional, el Higgs, responsable de la rotura (parcial) espontánea de  $\mathbf{U(1) \otimes SU(2)}$. El lagrangiano del modelo estandar que describe estas interacciones es:
+
+\begin{equation}
+\mathcal{L}_{SM} = \mathcal{L}_{gauge} + \mathcal{L}_{Fermion} + \mathcal{L}_{Higgs} + \mathcal{L}_{Yukawa} + \mathcal{L}_{GF} + \mathcal{L}_{Ghost} 
+\end{equation}
+donde tenemos que:
+\begin{itemize}
+\item[-] $\mathcal{L}_{gauge}$ : resultado de la teoría de campo de calibración, esta resume la interacción entre fermiones como resultado de la introdución de transformaciones pertenecientes al grupo de simetría interna. %Esta transformación de gauge modifica un grado de libertad interno sin cambiar ninguna propiedad observable física. Esta transformación posee su respectivo campo de Yang-Mills asociado a las transformaciones y que describe la interacción física entre diferentes campos fermiónicos. Por ejemplo el campo electromagnético es un campo de gauge que describe el modo de interactuar de fermiones dotados con carga eléctrica. 
+El lagrangiano de gauge describe la dinámica de los campos fermiónicos poseyendo alguna simetría interna ``local'' dada por un grupo de Lie, llamado grupo de transformaciones de gauge, transformando algún grado de libertad que no modifica ninguna propiedad física observable. %Las dos características formales que hacen de un campo un campo gauge son:
+%\begin{itemize}
+%\item Los campos gauge aparecen en el lagrangiano que rige la dinámica del campo en forma de conexión, por tanto, matemáticamente están asociadas a 1-formas que toman valores sobre una cierta álgebra de Lie.
+%\item El campo de gauge puede ser visto como el resultado de aplicar a diferentes puntos del espacio diferentes transformaciones dentro del grupo de simetría asociado a los campos fermiónicos de la teoría.
+%\end{itemize}
+Una manera de representar su ecuación matemática viene dada por:
+\begin{equation}
+\mathcal{L}_{gauge} = 
+-\dfrac{1}{4}G_{\mu v}^{a} G^{a\mu v} 
+-\dfrac{1}{4}W_{\mu v}^{a} W^{a\mu v} 
+-\dfrac{1}{4}B_{\mu v} B^{\mu v}
+\end{equation}
+El desarrollo de los términos de los campos de fuerza pueden encontrarse en la referencia \citep{romao_resource_2012}.
+\item[-] $\mathcal{L}_{Fermion}$ : los términos cinéticos para los fermiones, incluyendo la interacción con el gauge de campo debido a sus derivadas covariantes, tiene su forma:
+\begin{equation}
+\mathcal{L}_{Fermion} = 
+\sum_{quarks} i \overline{q} \gamma^\mu D_\mu q +
+\sum_{\psi_L} i \overline{\psi_L} \gamma^\mu D_\mu \psi_L +
+\sum_{\psi_R} i \psi_R \gamma^\mu D_\mu \psi_R
+\end{equation}
+
+%\item[-] $\mathcal{L}_{EW} = \mathcal{L}_{gauge} + \mathcal{L}_{Fermion}$ : El modelo electrodébil (\EW ~ de sus siglas en inglés) es aquella que unifica la interacción débil y el electromagnetismo (despreciando el primer término de los lagrangianos ya que están relacionados con la interacción de la fuerza fuerte y los \quarks), dos de las cuatro fuerzas fundamentales de la naturaleza, aplicada a todas las patículas del \ME, en esa teoría los fermiones son descritos mediante un lagrangiano de Dirac generalizado adecuadamente para que sea invariante gauge bajo un cierto grupo gauge de simetría interna. Teoricamente no existe una elección única de las simetrías del lagrangiano de las interacciones electrodébiles, estas son deducidas de resultados experimentales.
+%
+%De la evidencia experimental, se deduce que el grupo de simetría gauge mínimo capaz de acomodar las corrientes cargadas es \textbf{SU(2)}. La observación empírica ha permitido constatar que las interacciones \EW ~ actúan de manera distinta sobre los fermiones dextrógiros y sobre los fermiones levógiros constituye una de las características de este modelo. La aparición de esta simetría a partir de un lagrangiano originalmente simétrico es explicado formalmente por el mecanismo de ruptura espontánea de simetría.
+%
+%Por otro lado las fuerzas electromagnética y débil actúan sobre los mismos campos fermiónicos y no pueden ser descritas por separado, de aca que el grupo gauge mínimo que describe las interacciones electrodébiles es $\mathbf{U}(1)_Y \otimes \mathbf{SU}(2)_L$. Así, las corrientes cargadas de Yang-Mills incluyen solamente fermiones levógiros y no se conocen neutrinos dextrógiros. Es por ello que los campos fermiónicos levógiros son agrupados en dobletes, mientras que los campos dextrógiros son singletes del grupo $\mathbf{SU(2)_{L}}$ con simetría de isospín asociada con la conservación debil del mismo (donde el subíndice \textbf{L} únicamente indica la asimetría existente entre los fermiones de distinta helicidad), además la cantidad conservada por el grupo $\mathbf{U(1)_{Y}}$ es la hipercarga \textbf{Y}
+%
+%lo que quiere decir que las partículas son representantes de un grupo de gauge de tipo $\mathbf{U}(1)_Y \otimes \mathbf{SU}(2)_L$.
+
+\item[-] $\mathcal{L}_{Higgs}$ : El mecanismo de Higgs es el proceso que da masa a las partículas elementales, en una teoría de gauge el mecanismo de Higgs dota con masa a los bosones de gauge a través de la absorción de los bosones de Nambu–Goldstone derivados de la ruptura espontánea de simetría. %La implementación más simple del mecanismo agrega un campo de Higgs extra a la teoría de gauge. La ruptura espontánea de la simetría local subyacente desencadena la conversión de los componentes de este campo de Higgs a bosones de Goldstone que interactúan (al menos algunos de ellos) con los demás campos de la teoría, con el fin de producir términos de masas para (al menos algunos de) los bosones de gauge. 
+ El sistema viene descrito por un Lagrangiano con la forma:
+\begin{equation}
+\mathcal{L}_{Higgs} = 
+(D_\mu \Phi)^\dagger D_\mu \Phi +
+\mu^2 \Phi^\dagger \Phi -
+\lambda (\Phi^\dagger \Phi)^2 = (D_\mu \Phi)^\dagger D_\mu \Phi - V(\Phi)
+\end{equation}
+donde $V(\Phi) \equiv \lambda (\Phi^\dagger \Phi)^2 - \mu^2 \Phi^\dagger \Phi$ conocido como el potencial renormalizable
+\item[-] $\mathcal{L}_{Yukawa}$ : mecanismo que describe la interacción entre un campo escalar y un campo de Dirac mediante una constante de acoplamiento. La forma matemática de su lagrangiano es:
+\begin{equation}
+\mathcal{L}_{Yukawa} = -
+\overline{L_L} Y_L \Phi \ell_R -
+\overline{Q'_L} Y_d \Phi d'_R -
+\overline{Q'_L}Y_u \acute{\Phi}u'_R + h.c
+\end{equation}
+El desarrollo de esta ecuación, explicación de la notación en la referencia \citep{santamaria_masses_1993, romao_resource_2012}
+
+\item[-] $\mathcal{L}_{GF}$ : en la teoría de los \textit{gauges}, se realiza continuamente una elección constante, siendo este un procedimiento matemático para hacer frente a grados de libertad redundantes en las variables de campo. La mayoría de las predicciones físicas cuantitativas de una teoría de \textit{gauges} solo pueden obtenerse bajo una receta coherente para suprimir o ignorar estos grados de libertad no físicos. %La fijación juiciosa del \textit{gauge} puede simplificar enormemente los cálculos, pero se vuelve cada vez más difícil a medida que el modelo físico se vuelve más realista, esta es la forma tradicional de aplicación a la teoría cuántica de campos, la cual está llena de complicaciones relacionadas con la renormalización, especialmente cuando el cálculo continúa en órdenes superiores, de aquí que la búsqueda de procedimientos de obtención de \textit{gauges} lógicamente consistentes y manejables desde el punto de vista computacional, y los esfuerzos para demostrar su equivalencia frente a una variedad desconcertante de dificultades técnicas, ha sido un importante impulsor de la física matemática desde finales del siglo XIX hasta el presente. Su forma matemática tiene la forma:
+%\begin{equation}
+%\mathcal{L}_{GF} = - 
+%\dfrac{1}{2\xi_G}F^2_G -
+%\dfrac{1}{2\xi_A}F^2_A -
+%\dfrac{1}{2\xi_Z}F^2_Z -
+%\dfrac{1}{2\xi_W}F_-F_+
+%\end{equation}
+%su desarrollo se muestra en la sección 2.6 de la referencia \citep{romao_resource_2012}.
+
+\item[-] $\mathcal{L}_{Ghost}$ : %La última pieza necesaria el \ME ~ es el \LG, 
+para una condición de fijación del medidor lineal, es un campo adicional que se introduce en las teorías cuánticas de campos de tipo \textit{gauge} para mantener la consistencia de la formulación de integral%, esto es dado por la receta Fadeev-Popov.  La necesidad de fantasmas de Fadeev-Popov vino del requerimiento de que en la formulación de integral de caminos, las teorías cuánticas de campos deben proporcionar soluciones inequívocas, esto no es posible si una simetría de \textit{gauge} está presente ya que no hay ningún procedimiento para seleccionar ninguna solución a partir de una serie de soluciones físicamente equivalentes, todas relacionadas por una transformación de gauge. Su formulación matemática tiene la forma:
+%\begin{eqnarray}
+%\mathcal{L}_{Ghost}  = \eta_G \sum_{i=1}^4 \left[ 
+%\overline{c_+} \dfrac{\partial(\delta F_+)}{\partial\alpha^i} +
+%\overline{c_-} \dfrac{\partial(\delta F_-)}{\partial\alpha^i} +
+%\overline{c_Z} \dfrac{\partial(\delta F_Z)}{\partial\alpha^i} +
+%\overline{c_A} \dfrac{\partial(\delta F_A)}{\partial\alpha^i} +
+%\right]c_i + \nonumber\\
+%\eta_G \sum_{a,b=1}^8\overline{w}^a \dfrac{\partial(\delta F_G^a)}{\partial\beta^b} w^b 
+%\end{eqnarray}
+%
+\end{itemize}
+
+
+%Desde el punto de vista físico, los campos de gauge se manifiestan físicamente en forma de partículas bosónicas sin masa (bosones gauge), por lo que se dice que todos los campos de gauge son mediados por el grupo de bosones de gauge sin masa de la teoría.
+
+El modelo estándar está respaldado por una serie de observaciones experimentales, la más reciente fue la observación de una nueva partícula cuyas propiedades son consistentes con el bosón de Higgs, sin embargo, aún existen fenómenos en la naturaleza que no pueden ser explicados dentro del formalismo del modelo estándar%, ejemplo de ello es la naturaleza y composición de la materia oscura
+.
+
+%Las interacciones se describen dentro del MS por medio de teorías de calibración (gauge) y se manifiestan a través del intercambio de partículas de espín entero (bosones). Las dos primeras interacciones (débil y electromagnética) están unificadas como se verá más adelante. No obstante la unificación de las tres fuerzas no se realiza dentro del MS, sino que se introducen tres constantes de acoplamiento (una por cada interacción). El marco matemático en el que se desarrolla el MS es la yustaposición de tres grupos de simetría: $ SU(3)_C \times SU(2)_L \times U(1)_Y$ . En la tabla \ref{BB100:tab:1.2} pueden verse los bosones gauge junto con las interacciones a las que están asociados y la fuerza relativa de cada una de estas.
+
+%Las interacciones se describen dentro del MS por medio de teorías de calibración (gauge) y se manifiestan a través del intercambio de partículas de espín entero (bosones). Las dos primeras interacciones (débil y electromagnética) están unificadas como se verá más adelante. No obstante la unificación de las tres fuerzas no se realiza dentro del MS, sino que se introducen tres constantes de acoplamiento (una por cada interacción). El marco matemático en el que se desarrolla el MS es la yustaposición de tres grupos de simetría: $ SU(3)_C \times SU(2)_L \times U(1)_Y$ . En la tabla \ref{BB100:tab:1.2} pueden verse los bosones gauge junto con las interacciones a las que están asociados y la fuerza relativa de cada una de estas.
+
+%\begin{table}
+%  \begin{center}
+%   \caption{Interacciones descritas por el Modelo Estándar junto con los grupos gauge y los bosones asociados a cada una de ellas. En la columna de la derecha 		se representan las constantes fundamentales que indican la fuerza relativa de cada interacción.}
+%    \label{tab}
+%    \begin{tabular}{|l|c|c|c|c|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+%		\hline 		
+%		Interacción & Grupo calibración & Bosón & Símbolo & Fuerza relativa\\
+%		\hline
+%		Electromagnética & $U(1)$ & fotón & $\gamma$ & $\alpha_{em}= 1/137$\\
+%		\hline
+%		Débil & $SU(2)$ & bosones intermedios & $W^\pm$, $Z$ & $\alpha_{weak} = 1.02 \cdot 10^{-5}$\\
+%		\hline
+%		Fuerte & $ SU(3)$ & gluones (8 tipos) & $g$ & $\alpha_s{M_Z} = 0.121$\\
+%		\hline
+%    \end{tabular}
+%  \end{center}
+%\end{table}
