@@ -1,18 +1,58 @@
 %%  PAQUETES    %% 
-\usepackage[square]{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[spanish,mexico]{babel}
+
+% Formato UNISON
+% =================================================================
+%			Preamble: page setup (non optional format style)
+% =================================================================
+% Specific margins
+\usepackage[letterpaper, left=4cm, right=2cm, top=3cm, bottom=3cm]{geometry}
+% Times font
+\usepackage{times}
+% Titles formatting
+\usepackage{tocloft, titlesec, emptypage}
+	% Chapter numbering and font size: 17 pt
+	\titleformat{\chapter}[hang]{\normalfont\Large\bfseries}{\chaptertitlename~\thechapter~\ensuremath{-}}{5pt}{\Large}
+	\titlespacing*{\chapter}{0pt}{1.0in}{0.25in}
+	\titlespacing*{name=\chapter,numberless}{0pt}{0pt}{0.25in}
+	% Section font size: 14 pt
+	\titleformat{\section}[hang]{\normalfont\large\bfseries}{\thesection}{5pt}{\large}
+	% Subsection font size: 12 pt
+	\titleformat{\subsection}[hang]{\normalfont\normalsize\bfseries}{\thesubsection}{5pt}{}
+% Page numbering style
+\usepackage{fancyhdr}
+	\fancypagestyle{myheadings}{
+		\fancyhf{}
+		\renewcommand{\headrulewidth}{0pt}
+		\fancyfoot[C]{\thepage}
+	}
+	\fancypagestyle{frontmatterheadings}{
+		\fancyhf{}
+		\renewcommand{\headrulewidth}{0pt}
+		\fancyhead[LE, RO]{\thepage}
+	}
+
+\usepackage[bottom]{footmisc} % Footers below all figures and tables in page.
+\usepackage[titletoc]{appendix}
+	
+% Double line spacing in text, but no figures and tables
+\usepackage{setspace}
+	\onehalfspacing
+	\setlength{\parindent}{15pt}
+
+% =================================================================
 \usepackage{UNISONthesis}
+
+\usepackage[square]{natbib}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
 \usepackage{textcomp}
 \usepackage{array}
 \usepackage{booktabs}
-\usepackage{xcolor}
+\usepackage{enumitem}
 
 %%  REDEFINICIONES  %%
 
@@ -43,6 +83,7 @@
 \newtheorem{summary}{Resumen}[section]
 \newenvironment{proof}[1][Demostración]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
 
+\usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{color}
 \usepackage[colorlinks = True,
@@ -50,6 +91,7 @@
             urlcolor  = black,
             citecolor = black,
             anchorcolor = black]{hyperref}
+\usepackage{url}
 
 % La concentración esta en el orden rojo, verde y azul
 \definecolor{azul50}{rgb}{0.2,0.30,0.50} 
@@ -60,12 +102,28 @@
 
 
 %% formato del texto 
-\renewcommand{\baselinestretch}{1} % interlineado
-\setlength{\parskip}{0mm}
+%\renewcommand{\baselinestretch}{1} % interlineado
+%\setlength{\parskip}{0mm}
 
 % no necesita presentacion jejejeje
-\usepackage[compact]{titlesec}
-\titlespacing{\section}{1pt}{10pt}{10pt}
-\titlespacing{\subsection}{1pt}{10pt}{10pt}
-\titlespacing{\subsubsection}{1pt}{10pt}{10pt}
+%\usepackage[compact]{titlesec}
+%\titlespacing{\section}{1pt}{10pt}{10pt}
+%\titlespacing{\subsection}{1pt}{10pt}{10pt}
+%\titlespacing{\subsubsection}{1pt}{10pt}{10pt}
+
+%\setlength{\baselineskip}{1}
+
+\newenvironment{itemize_f}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}
+%\setlength\itemsep{-.2cm} %
+\usepackage{framed}
+
+\usepackage{lineno}
+    \linenumbers
+\usepackage{dsfont}
+\usepackage{listings} % entorno para programacion
+\usepackage{pdflscape} % entorno para rotar hoja
 
