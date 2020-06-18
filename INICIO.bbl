@@ -1,4 +1,4 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -10,19 +10,21 @@
   Mattelaer, O., Shao, H.S., Stelzer, T., Torrielli, P., y Zaro, M.}
 \newblock The automated computation of tree-level and next-to-leading order
   differential cross sections, and their matching to parton shower simulations.
-\newblock \textit{J. High Energ. Phys.} \textbf{2014}(7):79 (2014).
+\newblock \textit{Journal of High Energy Physics} \textbf{2014}(7):79 (2014).
 \newblock ArXiv: 1405.0301
 
 \bibitem[{Battiston(2008)}]{battiston_anti_2008}
 \textsc{Battiston, R.}
 \newblock The anti matter spectrometer ({AMS}-02): a particle physics detector
   in space.
-\newblock \textit{J. Phys.: Conf. Ser.} \textbf{116}:012001 (2008)
+\newblock \textit{Journal of Physics: Conference Series} \textbf{116}:012001
+  (2008)
 
 \bibitem[{Bergh(1999)}]{bergh_early_1999}
 \textsc{Bergh, S.v.d.}
 \newblock The {Early} {History} of {Dark} {Matter}.
-\newblock \textit{PUBL ASTRON SOC PAC} \textbf{111}(760):657--660 (1999).
+\newblock \textit{Publications of the Astronomical Society of the Pacific}
+  \textbf{111}(760):657--660 (1999).
 \newblock ArXiv: astro-ph/9904251
 
 \bibitem[{Binoth \textit{et~al.}(2008)Binoth, Guffanti, Guillet, Heinrich,
@@ -39,7 +41,7 @@
 \textsc{Buckley, A., Ferrando, J., Lloyd, S., Nordstrom, K., Page, B.,
   Ruefenacht, M., Schoenherr, M., y Watt, G.}
 \newblock {LHAPDF6}: parton density access in the {LHC} precision era.
-\newblock \textit{Eur. Phys. J. C} \textbf{75}(3):132 (2015).
+\newblock \textit{The European Physical Journal C} \textbf{75}(3):132 (2015).
 \newblock ArXiv: 1412.7420
 
 \bibitem[{Buonocore \textit{et~al.}(2019)Buonocore, Frugiuele, Maltoni,
@@ -47,27 +49,126 @@
 \textsc{Buonocore, L., Frugiuele, C., Maltoni, F., Mattelaer, O., y Tramontano,
   F.}
 \newblock Event generation for beam dump experiments.
-\newblock \textit{J. High Energ. Phys.} \textbf{2019}(5):28 (2019).
+\newblock \textit{Journal of High Energy Physics} \textbf{2019}(5):28 (2019).
 \newblock ArXiv: 1812.06771
 
-\bibitem[{Bílek \textit{et~al.}(2018)Bílek, Thies, Kroupa, y
-  Famaey}]{bilek_mond_2018}
-\textsc{Bílek, M., Thies, I., Kroupa, P., y Famaey, B.}
-\newblock {MOND} simulation suggests the origin of some peculiarities in the
-  {Local} {Group}.
-\newblock \textit{A\&A} \textbf{614}:A59 (2018).
-\newblock ArXiv: 1712.04938
+\bibitem[{Collaboration(2014)}]{atlas_collaboration_search_2014}
+\textsc{Collaboration, A.}
+\newblock Search for long-lived neutral particles decaying into lepton jets in
+  proton--proton collisions at \${\textbackslash}sqrt\{s\}\$ = 8 {TeV} with the
+  {ATLAS} detector.
+\newblock \textit{Journal of High Energy Physics} \textbf{2014}(11):88 (2014).
+\newblock ArXiv: 1409.0746
 
-\bibitem[{Collaboration(2019)}]{planck_collaboration_planck_2019}
-\textsc{Collaboration, P.}
-\newblock Planck 2018 results. {VI}. {Cosmological} parameters.
-\newblock \textit{arXiv:1807.06209 [astro-ph]}  (2019).
-\newblock ArXiv: 1807.06209
+\bibitem[{Collaboration(2015)}]{atlas_collaboration_search_2015-1}
+\textsc{Collaboration, A.}
+\newblock Search for new light gauge bosons in {Higgs} boson decays to
+  four-lepton final states in \$pp\$ collisions at
+  \${\textbackslash}sqrt\{s\}=8\$ {TeV} with the {ATLAS} detector at the {LHC}.
+\newblock \textit{Physical Review D} \textbf{92}(9):092001 (2015).
+\newblock ArXiv: 1505.07645
+
+\bibitem[{Collaboration(2016{\natexlab{a}})}]{atlas_collaboration_search_2016-2}
+\textsc{Collaboration, A.}
+\newblock Search for new phenomena in events with at least three photons
+  collected in \$pp\$ collisions at \${\textbackslash}sqrt\{s\}\$ = 8 {TeV}
+  with the {ATLAS} detector.
+\newblock \textit{The European Physical Journal C} \textbf{76}(4):210
+  (2016{\natexlab{a}}).
+\newblock ArXiv: 1509.05051
+
+\bibitem[{Collaboration(2016{\natexlab{b}})}]{atlas_collaboration_search_2016-3}
+\textsc{Collaboration, A.}
+\newblock Search for the {Higgs} boson produced in association with a \${W}\$
+  boson and decaying to four \$b\$-quarks via two spin-zero particles in \$pp\$
+  collisions at 13 {TeV} with the {ATLAS} detector.
+\newblock \textit{The European Physical Journal C} \textbf{76}(11):605
+  (2016{\natexlab{b}}).
+\newblock ArXiv: 1606.08391
+
+\bibitem[{Collaboration(2018{\natexlab{a}})}]{atlas_collaboration_search_2018-2}
+\textsc{Collaboration, A.}
+\newblock Search for {Higgs} boson decays to beyond-the-{Standard}-{Model}
+  light bosons in four-lepton events with the {ATLAS} detector at
+  \${\textbackslash}sqrt\{s\}=13\$ {TeV}.
+\newblock \textit{Journal of High Energy Physics} \textbf{2018}(6):166
+  (2018{\natexlab{a}}).
+\newblock ArXiv: 1802.03388
+
+\bibitem[{Collaboration(2018{\natexlab{b}})}]{atlas_collaboration_search_2018-1}
+\textsc{Collaboration, A.}
+\newblock Search for the {Higgs} boson produced in association with a vector
+  boson and decaying into two spin-zero particles in the \${H}
+  {\textbackslash}rightarrow aa {\textbackslash}rightarrow 4b\$ channel in
+  \$pp\$ collisions at \${\textbackslash}sqrt\{s\} = 13\$ {TeV} with the
+  {ATLAS} detector.
+\newblock \textit{Journal of High Energy Physics} \textbf{2018}(10):31
+  (2018{\natexlab{b}}).
+\newblock ArXiv: 1806.07355
+
+\bibitem[{Collaboration(2013)}]{cms_collaboration_search_2013}
+\textsc{Collaboration, C.}
+\newblock Search for a non-standard-model {Higgs} boson decaying to a pair of
+  new light bosons in four-muon final states.
+\newblock \textit{Physics Letters B} \textbf{726}(4-5):564--586 (2013).
+\newblock ArXiv: 1210.7619
+
+\bibitem[{Collaboration(2016{\natexlab{c}})}]{cms_collaboration_search_2016}
+\textsc{Collaboration, C.}
+\newblock Search for a very light {NMSSM} {Higgs} boson produced in decays of
+  the 125 {GeV} scalar boson and decaying into tau leptons in pp collisions at
+  sqrt(s) = 8 {TeV}.
+\newblock \textit{Journal of High Energy Physics} \textbf{2016}(1):79
+  (2016{\natexlab{c}}).
+\newblock ArXiv: 1510.06534
+
+\bibitem[{Collaboration(2016{\natexlab{d}})}]{cms_collaboration_search_2016-2}
+\textsc{Collaboration, C.}
+\newblock Search for a very light {NMSSM} {Higgs} boson produced in decays of
+  the 125 {GeV} scalar boson and decaying into tau leptons in pp collisions at
+  sqrt(s) = 8 {TeV}.
+\newblock \textit{Journal of High Energy Physics} \textbf{2016}(1):79
+  (2016{\natexlab{d}}).
+\newblock ArXiv: 1510.06534
+
+\bibitem[{Collaboration(2018{\natexlab{c}})}]{cms_collaboration_search_2018}
+\textsc{Collaboration, C.}
+\newblock Search for an exotic decay of the {Higgs} boson to a pair of light
+  pseudoscalars in the final state of two muons and two \${\textbackslash}tau\$
+  leptons in proton-proton collisions at \${\textbackslash}sqrt\{s\}=\$ 13
+  {TeV}.
+\newblock \textit{Journal of High Energy Physics} \textbf{2018}(11):18
+  (2018{\natexlab{c}}).
+\newblock ArXiv: 1805.04865
+
+\bibitem[{Collaboration(2018{\natexlab{d}})}]{cms_collaboration_search_2018-1}
+\textsc{Collaboration, C.}
+\newblock Search for an exotic decay of the {Higgs} boson to a pair of light
+  pseudoscalars in the final state with two b quarks and two
+  \${\textbackslash}tau\$ leptons in proton-proton collisions at
+  \${\textbackslash}sqrt\{s\}=\$ 13 {TeV}.
+\newblock \textit{Physics Letters B} \textbf{785}:462--488
+  (2018{\natexlab{d}}).
+\newblock ArXiv: 1805.10191
+
+\bibitem[{Collaboration(2019)}]{cms_collaboration_search_2019-1}
+\textsc{Collaboration, C.}
+\newblock A search for pair production of new light bosons decaying into muons
+  in proton-proton collisions at 13 {TeV}.
+\newblock \textit{Physics Letters B} \textbf{796}:131--154 (2019).
+\newblock ArXiv: 1812.00380
+
+\bibitem[{collaboration(2016)}]{lhcb_collaboration_search_2016}
+\textsc{collaboration, L.}
+\newblock Search for {Higgs}-like bosons decaying into long-lived exotic
+  particles.
+\newblock \textit{The European Physical Journal C} \textbf{76}(12):664 (2016).
+\newblock ArXiv: 1609.03124
 
 \bibitem[{Colless y Dunn(1996)}]{colless_structure_1996}
 \textsc{Colless, M. y Dunn, A.M.}
 \newblock Structure and {Dynamics} of the {Coma} {Cluster}.
-\newblock \textit{ApJ} \textbf{458}:435 (1996).
+\newblock \textit{The Astrophysical Journal} \textbf{458}:435 (1996).
 \newblock ArXiv: astro-ph/9508070
 
 \bibitem[{Conte \textit{et~al.}(2013)Conte, Fuks, y
@@ -86,17 +187,17 @@
   Mertens, A., y Selvaggi, M.}
 \newblock {DELPHES} 3, {A} modular framework for fast simulation of a generic
   collider experiment.
-\newblock \textit{J. High Energ. Phys.} \textbf{2014}(2):57
+\newblock \textit{Journal of High Energy Physics} \textbf{2014}(2):57
   (2014{\natexlab{a}}).
 \newblock ArXiv: 1307.6346
 
 \bibitem[{de~Favereau \textit{et~al.}(2014{\natexlab{b}})de~Favereau, Delaere,
-  Demin, Giammanco, Lemaître, Mertens, y Selvaggi}]{de_favereau_delphes_2014}
+  Demin, Giammanco, Lemaître, Mertens, y Selvaggi}]{de_favereau_Delphes_2014}
 \textsc{de~Favereau, J., Delaere, C., Demin, P., Giammanco, A., Lemaître, V.,
   Mertens, A., y Selvaggi, M.}
 \newblock {DELPHES} 3, {A} modular framework for fast simulation of a generic
   collider experiment.
-\newblock \textit{J. High Energ. Phys.} \textbf{2014}(2):57
+\newblock \textit{Journal of High Energy Physics} \textbf{2014}(2):57
   (2014{\natexlab{b}}).
 \newblock ArXiv: 1307.6346
 
@@ -118,35 +219,34 @@
 \bibitem[{Ellis y Zanderighi(2008)}]{ellis_scalar_2008}
 \textsc{Ellis, R.K. y Zanderighi, G.}
 \newblock Scalar one-loop integrals for {QCD}.
-\newblock \textit{J. High Energy Phys.} \textbf{2008}(02):002--002 (2008).
+\newblock \textit{Journal of High Energy Physics} \textbf{2008}(02):002--002
+  (2008).
 \newblock ArXiv: 0712.1851
-
-\bibitem[{Fosalba \textit{et~al.}(2015)Fosalba, Crocce, Gaztanaga, y
-  Castander}]{fosalba_mice_2015}
-\textsc{Fosalba, P., Crocce, M., Gaztanaga, E., y Castander, F.J.}
-\newblock The {MICE} {Grand} {Challenge} {Lightcone} {Simulation} {I}: {Dark}
-  matter clustering.
-\newblock \textit{arXiv:1312.1707 [astro-ph]}  (2015).
-\newblock ArXiv: 1312.1707
 
 \bibitem[{Hirschi y Peraro(2016)}]{hirschi_tensor_2016}
 \textsc{Hirschi, V. y Peraro, T.}
 \newblock Tensor integrand reduction via {Laurent} expansion.
-\newblock \textit{J. High Energ. Phys.} \textbf{2016}(6):60 (2016).
+\newblock \textit{Journal of High Energy Physics} \textbf{2016}(6):60 (2016).
 \newblock ArXiv: 1604.01363
 
 \bibitem[{Hooper y Kribs(2004)}]{hooper_kaluza-klein_2004}
 \textsc{Hooper, D. y Kribs, G.D.}
 \newblock Kaluza-{Klein} {Dark} {Matter} and the {Positron} {Excess}.
-\newblock \textit{Phys. Rev. D} \textbf{70}(11):115004 (2004).
+\newblock \textit{Physical Review D} \textbf{70}(11):115004 (2004).
 \newblock ArXiv: hep-ph/0406026
+
+\bibitem[{Kuroda(2005)}]{kuroda_complete_2005}
+\textsc{Kuroda, M.}
+\newblock Complete {Lagrangian} of {MSSM}.
+\newblock \textit{arXiv:hep-ph/9902340}  (2005).
+\newblock ArXiv: hep-ph/9902340
 
 \bibitem[{Li \textit{et~al.}(2017)Li, Mendez, Giovacchini, Haino, y
   Hoffman}]{li_antiproton_2017}
 \textsc{Li, Z.Y., Mendez, C.J.D., Giovacchini, F., Haino, S., y Hoffman, J.}
 \newblock Antiproton identification below threshold with the {AMS}-02 {RICH}
   detector.
-\newblock \textit{Chinese Phys. C} \textbf{41}(5):056001 (2017).
+\newblock \textit{Chinese Physics C} \textbf{41}(5):056001 (2017).
 \newblock Publisher: IOP Publishing
 
 \bibitem[{Marsh(2019)}]{marsh_strings_2019}
@@ -161,7 +261,7 @@
 \textsc{Mastrolia, P., Mirabella, E., y Peraro, T.}
 \newblock Integrand reduction of one-loop scattering amplitudes through
   {Laurent} series expansion.
-\newblock \textit{J. High Energ. Phys.} \textbf{2012}(6):95 (2012).
+\newblock \textit{Journal of High Energy Physics} \textbf{2012}(6):95 (2012).
 \newblock ArXiv: 1203.0291
 
 \bibitem[{Mielke \textit{et~al.}(2006)Mielke, Fuchs, y
@@ -171,18 +271,10 @@
 \newblock \textit{The Tenth Marcel Grossmann Meeting} p\'ags. 39--58 (2006).
 \newblock ArXiv: astro-ph/0608526
 
-\bibitem[{Munshi y Jain(2001)}]{munshi_statistics_2001}
-\textsc{Munshi, D. y Jain, B.}
-\newblock Statistics of {Weak} {Lensing} at {Small} {Angular} {Scales}:
-  {Analytical} {Predictions} for {Lower} {Order} {Moments}.
-\newblock \textit{Monthly Notices of the Royal Astronomical Society}
-  \textbf{322}(1):107--120 (2001).
-\newblock ArXiv: astro-ph/9912330
-
 \bibitem[{Nagy y Soper(2018)}]{nagy_what_2018}
 \textsc{Nagy, Z. y Soper, D.E.}
 \newblock What is a parton shower?
-\newblock \textit{Phys. Rev. D} \textbf{98}(1):014034 (2018).
+\newblock \textit{Physical Review D} \textbf{98}(1):014034 (2018).
 \newblock ArXiv: 1705.08093
 
 \bibitem[{Peraro(2014)}]{peraro_ninja_2014}
@@ -193,41 +285,19 @@
   (2014).
 \newblock ArXiv: 1403.1229
 
-\bibitem[{Rojas(2008)}]{rojas_teorigravitacion_2008}
-\textsc{Rojas, G.}
-\newblock Teoría de gravitación no simétrica.
-\newblock \textit{Integración: Temas de matemáticas} \textbf{26}(2):77--88
-  (2008).
-\newblock Publisher: Universidad Industrial de Santander Section: Integración:
-  Temas de matemáticas
-
 \bibitem[{Romao y Silva(2012)}]{romao_resource_2012}
 \textsc{Romao, J.C. y Silva, J.P.}
 \newblock A resource for signs and {Feynman} diagrams of the {Standard}
   {Model}.
-\newblock \textit{Int. J. Mod. Phys. A} \textbf{27}(26):1230025 (2012).
+\newblock \textit{International Journal of Modern Physics A}
+  \textbf{27}(26):1230025 (2012).
 \newblock ArXiv: 1209.6213
-
-\bibitem[{Rubakov(2009)}]{rubakov_harrison--zeldovich_2009}
-\textsc{Rubakov, V.A.}
-\newblock Harrison--{Zeldovich} spectrum from conformal invariance.
-\newblock \textit{J. Cosmol. Astropart. Phys.} \textbf{2009}(09):030--030
-  (2009).
-\newblock ArXiv: 0906.3693
 
 \bibitem[{Santamaria(1993)}]{santamaria_masses_1993}
 \textsc{Santamaria, A.}
 \newblock Masses, {Mixings}, {Yukawa} {Couplings} and their {Symmetries}.
 \newblock \textit{Physics Letters B} \textbf{305}(1-2):90--97 (1993).
 \newblock ArXiv: hep-ph/9302301
-
-\bibitem[{Schäfer \textit{et~al.}(2020)Schäfer, Fourestey, y
-  Kneib}]{schafer_lenstool-hpc_2020}
-\textsc{Schäfer, C., Fourestey, G., y Kneib, J.P.}
-\newblock Lenstool-{HPC}: {A} {High} {Performance} {Computing} based mass
-  modelling tool for cluster-scale gravitational lenses.
-\newblock \textit{arXiv:2004.06352 [astro-ph]}  (2020).
-\newblock ArXiv: 2004.06352
 
 \bibitem[{Servant y Tait(2003)}]{servant_is_2003}
 \textsc{Servant, G. y Tait, T.M.P.}
@@ -256,14 +326,6 @@
   (2015{\natexlab{b}}).
 \newblock ArXiv: 1410.3012
 
-\bibitem[{van~der Marel \textit{et~al.}(2012)van~der Marel, Besla, Cox, Sohn, y
-  Anderson}]{van_der_marel_m31_2012}
-\textsc{van~der Marel, R.P., Besla, G., Cox, T.J., Sohn, S.T., y Anderson, J.}
-\newblock The {M31} {Velocity} {Vector}. {III}. {Future} {Milky}
-  {Way}-{M31}-{M33} {Orbital} {Evolution}, {Merging}, and {Fate} of the {Sun}.
-\newblock \textit{ApJ} \textbf{753}(1):9 (2012).
-\newblock ArXiv: 1205.6865
-
 \bibitem[{van Hameren(2011)}]{van_hameren_oneloop_2011}
 \textsc{van Hameren, A.}
 \newblock {OneLOop}: for the evaluation of one-loop scalar functions.
@@ -275,7 +337,7 @@
 \textsc{Wang, F.}
 \newblock A novel pulsed fiber laser: {Further} study on the bias-pumped
   gain-switched fiber laser.
-\newblock \textit{Laser Phys. Lett.} \textbf{15}(8):085105 (2018).
+\newblock \textit{Laser Physics Letters} \textbf{15}(8):085105 (2018).
 \newblock ArXiv: 1804.00444
 
 \bibitem[{Wells(2015)}]{wells_upgraded_2015}

@@ -38,7 +38,7 @@ Esta herramienta posibilita asignar a los usuarios acceso a nodos de cómputo du
 El código anterior gestiona los recursos del crúster para que se ejecute en paralelo el programa generador $\textsf{genera\_v5.py}$ siento este el desarrollado para generar las muestras que se precisan para la investigación.
 
 \subsubsection{Proyecto de python generador.}
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=1\textwidth]{Simulacion/imagenes/proyecto_darksusy.png}
 \caption[Estructura del proyecto de generación de eventos \textbf{Dark-\SUSY}.]{Estructura del proyecto de generación de eventos \textbf{Dark-\SUSY}\footnote{Página del proyecto \href{https://github.com/franky8939/GeneradorDarkSUSY}{https://github.com/franky8939/GeneradorDarkSUSY}}.}
@@ -85,7 +85,7 @@ $\textsf{-Dir\_Out DIR\_OUT}$ & $\textsf{Directory of result}$\\
 
 En el directorio base (Fig. \ref{genera_darksusy0}) la carpeta $\textsf{data}$ es donde se guardarán los resultados de la simulación, esta puede modificarse con la variable $\textsf{-Dir\_Out}$, lo mismo ocurre con las otras variables relacionadas con directorios. Además se permite numerosas entradas de posibles variables de los elementos de masa y tiempo de vida en forma de vectores, el programa se adaptará a todas las posibles combinaciones incluidas. 
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=1\textwidth]{Simulacion/imagenes/proyecto_darksusy2.png}
 \caption{Diagrama de flujo de programación del proyecto de generación.}
@@ -98,7 +98,7 @@ con la función $\textsf{replace\_lifetime\_in\_LHE.py}$, continuando con la imp
 Por defecto y por motivos de exploración básica se definen variables inicializadoras en el archivo $\textsf{variable\_default.py}$, estas se volverán las muestras de esta investigación:
 
 %\texttt{
-\begin{table}[!h]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|lll|}
 \hline
@@ -119,18 +119,33 @@ $\textsf{Event}$    & & $\textsf{= 10000}$ \\
 Como se puede observar el valor predeterminado de generación $\textsf{Event}$ es relativamente bajo para los requerimientos de una investigación riburosa, pero será suficiente por cuando es por motivo de exploración, el tamaño de los archivos de muestras es de $\backsim\textsf{ 800 MB}$, además por una cuestión de espacio la información de los eventos para valores de $m_{n_1}~>~\textsf{10 GeV/c}^2$ %$\textsf{MLNeu > 10}$ 
 se reduce para aquellos poseedores de mínimo 4 muones. La base de datos generada para propósitos de esta investigación es de $\backsim ~2$ Terasbyte.
 
-Para hacer referencia a los eventos definimos $\mathbb{E}_i^\textsf{(j,~k)} ~ \equiv ~1$ donde $i = \{1, \ldots, i_{max}\}$ corresponde al elemento del evento requerido, $j = \{0\mu, ~1\mu, ~2\mu, ~3\mu, ~4\mu\, \ldots\}$ hace referencia al contenido muónico de la información por evento y $k = \{\textsf{CMS},~\textsf{HL}\}$ referencia al detector que generó los datos, de esta notación podemos derivar que:
-\begin{equation}
-\mathbb{E}^\textsf{(j,~CMS)} = \sum_i \mathbb{E}_i^\textsf{(j, CMS)} , ~~~~ \mathbb{E}_i^\textsf{(CMS)} = \sum_j \mathbb{E}_i^\textsf{(j, CMS)} ~~~~ y ~~~~ \mathbb{E}^\textsf{(CMS)}= \sum_{ij} \mathbb{E}_i^\textsf{(j, CMS)}
+Para hacer referencia al número de muones por evento se utilizará la denotación $n_i^{(\mu,k)}$ donde $i = \{1, \ldots, i_{max}\}$ hace referencia al evento en cuestión y $k = \{\textsf{CMS},~\textsf{HL}, ~\textsf{True}\}$ referencia al detector que generó los datos, o a la falta de él ($\textsf{True}$), además para hacer referencia a los eventos definimos $\mathbb{E}_i^\textsf{(k)} ~ \equiv ~1$, de esta notación podemos derivar que:
+\begin{equation}\label{notaEvent}
+\mathbb{E}^\textsf{(k)} = \sum_i \mathbb{E}_i^\textsf{(k)} , ~~~~ N^{(\mu,\textsf{k)}} = \sum_i n_i^{(\mu,k)} \cdot \mathbb{E}_i^{(\textsf{k)}} = \sum_i n_i^{(\mu,k)}
 \end{equation}
-\begin{equation}
-\mathbb{E}^\textsf{(j, HL)} = \sum_i \mathbb{E}_i^\textsf{(j, HL)} , ~~~~ \mathbb{E}_i^\textsf{(HL)} = \sum_j \mathbb{E}_i^\textsf{(j, HL)} ~~~~ y ~~~~ \mathbb{E}^\textsf{(HL)}= \sum_{ij} \mathbb{E}_i^\textsf{(j, HL)}
-\end{equation}
+
+%Para hacer referencia a los eventos definimos $\mathbb{E}_i^\textsf{(j,~k)} ~ \equiv ~1$ donde $i = \{1, \ldots, i_{max}\}$ corresponde al elemento del evento requerido, $j = \{0\mu, ~1\mu, ~2\mu, ~3\mu, ~4\mu\, \ldots\, ~n\mu\}$  hace referencia al contenido muónico de la información por evento o $j=\{\textsf{NMSSMD}\}$ refiere a los eventos con solo contenido muónico proveniente de la señal de \textbf{Dark-}\SUSY ~ y con un $k = \{\textsf{CMS},~\textsf{HL}, ~\backsim\}$ referencia al detector que generó los datos, o a la falta de él ($\backsim$), de esta notación podemos derivar que:
+
+%\begin{equation}\label{notaEvent}
+%\mathbb{E}^\textsf{(j,~k)} = \sum_i \mathbb{E}_i^\textsf{(j, k)} , ~~~~ \mathbb{E}_i^\textsf{(k)} = \sum_n \mathbb{E}_i^{(n\mu\textsf{, k)}} ~~~~ y ~~~~ \mathbb{E}^\textsf{(k)}= \sum_{i,n} \mathbb{E}_i^{(n\mu\textsf{, k)}}
+%\end{equation}
+
+%\begin{equation}\label{notaEvent1}
+%\mathbb{E}^\textsf{(j,~CMS)} = \sum_i \mathbb{E}_i^\textsf{(j, CMS)} , ~~~~ \mathbb{E}_i^\textsf{(CMS)} = \sum_j \mathbb{E}_i^\textsf{(j, CMS)} ~~~~ y ~~~~ \mathbb{E}^\textsf{(CMS)}= \sum_{ij} \mathbb{E}_i^\textsf{(j, CMS)}
+%\end{equation}
+%\begin{equation}\label{notaEvent2}
+%\mathbb{E}^\textsf{(j, HL)} = \sum_i \mathbb{E}_i^\textsf{(j, HL)} , ~~~~ \mathbb{E}_i^\textsf{(HL)} = \sum_j \mathbb{E}_i^\textsf{(j, HL)} ~~~~ y ~~~~ \mathbb{E}^\textsf{(HL)}= \sum_{ij} \mathbb{E}_i^\textsf{(j, HL)}
+%\end{equation}
 De forma general tenemos que cada evento generado depende de las tres masas anteriormente referidas y del tiempo de vida del fotón oscuro:
-\begin{equation}
-\mathbb{E}_i^\textsf{(j, k)} \equiv \mathbb{E}_i^\textsf{(j, k)}
-(m_{n_1}, m_{n_D}, m_{\gamma_D}, \tau c_{\gamma_D}) 
-\equiv \mathbb{E}_i^\textsf{(j, k)}\textsf{(MNeuL, MNeuD, MPhoD, TcPhoD)}
+%\begin{equation}\label{notaEvent2}
+%\mathbb{E}_i^\textsf{(j, k)} \equiv \mathbb{E}_i^\textsf{(j, k)}
+%(m_{n_1}, m_{n_D}, m_{\gamma_D}, \tau c_{\gamma_D}) 
+%\equiv \mathbb{E}_i^\textsf{(j, k)}\textsf{(MNeuL, MNeuD, MPhoD, TcPhoD)}
+%\end{equation}
+\begin{equation}\label{notaEvent2}
+\mathbb{E}_i^\textsf{(k)} \equiv \mathbb{E}_i^\textsf{(k)}
+(m_{n_1}, m_{n_D}, m_{\gamma_D}, \tau c_{\gamma_D}) ~~~~ y ~~~~ n_i^{(\mu,k)} \equiv n_i^{(\mu,k)}
+(m_{n_1}, m_{n_D}, m_{\gamma_D}, \tau c_{\gamma_D})
 \end{equation}
 Esta notación será la utilizada cuando se haga referencia a la información en la base de datos.
 

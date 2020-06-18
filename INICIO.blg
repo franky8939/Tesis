@@ -3,47 +3,57 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: INICIO.aux
 The style file: UNAMThesis.bst
 Database file #1: ParticleUnison.bib
-Warning--I didn't find a database entry for "ams:cern"
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 38 entries,
+You've used 44 entries,
             3165 wiz_defined-function locations,
-            897 strings with 12039 characters,
-and the built_in function-call counts, 26260 in all, are:
-= -- 2164
-> -- 1260
-< -- 22
-+ -- 450
-- -- 390
-* -- 2116
-:= -- 3865
-add.period$ -- 113
-call.type$ -- 38
-change.case$ -- 319
+            912 strings with 13421 characters,
+and the built_in function-call counts, 28492 in all, are:
+= -- 2371
+> -- 1193
+< -- 32
++ -- 439
+- -- 369
+* -- 2200
+:= -- 4226
+add.period$ -- 131
+call.type$ -- 44
+change.case$ -- 342
 chr.to.int$ -- 36
-cite$ -- 38
-duplicate$ -- 1971
-empty$ -- 1855
-format.name$ -- 498
-if$ -- 5222
-int.to.chr$ -- 3
+cite$ -- 44
+duplicate$ -- 2215
+empty$ -- 2122
+format.name$ -- 471
+if$ -- 5682
+int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 422
-newline$ -- 234
-num.names$ -- 152
-pop$ -- 784
+missing$ -- 467
+newline$ -- 270
+num.names$ -- 176
+pop$ -- 807
 preamble$ -- 1
-purify$ -- 282
+purify$ -- 299
 quote$ -- 0
-skip$ -- 711
+skip$ -- 771
 stack$ -- 0
-substring$ -- 1106
-swap$ -- 1131
+substring$ -- 1260
+swap$ -- 1266
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 342
+type$ -- 396
 warning$ -- 0
-while$ -- 164
+while$ -- 190
 width$ -- 0
-write$ -- 569
-(There was 1 warning)
+write$ -- 661

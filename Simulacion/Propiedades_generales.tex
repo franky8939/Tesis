@@ -4,14 +4,14 @@ Dado la necesidad de hacer referencia a las propiedades de los muones se hará u
 
 %\begin{tabular}{p{2.5cm}p{11.5cm}}
 \begin{itemize_f}
-\item[-] \texttt{\textbf{P}}: momento de la partícula, normalmente referenciada por su proyección en dirección transversal \texttt{\textbf{PZ}} $=$ \texttt{\textbf{P}} $\sin \theta$, donde $\theta$ es el ángulo polar, definido como aquel entre el vector momento y la dirección positiva del as, normalmente utilizado ya que no es invariante frente a transformaciones de Lorentz.\\
-\item[-] $\mathbf{\eta}$: la pseudoapidez (también referida como \texttt{Eta}), esta representa la coordenada espacial que describe el ángulo de una partícula en relación con el eje del haz. Su ecuación tiene la forma:
+\item \texttt{\textbf{P}}: momento de la partícula, normalmente referenciada por su proyección en dirección transversal \texttt{\textbf{PZ}} $=$ \texttt{\textbf{P}} $\sin \theta$, donde $\theta$ es el ángulo polar, definido como aquel entre el vector momento y la dirección positiva del as, normalmente utilizado ya que no es invariante frente a transformaciones de Lorentz.\\
+\item $\mathbf{\eta}$: la pseudoapidez (también referida como \texttt{Eta}), esta representa la coordenada espacial que describe el ángulo de una partícula en relación con el eje del haz. Su ecuación tiene la forma:
 \begin{equation}
 \eta = -\ln \left[ \tan \left( \dfrac{\theta}{2} \right)\right]
 \end{equation}
 
-\item[-] $\mathtt{\phi}$: ángulo azimutal (también referida como \texttt{Phi}).\\
-\item[-] \textbf{\texttt{T}} tiempo de vida media, esta describe la descomposición de las partículas, se expresa comúnmente en términos de vida media, constante de descomposición o vida media. La probabilidad de descomposición se puede expresar como una función de distribución:
+\item $\mathtt{\phi}$: ángulo azimutal (también referida como \texttt{Phi}).\\
+\item \textbf{\texttt{T}} tiempo de vida media, esta describe la descomposición de las partículas, se expresa comúnmente en términos de vida media, constante de descomposición o vida media. La probabilidad de descomposición se puede expresar como una función de distribución:
 \begin{equation}
 W (t)~ = ~ A e^{-\lambda t} 
 \end{equation}
@@ -61,7 +61,7 @@ f_\chi^{(\mathtt{k})} (x)= \mathbb{F}_\chi^{(\mathtt{k})} (x)/ \sum_x \mathbb{F}
 \subsubsection{Momento transversal.}
 En los gráficos superiores de la Fig. \ref{procesos_darksusy_PTyISO} se puede observar los valores de momento angular de todos los muones reconstruidos para eventos $\mathbb{E}_i^{(4\mu,~\mathtt{CMS})}$ (configuración \texttt{Run-2}) y $\mathbb{E}_i^{(4\mu,~\mathtt{HL})}$ (configuración en \texttt{High Luminosity}), en estos se puede visualizar las diferencias entre los rangos de detección donde para eventos $k=$\texttt{CMS} el $\backsim ~ 99\%$ de los muones poseen $\sim 10  < ~ P_t^{(4\mu,~\mathtt{CMS})} ~ <\sim 100$, en contraste para $k=$\texttt{HL} tenemos $\sim 0.1 < ~ P_t^{(4\mu,~\mathtt{HL})} ~ < \sim 100$. Este aumento de rango en \texttt{HL} para valores menores de $\backsim ~ 10~GeV$ se puede ver que no es sin pérdidas, se puede constatar un cambio en la forma de los gráficos, esto es debido a que la inclusión de nuevos sensores en la configuración \texttt{HL} no poseen la misma eficiencia en la reconstrucción de la información.
 
-\begin{figure}[h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=.8\textwidth]{Simulacion/imagenes/Datos_PT_ALL.png}
 %\includegraphics[width=.8\textwidth]{Simulacion/imagenes/Datos_IsolationVar_ALL.png}
@@ -72,7 +72,7 @@ En los gráficos superiores de la Fig. \ref{procesos_darksusy_PTyISO} se puede o
 
 
 \subsubsection{Valores de angulo}
-\begin{figure}[h]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=.8\textwidth]{Simulacion/imagenes/Datos_Eta_ALL.png}
 \includegraphics[width=.8\textwidth]{Simulacion/imagenes/Datos_Phi_ALL.png}
