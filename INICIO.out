@@ -17,19 +17,24 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{Altas Energ\355as con MadGraph}{section.2.3}% 17
 \BOOKMARK [2][-]{subsection.2.3.3}{Hadronizacion con Pythia 8}{section.2.3}% 18
 \BOOKMARK [2][-]{subsection.2.3.4}{Simulando el detector con Delphes 3}{section.2.3}% 19
-\BOOKMARK [0][-]{chapter.3}{Simulaci\363n, an\341lisis y discusi\363n de los resultados}{}% 20
-\BOOKMARK [1][-]{section.3.1}{Herramientas de caracterizaci\363n}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.1.1}{Generaci\363n de los datos}{section.3.1}% 22
-\BOOKMARK [2][-]{subsection.3.1.2}{Procesamiento y conversi\363n de los datos}{section.3.1}% 23
-\BOOKMARK [2][-]{subsection.3.1.3}{M\351todos de regresi\363n de datos}{section.3.1}% 24
-\BOOKMARK [1][-]{section.3.2}{An\341lisis de la se\361al sin detectores}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.3}{An\341lisis de eventos}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.4}{Generalidades de las propiedades independientes de los muones}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.5}{Reconstrucci\363n de los fotones oscuros}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.5.1}{Reconstrucci\363n de los eventos con 4 muones}{section.3.5}% 29
-\BOOKMARK [2][-]{subsection.3.5.2}{Reconstrucci\363n de los eventos con menos de 4 muones}{section.3.5}% 30
-\BOOKMARK [2][-]{subsection.3.5.3}{Reconstrucci\363n total de fotones oscuros}{section.3.5}% 31
-\BOOKMARK [1][-]{section.3.6}{Aislamiento}{chapter.3}% 32
-\BOOKMARK [0][-]{appendix.Alph1}{Experimentos de Materia Oscura}{}% 33
-\BOOKMARK [0][-]{appendix.Alph2}{Name of Appendix B}{}% 34
-\BOOKMARK [0][-]{appendix*.27}{Referencias Bibliogr\341ficas}{}% 35
+\BOOKMARK [0][-]{chapter.3}{Simulaci\363n y an\341lisis de la se\361al MSSMD}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Generaci\363n de los datos}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.1.1}{Configuraci\363n e implementaci\363n de recursos en ACARUS}{section.3.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.2}{Gesti\363n de recursos con Slurm}{section.3.1}% 23
+\BOOKMARK [2][-]{subsection.3.1.3}{Generando se\361al MSSMD}{section.3.1}% 24
+\BOOKMARK [1][-]{section.3.2}{Procesamiento y conversi\363n de los datos}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{M\351todos de regresi\363n de datos}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{Forma anal\355tica}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{Redes neuronales}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{An\341lisis de la se\361al sin detectores}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.4.1}{Variaci\363n del contenido mu\363nico}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.2}{Variaci\363n de las propiedades de los muones con el par\341metro }{section.3.4}% 31
+\BOOKMARK [2][-]{subsection.3.4.3}{Caracter\355sticas del fot\363n oscuro D}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.4}{Identificando y reconstruyendo el fot\363n oscuro D}{section.3.4}% 33
+\BOOKMARK [1][-]{section.3.5}{An\341lisis de la se\361al con detector}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.5.1}{Variaci\363n del contenido mu\363nico}{section.3.5}% 35
+\BOOKMARK [2][-]{subsection.3.5.2}{Variaci\363n de las propiedades de los muones con el par\341metro *}{section.3.5}% 36
+\BOOKMARK [2][-]{subsection.3.5.3}{Reconstruyendo el fot\363n oscuro *}{section.3.5}% 37
+\BOOKMARK [0][-]{appendix.Alph1}{Experimentos de Materia Oscura}{}% 38
+\BOOKMARK [0][-]{appendix.Alph2}{Name of Appendix B}{}% 39
+\BOOKMARK [0][-]{appendix*.53}{Referencias Bibliogr\341ficas}{}% 40

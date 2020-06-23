@@ -102,7 +102,7 @@
 		\subsection{Actualizando HLC}	
 		\input{Analisis_y_Resultados/LHC_Actualizacion.tex}
 	
-	\section{Experimento CMS}
+	\section{Experimento CMS}\label{Experimento_CMS}
 	\input{Analisis_y_Resultados/Experimento_CMS_del_CERN.tex}
 	
 	
@@ -135,45 +135,30 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Other %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Simulación, análisis y discusión de los resultados}
+\chapter{Simulación y análisis de la señal MSSMD}
 \input{Simulacion/Introduccion.tex}
 
-    \section{Herramientas de caracterización}
-    \input{Simulacion/Herramientas_de_simulacion.tex}
+    %\section{Herramientas de caracterización}
+    %\input{Simulacion/Herramientas_de_simulacion.tex}
     
-        \subsection{Generación de los datos}\label{Cap_genera}
-        \input{Simulacion/Proyecto_Generacion.tex}
+    \section{Generación de los datos}\label{Cap_genera}
+    \input{Simulacion/Proyecto_Generacion.tex}
         
-        \subsection{Procesamiento y conversión de los datos}
-        \input{Simulacion/Procesamiento.tex}
+    \section{Procesamiento y conversión de los datos}
+    \input{Simulacion/Procesamiento.tex}
         
-        \subsection{Métodos de regresión de datos}
-        \input{Simulacion/Regresion.tex}\label{Cap_regresion}
+    \section{Métodos de regresión de datos}
+    \input{Simulacion/Regresion.tex}\label{Cap_regresion}
         % \subsection{Módulos para el procesamiento estadistico.}
     
 	\section{Análisis de la señal sin detectores}
 	\input{Simulacion/valores_reales.tex}
 	
-	\section{Análisis de eventos}
+	\section{Análisis de la señal con detector}
     \input{Simulacion/Muones_por_Entradas.tex}
     
-    \section{Generalidades de las propiedades independientes de los muones}
-    \input{Simulacion/Propiedades_generales.tex}
     
-	\section{Reconstrucción de los fotones oscuros}
-	
-		\subsection{Reconstrucción de los eventos con 4 muones}
-		\input{Simulacion/Reconstruye_4muones.tex}
-		
-		\subsection{Reconstrucción de los eventos con menos de 4 muones}	
-		\input{Simulacion/Reconstruye_menosde4muones.tex}
-		
-		\subsection{Reconstrucción total de fotones oscuros}	
-		\input{Simulacion/Reconstruye_fotones_oscuros.tex}
-
-    
-    \section{Aislamiento}
-    
+  
 
     
     %\section{Muon efficiency parametrization}

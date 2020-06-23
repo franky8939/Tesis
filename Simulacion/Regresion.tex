@@ -2,7 +2,7 @@ Ante la necesidad de investigar las relaciones entre diferentes variables cuanti
 
 Una de las principales aplicaciones del análisis de regresión es la proyección con diferentes escenarios, teniendo en cuenta el grado de correlación sobre la variable dependiente y de esta manera construir una función que permita estimar el valor la variable de estudio\footnote{Ejemplos de implementación en python se pueden visualizar en el enlace \href{https://www.aprendemachinelearning.com/regresion-lineal-en-espanol-con-python/}{https://www.\-apren\-de\-machine\-learning\-.com/\-re\-gre\-si\-on-\-li\-neal-en-\-es\-pa\-nol-\-con-\-py\-thon/}.}. 
 
-\subsubsection{Forma analítica.}
+\subsection{Forma analítica}
 La foma general analítica de una regresión no lineal tiene la forma matemática:
 \begin{equation}
 \textsf{Y = f(X)+}\epsilon
@@ -20,7 +20,7 @@ Si hacemos supuesto que la forma de la función de $f$ sea polinomial, entonces:
 donde $\alpha_\textsf{ni}$ son las constantes del polinomio, el orden de la regresión está dado por $\textsf{n}$ y los valores $x_\textsf{i}$ serán las variables independientes de nuestro modelo, estas son integrados en una función en python implementando la paqueteria $\textsf{sklearn}$ con la flexibilidad de cambiar los valores $\textsf{k}$ y $\textsf{n}$. %La función desarrollada para el uso en esta investigación se puede encontrar en el enlace \url{https://github.com/franky8939/DarkSUSY/blob/master/modules/machine_learning/regresion_lineal.py}.
 
 
-\subsubsection{Redes neuronales.}
+\subsection{Redes neuronales}
 Las \textbf{RNA} son una estructura compuesta de un número de unidades interconectadas (neuronas artificiales), cada unidad posee una característica entrada/salida e implementa una computación local o función, la salida de cualquier unidad esta determinada, su interconexión con otras unidades, y posiblemente de sus unidades internas. La red desarrolla usualmente una funcionalidad por lo general a través de una o mas formas, por lo tanto es un arreglo masivo de elementos de procesamiento simple llamados neuronas, los cuales poseen un alto grado de interconectividad entre sus elementos, en los que la información puede fluir en cascada potenciando su capacidad para aproximar funciones, clasificar patrones y aumenta su inmunidad frente al ruido. 
 
 La función desarrollada para el uso en esta investigación utiliza la paquetería de $\textsf{keras}$ y permite la flexibilidad de cambiar la cantidad de $\textsf{k}$ capas ocultas y los nodos $m_\textsf{k}$ que posee cada una de ellas.
@@ -31,7 +31,7 @@ La función desarrollada para el uso en esta investigación utiliza la paqueter�
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=1\textwidth]{Simulacion/imagenes/neuronas.png}
-\caption{Diagrama de la estructura general de la red neuronal.}
+\caption{Diagrama de la estructura general de la red neuronal para regresión.}
 \label{neuronas}
 \end{figure}
 
