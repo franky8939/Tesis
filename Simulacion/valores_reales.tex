@@ -19,20 +19,19 @@ $p = \mu^\pm, ~ \gamma_D, ~n_D, ~n_1$ partícula caracterizada.
 %$i$ & $ = 1, \ldots, N_{e}$ & hace referencia al evento.\\
 %$p$ & $ = \mu^\pm, ~ \gamma_D, ~n_D, ~n_1$ & partícula caracterizada.
 %\end{tabular}
-Además, definiendo:
+Definiendo a $f^{(p, k)}_\textsf{e} (x)\equiv f^{(p, k)}_\textsf{e} (x; \vec{\alpha})$ como la fracción del total de eventos poseedores de un número $x$ de partículas tipo $p$ de la señal generada bajo las condiciones iniciales $\vec{\alpha}$ y con la configuración del detector $k$ se tiene entonces:
 %\mathbb{M} 
 \begin{equation}\label{fe}
-f^{(p, k)}_\textsf{e} (\vec{\alpha}; x) = \sum_{i=1}^{N_e} \delta_{x}(n_i^{(p,k)})/\sum_{i=1}^{N_e} \sum_{n=0}^\infty \delta_{n} (n_i^{(p,k)}) = \sum_{i=1}^{N_e} \delta_{x}(n_i^{(p,k)})/N_e
+f^{(p, k)}_\textsf{e} (x)  = \dfrac{\sum\limits_{i=1}^{N_e} \delta_{x,n_i^{(p,k)}}}{\sum\limits_{i=1}^{N_e} \sum\limits_{x=0}^\infty \delta_{x,n_i^{(p,k)}}} = \dfrac{1}{N_e} \sum_{i=1}^{N_e} \delta_{x,n_i^{(p,k)}}
 \end{equation}
-y
+donde $x\in\mathbb{N}$ pertenece al grupo de lo números naturales, $\delta_{x,n_i^{(p,k)}}$ es la función delta de Kronecker. Por otro lado $\mathbb{F}^{(p, k)}_\textsf{e} (x)\equiv \mathbb{F}^{(p, k)}_\textsf{e} (x; \vec{\alpha})$ es la fracción del total de eventos que contienen muones de ruido no procedentes del decaimiento de la señal \MSSM\textbf{D}, dada por:
 \begin{equation}\label{fnInverso}
-\mathbb{F}^{(p, k)}_\textsf{e} (\vec{\alpha}; x)= 1 - f^{(p, k)}_\textsf{e}  (\vec{\alpha}; x)
+\mathbb{F}^{(p, k)}_\textsf{e} (x)= 1 - f^{(p, k)}_\textsf{e}  (x; \vec{\alpha})
 \end{equation}
 % ~~~ y ~~~ ff^{(p, k)}_\textsf{e} (\vec{\alpha}; x) = 1- f^{(p, k)}_\textsf{e} (\vec{\alpha}; x)
-donde $x\in\mathbb{N}$ pertenece al grupo de lo números naturales, $\delta$ es la función delta de Dirac y $f^{(p, k)}_\textsf{e} (x)$ se interpreta como el porciento de eventos poseedores de un número $x$ de partículas $p$ de la señal generada bajo las condiciones iniciales $\vec{\alpha}$ y con la configuración del detector $k$. Además:
+Finalmente, $f^{(p, k)}_\textsf{n} (\vec{\alpha}; x)$ es la fracción de partículas tipo $p$ que se encuentran en eventos con $x$ de estás partículas:
 \begin{eqnarray}\label{fn}
-f^{(p, k)}_\textsf{n} (\vec{\alpha}; x) = \sum_{i=1}^{N_e} n_i^{(p,k)} \delta_{x}(n_i^{(p,k)})/\sum_{i=1}^{N_e} \sum_{n=0}^\infty n_i^{(p,k)} \delta_{n} (n_i^{(p,k)}) \nonumber\\
-= \sum_{i=1}^{N_e} n_i^{(p,k)} \delta_{x}(n_i^{(p,k)})/\sum_{i=1}^{N_e} n_i^{(p,k)} ~~~~~~~~~~~~~~~~~~~~~
+f^{(p, k)}_\textsf{n} (x; \vec{\alpha}) & = \dfrac{\sum\limits_{i=1}^{N_e} n_i^{(p,k)} \delta_{x,n_i^{(p,k)}}}{\sum\limits_{i=1}^{N_e} \sum\limits_{n=0}^\infty n_i^{(p,k)} \delta_{n, n_i^{(p,k)}}}  = \dfrac{\sum\limits_{i=1}^{N_e} n_i^{(p,k)} \delta_{x, n_i^{(p,k)}}}{\sum\limits_{i=1}^{N_e} n_i^{(p,k)}}
 \end{eqnarray}
 
 %\begin{equation}
@@ -45,9 +44,7 @@ f^{(p, k)}_\textsf{n} (\vec{\alpha}; x) = \sum_{i=1}^{N_e} n_i^{(p,k)} \delta_{x
 %\Delta f^{(\geqslant 4\mu, \textsf{True})}_\textsf{n} = \left[ \sum_{i} n^{(\mu,\textsf{True})}_i \cdot \mathbb{E}_i^{(\textsf{True})} \cdot (1- \textsf{IO}(n^{(\mu,\textsf{True})}_i,~ 4) \right]/\sum_{i} n^{(\mu,\textsf{True})}_i \cdot \mathbb{E}_i^{(\textsf{True})} 
 %\end{equation}
 
-donde $f^{(p, k)}_\textsf{n} (\vec{\alpha}; x)$ es el porciento de partículas tipo $p$ que se encuentran en eventos con $x$ de estás partículas. 
-
-Algunos ejemplos del contenido muónico de los eventos se pueden mostrar en la Fig. \ref{contenido_muonico}, donde se puede visualizar los cambios dependientes del parámetro de generación masa del fotón oscuro $m_{\gamma_D}$. Se constató en la investigación de la señal, la invarianza de la distribución del contenido muónico por evento ante los cambios de la masa del neutralino oscuro $m_{n_D}$ y del tiempo de vida del fotón oscuro $c \tau_{\gamma_D}$, cuestión esperada por la teoría, ya que son elementos que no se esperan estár relacionados con los procesos de ruido que generen muones.
+Algunos ejemplos del contenido muónico de los eventos se pueden mostrar en la Fig. \ref{contenido_muonico}, donde se puede visualizar los cambios dependientes del parámetro de generación masa del fotón oscuro $m_{\gamma_D}$. Se constató en la investigación de la señal, la invarianza de la distribución del contenido muónico por evento ante los cambios de la masa del neutralino oscuro $m_{n_D}$ y del tiempo de vida del fotón oscuro $c \tau_{\gamma_D}$, cuestión esperada por la teoría, ya que son elementos que no se esperan estar relacionados con los procesos de ruido que generen muones.
 
 \begin{figure}[!ht]
 \centering
@@ -56,7 +53,7 @@ Algunos ejemplos del contenido muónico de los eventos se pueden mostrar en la F
 \label{contenido_muonico}
 \end{figure}
 
-De la Fig. \ref{contenido_muonico} se conoce que el contenido mínimo de muones por evento para $k=\textsf{True}$ es de 4 muones, estos son el resultado de la recreación de la señal \MC ~ proveniente de \MSSM\textbf{D} relacionada con el decaimiento de la Fig. \ref{fig:sketch_darksector}b. Algunos ejemplos de variación del porciento de eventos con muones provenientes de señales de ruido ($\mathbb{F}^{(\mu, \textsf{True})}_\textsf{e}(4)$) y del porciento de muones provenientes de señales de ruido$\sum_{i=1}^{N_e} n_i^{(p,k)} - 4 N_e$ se muestran en la Tabla \ref{generacion0}.
+De la Fig. \ref{contenido_muonico} se conoce que el contenido mínimo de muones por evento para $k=\textsf{True}$ es de 4 muones, estos son el resultado de la recreación de la señal \MC ~ proveniente de \MSSM\textbf{D} relacionada con el decaimiento de la Fig. \ref{fig:sketch_darksector}b. Algunos ejemplos de variación de la fracción de eventos con muones provenientes de señales de ruido $\mathbb{F}^{(\mu, \textsf{True})}_\textsf{e}(4)$ y de la fracción  de muones provenientes de señales de ruido $1- \frac{4 N_e}{\sum n_i^{(p,k)}}$ (todos los eventos generados por \MC ~ en Madgraph contienen el decaimiento de la Fig. \ref{fig:sketch_darksector}b) se muestran en la Tabla \ref{generacion0}.
 
 
 % \multicolumn{4}{cccccc}{Parámetros de generación ($\vec{\alpha}$)}
@@ -66,34 +63,28 @@ De la Fig. \ref{contenido_muonico} se conoce que el contenido mínimo de muones 
 \toprule
 \multicolumn{4}{|c|}{Parámetros de generación ($\vec{\alpha}$)} & \multicolumn{2}{|c|}{Variables} \\
 \midrule
-$m_{n_1}$ & 
+$m_{n_1}$  & 
 $m_{n_D}$ & 
-$m_{\gamma_D}$ & 
-$c\tau_{\gamma_D}$ & 
-$\mathbb{F}^{(\mu, \textsf{True})}_\textsf{e}(4)$ &
-$\sum_{i=1}^{N_e} n_i^{(p,k)} - 4 N_e$ \\
-$\textsf{(GeV)}$ & 
-$\textsf{(GeV)}$ & 
-$\textsf{(GeV)}$ & 
-$\textsf{(mm)}$ & 
-$\textsf{\%}$ & 
-$\textsf{\%}$ \\
+$m_{\gamma_D}$ & %$\textsf{(GeV)}$ 
+$c\tau_{\gamma_D}$  & %$\textsf{(mm)}$
+$\mathbb{F}^{(\mu, \textsf{True})}_\textsf{e}(4)$ ($\textsf{\%}$)&
+$1- \dfrac{4 N_e}{\sum\limits_{i=1}^{N_e} n_i^{(p,k)}}$ ($\textsf{\%}$)\\
 \midrule
 10 & 1 & 1 & 0 & 15.32 & 5.50 \\
 10 & 1 & 4 & 0 & 60.43 & 30.16\\
 10 & 1 & 8 & 0 & 66.16 & 34.08\\
 \bottomrule 
 \end{tabular}%}
-\caption{Cambio del contenido muónico de procesos con variación de la masa de fotón oscuro $m_{\gamma_D}$ .}
+\caption{Cambio del contenido muónico de procesos con variación de la masa de fotón oscuro $m_{\gamma_D}$.}
 \label{generacion0}
 \end{table}
-Al analizar los resultados obtenidos, se pudo concluir que hay un aumento del ruido muónico en la reconstrucción de la señal \MSSM\textbf{D} con el aumento teórico del parámetro de generación correspondiente a la masa del fotón $m_{\gamma_D}$, no se muestran cambios con el cambio de los parámetros $m_{n_D}$ y $c\tau_{\gamma_D}$. Los datos que se poseen no son adecuados para estudiar la correspondencia con la masa del neutralino ligero $m_{n_1}$.
+Al analizar los resultados obtenidos, se pudo concluir que hay un aumento del ruido muónico en la reconstrucción de la señal \MSSM\textbf{D} con el aumento teórico del parámetro de generación correspondiente a la masa del fotón $m_{\gamma_D}$ (ver Tabla \ref{generacion0}), sin embargo no se observan cambios con el cambio de los parámetros $m_{n_D}$ y $c\tau_{\gamma_D}$. Los datos que se poseen no son adecuados para estudiar la correspondencia con la masa del neutralino ligero $m_{n_1}$.
 
 \subsection{Variación de las propiedades de los muones con el parámetro $\vec{\alpha}$}
 
 Analizar la señal \textbf{Dark}-\SUSY ~o \MSSM\textbf{D}~ mediante las propiedades de los muones sin la reconstrucción del detector dará una base de comparación y un mayor entendimiento de la teoría. Además, separar la información según los muones que provienen del decaimiento $h \rightarrow 2n_1 \rightarrow 2n_D + 2\gamma_D \rightarrow 2n_D + 4\mu$ del resto de los procesos se hace necesario para una mejor interpretación de la reconstrucción conjunta de las señales. Se introduce la notación de las propiedades de una partícula $p= n_1, ~n_D, ~\gamma_D, ~\mu$, siendo la distribución de frecuencia dada por:
-\begin{equation}
-\textsf{W}^{(p,k)} (\chi) \equiv \textsf{W}^{(p,k)} (\vec{\alpha}; \chi) ~~~~~~ \longrightarrow ~~~~~~ \textsf{W}^{(p,k)}_N (\chi) = \textsf{W}^{(p,k)} (\chi)/ \sum_\chi \textsf{W}^{(p,k)} (\chi)
+\begin{equation}\label{Wpk}
+\textsf{W}^{(p,k)} (\chi) \equiv \textsf{W}^{(p,k)} (\chi; \vec{\alpha}) ~~~~~~ \longrightarrow ~~~~~~ \textsf{W}^{(p,k)}_N (\chi) = \dfrac{\textsf{W}^{(p,k)} (\chi)}{ \sum\limits_\chi \textsf{W}^{(p,k)} (\chi)}
 \end{equation}
 donde $\chi$ hace referencia a la propiedad de interés, estás se pueden ver en la Tabla \ref{propiedades}.
 
@@ -106,18 +97,18 @@ $\chi$ & Definición\\
 $m$ & Masa invariante\\
 $PT$ & Momento de la partícula%, normalmente referenciada por su proyección en dirección transversal \texttt{\textbf{PZ}} $=$ \texttt{\textbf{P}} $\sin \theta$, donde $\theta$ es el ángulo polar, definido como aquel entre el vector momento y la dirección positiva del as, normalmente utilizado ya que no es invariante frente a transformaciones de Lorentz
 .\\
-$\eta$: & Pseudoapidez, esta representa la coordenada espacial que describe el ángulo de una partícula en relación con el eje del haz. Su ecuación tiene la forma:
+$\eta$ & Pseudoapidez, esta representa la coordenada espacial que describe el ángulo de una partícula en relación con el eje del haz. Su ecuación tiene la forma:
 \begin{equation}
 \eta = -\ln \left[ \tan \left( \dfrac{\theta}{2} \right)\right]
 \end{equation}\\[-1cm]
-$\phi$: & Ángulo azimutal.\\
-$c\tau$: & Tiempo de vida media, esta describe la descomposición de las partículas, se expresa comúnmente en términos de vida media, constante de descomposición o vida media. \\
+$\phi$ & Ángulo azimutal.\\
+$c\tau$ & Tiempo de vida media, esta describe la descomposición de las partículas, se expresa comúnmente en términos de vida media, constante de descomposición o vida media. \\
 
-$D_0$: & Parámetro de impacto transversal, se define como la distancia transversal al eje del haz en el punto de maxima aproximacion, donde su signo esta dado de acuerdo al momento angular de la traza alrededor de eje.\\
+$D_0$ & Parámetro de impacto transversal, se define como la distancia transversal al eje del haz en el punto de máxima aproximación, donde su signo esta dado de acuerdo al momento angular de la traza alrededor de eje.\\
 
-$D_Z$: & Parámetro de impacto longitudinal, definido como la posicion de la coordenada $z$ de la traza en el punto de maximo acercamiento.\\
+$D_Z$ & Parámetro de impacto longitudinal, definido como la posición de la coordenada $z$ de la traza en el punto de maximo acercamiento.\\
 \begin{small}$\textsf{Sum}Pt$\end{small} & Variable de aislamiento basada en el rastreador de partículas, se define como la suma escalar del $PT$ de las partículas en el plano $\eta \times \phi$ dentro de un cono $\Omega$\\
-$Iso$: & Combinación del aislamiento de \textbf{ECAL}, \textbf{HCAL} (ver sección \ref{Experimento_CMS}) y \begin{small}$\textsf{Sum}Pt$\end{small}.\\
+$Iso$ & Combinación del aislamiento de \textbf{ECAL}, \textbf{HCAL} (ver sección \ref{Experimento_CMS}) y \begin{small}$\textsf{Sum}Pt$\end{small}.\\
 
 %\item[-] \texttt{SumPtNeutral}: xxx\\
 %\item[-] \texttt{SumPtCharged}: xxx\\
@@ -142,13 +133,13 @@ Las distribuciones muestran que el $\sim 95$\% de los muones correspondientes al
 
 
 \subsection{Características del fotón oscuro $\gamma_D$}
-La reconstrucción del fotón oscuro $\gamma_D$ predicho por el decaimiento \MSSM\textbf{D} es el motivo principal de estudio de esta investigación. La caracterización de sus propiedades y el cambio de la morfología de los gráficos de frecuencias $\textsf{W}^{(\gamma , k)}_N (\chi)$ para $k= \textsf{True}$ con el cambio de los parámetros de generación $\vec{\alpha}$, permitirá una comprensión mas completa de los resultados obtenidos con la reconstrucción realizada por los detectores en la configuración Run-2 ($\textsf{R2}$) y Alta Luminosidad ($\textsf{HL}$).
+La reconstrucción del fotón oscuro $\gamma_D$ predicho por el decaimiento \MSSM\textbf{D} es el motivo principal de estudio de esta investigación. La caracterización de sus propiedades y el cambio de la morfología de los gráficos de frecuencias $\textsf{W}^{(\gamma , \textsf{True})}_N (\chi)$ con el cambio de los parámetros de generación $\vec{\alpha}$, permitirá una comprensión mas completa de los resultados obtenidos con la reconstrucción realizada por los detectores en la configuración Run-2 ($\textsf{R2}$) y Alta Luminosidad ($\textsf{HL}$).
 
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=.9\textwidth]{Simulacion/imagenes/True_PT5.png}
-\caption{Variación de las propiedades del fotón oscuro $\gamma_D$ con la variación de los parámetros de generación $m_{\gamma_D}$, $m_{n_D}$ y $\tau c_{\gamma_D}$.}
+\caption{Variación de las propiedades del fotón oscuro $\gamma_D$ con los parámetros de generación $m_{\gamma_D}$, $m_{n_D}$ y $\tau c_{\gamma_D}$.}
 \label{PT_mu_True2}
 \end{figure}
 
@@ -157,12 +148,12 @@ Los gráficos de la Fig. \ref{PT_mu_True2} muestra la clara dependencia del mome
 
 \subsection{Identificando y reconstruyendo el fotón oscuro $\gamma_D$}
 
-Es de gran interés en esta investigación la creación de una metodología de identificación de di-muones, que pueda dicernir entre los muones provenientes de la señal \MSSM\textbf{D}, emparejarlos y reconstruir correctamente el fotón oscuro del cual teóricamente se espera que hayan decaido según el diagrama de la Fig. \ref{fig:sketch_darksector}b. Esta herramienta de identificación, puede crearse, haciendo uso de las redes artificiales neuronales, ya que la misma posee altas capacidades de aprendizaje, generalización, adaptación y tolerancia a fallos, haciendola una herramienta robusta en el reconocimiento de patrones y objetos.     .
+Es de gran interés en esta investigación la creación de una metodología de identificación de di-muones, que pueda discernir entre los muones provenientes de la señal \MSSM\textbf{D}, emparejarlos y reconstruir correctamente el fotón oscuro del cual teóricamente se espera que hayan decaído según el diagrama de la Fig. \ref{fig:sketch_darksector}b. Esta herramienta de identificación, puede crearse, haciendo uso de las redes artificiales neuronales, ya que la misma posee altas capacidades de aprendizaje, generalización, adaptación y tolerancia a fallos, haciéndola una herramienta robusta en el reconocimiento de patrones y objetos.     .
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=.9\textwidth]{Simulacion/imagenes/IDENTIFICADOR.png}
-\caption{Diagrama de la estructura de la red neuronal dedicada a la idenficación de di-muones provenientes del fotón oscuro $\gamma_D$.}
+\caption{Diagrama de la estructura de la red neuronal dedicada a la identificación de di-muones provenientes del fotón oscuro $\gamma_D$.}
 \label{identificador}
 \end{figure}
 
@@ -178,7 +169,7 @@ El modelo genérico de neurona artificial se puede ver en la Fig. \ref{generico}
 \label{generico}
 \end{figure}
 
-Los elementos que constituyen neurona genérica se pueden observar en la Fig. \ref{generico}, siendo $x_i(t)$ las variables de entrada y salida, los pesos sinápticos $w_{ij}$ representan la intensidad de interacción entre cada neurona presináptica $j$ y la neurona postsináptica $i$. Las reglas de propagación $\sigma(w_{ij}, x_j(t))$ proporcionan el valor del potencial postsináptico, $h_i(t)$, de la neurona $i$ en función de sus pesos $w_{ij}$ y entradas $x_i(t)$, la usanda en esta investigación es $h_i (t) = \sum w_{ij} x_j$. La función de activación o de transferencia $y_i(t) = f_i(h_i(t))$ representa la simultaneamente la salida de la neurona y su estado de activación. 
+Los elementos que constituyen neurona genérica se pueden observar en la Fig. \ref{generico}, siendo $x_i(t)$ las variables de entrada y salida, los pesos sinápticos $w_{ij}$ representan la intensidad de interacción entre cada neurona presináptica $j$ y la neurona postsináptica $i$. Las reglas de propagación $\sigma(w_{ij}, x_j(t))$ proporcionan el valor del potencial postsináptico, $h_i(t)$, de la neurona $i$ en función de sus pesos $w_{ij}$ y entradas $x_i(t)$, la usada en esta investigación es $h_i (t) = \sum w_{ij} x_j$. La función de activación o de transferencia $y_i(t) = f_i(h_i(t))$ representa la simultáneamente la salida de la neurona y su estado de activación. 
 
 Para la optimización de la red de la Fig. \ref{identificador} se implementa el algoritmo de optimización de Adam, siendo este una extensión del descenso de gradiente estocástico. La función de activación utilizada para relacionar las capas intermedias ($H_1m_1$) es una lineal rectificada\footnote{Las funciones https://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/} dada por:
 \begin{equation}
@@ -188,7 +179,7 @@ x & \mathtt{para }~ x\geq 0\\
 \end{matrix} 
 \end{equation}
 
-Se hace necesario funciones de activación expecíficas que incluyan las entradas $x_i$ y las salidas $y_i$, las primeras ante la necesidad de reacondicionamiento ante la gran diferencia de rango de los dominios de las variables $\chi$, las salidas deben ser dadas en forma de probabilidades de tal manera que el sumatoria de las salidas sea normalizada y de esta manera poder imponer criterios de binarización. Dado lo cual, se utilizó la targente hiperbólica para la que conexión entre las capas de entrada con las primeras capas ocultas $x_i \longrightarrow H_1m_1$:
+Se hace necesario funciones de activación específicas que incluyan las entradas $x_i$ y las salidas $y_i$, las primeras ante la necesidad de reacondicionamiento ante la gran diferencia de rango de los dominios de las variables $\chi$, las salidas deben ser dadas en forma de probabilidades de tal manera que el sumatoria de las salidas sea normalizada y de esta manera poder imponer criterios de binarización. Dado lo cual, se utilizó la targente hiperbólica para la que conexión entre las capas de entrada con las primeras capas ocultas $x_i \longrightarrow H_1m_1$:
 \begin{equation}
 f(x)=\dfrac{2}{1+e^{-2x}}-1
 \end{equation}
@@ -198,10 +189,10 @@ f(x)_j = \dfrac{e^{Z_j}}{\sum_{k=1}^{K}e^{Z_k}}
 \end{equation}
 Para poder caracterizar la precisión del modelo clasificatorio implementado, la relación entre el número de predicciones correctas y el número total de muestras de entrada nos permitirá conocer la eficiencia del clasificador:
 \begin{equation}
-\textsf{accy} =  \textsf{accuracy} = \dfrac{\textsf{Número de predicciones correctas}}{\textsf{Numero total de predicciones}}
+\textsf{accy} =  \dfrac{\textsf{Número de predicciones correctas}}{\textsf{Numero total de predicciones}}
 \end{equation}
 
-Los datos $x_i$ y $y_i$ fueron obtenidos de las muestras simuladas con variación en los parámetros de generación $\vec{\alpha}$. La cantidad de capas mostró pocos cambios de mejora en el parámetro de eficiencia $\textsf{accy} $ para $k>2$ (ver Fig. \ref{identificador}), tampoco la cantidad de neuronas por capas, es un factor poco determinante en este caso específico. Se implementa una caracterización para diferentes combinación de parámetros $\chi$ como entradas $x_i$, manteniendo constante la cantidad de épocas, los resultados se mostran en la Tabla 
+Los datos $x_i$ y $y_i$ fueron obtenidos de las muestras simuladas con variación en los parámetros de generación $\vec{\alpha}$. La cantidad de capas mostró pocos cambios de mejora en el parámetro de eficiencia $\textsf{accy} $ para $k>2$ (ver Fig. \ref{identificador}), tampoco la cantidad de neuronas por capas, es un factor poco determinante en este caso específico. Se implementa una caracterización para diferentes combinación de parámetros $\chi$ como entradas $x_i$, manteniendo constante la cantidad de épocas, los resultados se muestran en la Tabla 
 \ref{ajuste1}.
 
 \begin{table}[!h]
@@ -233,9 +224,9 @@ X & X & X & X & X & X & $0.80 \pm 0.01$ &
 \label{ajuste1}
 \end{table}
 
-De la interpretación de los resultados de la Tabla \ref{ajuste1} se concluye que las propiedades $PT, ~ c\tau, ~ D_0, ~D_Z$ no son determinantes en la identificación de los di-muones, por el contrario las propiedades $\eta$ y $\phi$ muestran potencial válidado en el \textsf{accy} > 0.70 . 
+De la interpretación de los resultados de la Tabla \ref{ajuste1} se concluye que las propiedades $PT, ~ c\tau, ~ D_0, ~D_Z$ no son determinantes en la identificación de los di-muones, por el contrario las propiedades $\eta$ y $\phi$ muestran potencial validado en el \textsf{accy} > 0.70 . 
 
-Finalmente se concluyó que la creación de una herramienta identificadora de di-muones con las entradas $x_i=(\eta,\phi)$ es la más adecuada encontrada, pero con un \textsf{accy} $= (0.84 \pm 0.02)$ se presenta con grandes errores que no la hacen una herramienta adecuada para una investigación en la que se esperan resultados robustos. 
+Finalmente se concluyó que la creación de una herramienta identificadora de di-muones con las entradas $x_i=(\eta,\phi)$ es la más adecuada encontrada, pero con un \textsf{accy} $= (0.84 \pm 0.02)$ se presenta con grandes errores que no la hacen una herramienta suficientemente robusta para una investigación en la que se esperan resultados fiables. 
 Las propiedades intrínsecas de los muones son factores importantes en la determinación de la pareja di-muon, pero no son concluyentes, se hace necesario encontrar métodos o propiedades complementarias para aumentar la fiabilidad de la herramienta.
 
 

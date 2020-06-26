@@ -23,9 +23,9 @@ donde $\vec{\alpha}$ es el vector de parámetros que especifica las condiciones 
 \label{entradas}
 \end{figure}
 
-Para entender el sesgo o varianza de un estadístico genérico resultado de su aplicación sobre una población finita $\mathbb{M}$, se aplica el ``Bootstrapping''\footnote{Más información en el enlace \href{https://es.wikipedia.org/wiki/Bootstrapping\_(estad\%C3\%ADstica)}{https://\-es.\-wi\-ki\-pe\-dia.\-org/\-wi\-ki/\-Boots\-tra\-pping\_(es\-tad\-\%C3\-\%AD\-sti\-ca)}}. Este método es el resultado de la selección aleatoria de subconjuntos $\mathbb{M}_i$, seguida de la aplicación del estádistico sobre esta. La aplicación continua de ``bootstrap'' sobre el estadístico $f^{(\mu, k)}_\textsf{e} (\vec{\alpha}; x)$ y el graficar los histogramas normalizados resultantes (ver Fig. \ref{entradas}) permitirán entender la correspondencia de los términos $\vec{\alpha}$ con las distribuciones.
+Para entender el sesgo o varianza de un estadístico genérico resultado de su aplicación sobre una población finita $\mathbb{M}$, se aplica el ``Bootstrapping''\footnote{Más información en el enlace \href{https://es.wikipedia.org/wiki/Bootstrapping\_(estad\%C3\%ADstica)}{https://\-es.\-wi\-ki\-pe\-dia.\-org/\-wi\-ki/\-Boots\-tra\-pping\_(es\-tad\-\%C3\-\%AD\-sti\-ca)}}. Este método es el resultado de la selección aleatoria de subconjuntos $\mathbb{M}_i$, seguida de la aplicación del estadístico sobre esta. La aplicación continua de ``bootstrap'' sobre el estadístico $f^{(\mu, k)}_\textsf{e} (\vec{\alpha}; x)$ y el graficar los histogramas normalizados resultantes (ver Fig. \ref{entradas}) permitirán entender la correspondencia de los términos $\vec{\alpha}$ con las distribuciones.
 
-En las distribuciones de la Fig. \ref{entradas} muestran una alta dependencia con los parámetros $\vec{\alpha}$, además para $f^{(\mu, k)}_\textsf{e} (\vec{\alpha}; x\geqslant 5)\lesssim 0.0003$ para los cambiós de $\vec{\alpha}$ considerados en la Tabla  \ref{table_genera_v5_value}, razón por la cual son descartados de nuestra caracterización. Si consideramos que la forma de estas distribuciones corresponde con una gaussiana, el error en la frecuencia de la ec. \ref{fe} es calculable como:
+En las distribuciones de la Fig. \ref{entradas} muestran una alta dependencia con los parámetros $\vec{\alpha}$, además para $f^{(\mu, k)}_\textsf{e} (\vec{\alpha}; x\geqslant 5)\lesssim 0.0003$ para los cambios de $\vec{\alpha}$ considerados en la Tabla  \ref{table_genera_v5_value}, razón por la cual son descartados de nuestra caracterización. Si consideramos que la forma de estas distribuciones corresponde con una gaussiana, el error en la frecuencia de la ec. \ref{fe} es calculable como:
 %f^{(p, k)}_\textsf{e} (\vec{\alpha}; x) = \sum_{i=1}^{N_e} \delta_{x}(n_i^{(p,k)})/\sum_{i=1}^{N_e} \sum_{n=0}^\infty \delta_{n} (n_i^{(p,k)}) = \sum_{i=1}^{N_e} \delta_{x}(n_i^{(p,k)})/N_e
 \begin{eqnarray}\label{error0}
 \Delta f^{(\mu, k)}_\textsf{e} (x) \equiv \Delta f^{(\mu, k)}_\textsf{e} (\vec{\alpha}; x) 
@@ -56,13 +56,13 @@ Algunos ejemplos de los valores de $f^{(\mu, k)}_\textsf{e} (\vec{\alpha}; x)$ l
 \footnotesize
 \begin{tabular}{|cccccccc|}
 \hline
-\multicolumn{4}{|c|}{$\vec{\alpha}$} & \multicolumn{4}{|c|}{Frecuencia de muones ($f^{(\mu, \texttt{k})}_\textsf{e} (\vec{\alpha}; x) \pm \Delta f^{(\mu, \texttt{k})}_\textsf{e} (\vec{\alpha}; x)$)} \\
+\multicolumn{4}{|c|}{$\vec{\alpha}$} & \multicolumn{4}{|c|}{Frecuencia de muones ($f^{(\mu, \texttt{k})}_\textsf{e} (x) \pm \Delta f^{(\mu, \texttt{k})}_\textsf{e} (x)$)} \\
 \hline
 $m_{n_1}$ & $m_{n_D}$ & $m_{\gamma_D}$ & $c\tau_{\gamma_D}$ & 
-$f^{(\mu, \texttt{R2})}_\textsf{e} (\vec{\alpha}; 0)$ & 
-$f^{(\mu, \texttt{HL})}_\textsf{e} (\vec{\alpha}; 0)$ & 
-$f^{(\mu, \texttt{R2})}_\textsf{e} (\vec{\alpha}; 4)$ & 
-$f^{(\mu, \texttt{HL})}_\textsf{e} (\vec{\alpha}; 4)$ \\
+$f^{(\mu, \texttt{R2})}_\textsf{e} (0)$ & 
+$f^{(\mu, \texttt{HL})}_\textsf{e} (0)$ & 
+$f^{(\mu, \texttt{R2})}_\textsf{e} (4)$ & 
+$f^{(\mu, \texttt{HL})}_\textsf{e} (4)$ \\
 \hline
 10 & 1 & 1 & 0.5 & 0.2777 $\pm$ 0.0068 & 0.0864 $\pm$ 0.0038 & 0.0920 $\pm$ 0.0040 & 0.1678 $\pm$ 0.0053\\
 & & & 2 & 0.3040 $\pm$ 0.0071 & 0.1227 $\pm$ 0.0045 & 0.0779 $\pm$ 0.0036 & 0.1355 $\pm$ 0.0047 \\
@@ -100,7 +100,7 @@ Dado que se intenta reconstruir el decaimiento de la Fig. \ref{fig:sketch_darkse
 
 \subsubsection{Regresión de datos de frecuencia $f^{(\mu, k)}_\textsf{e} (\vec{\alpha}; x)$.}
 
-Con la intención de realizar una caracterización eficiente de la cantidad de eventos de interés y de su dependencia con los parámetros de generación, se intenta utilizar métodos simples de regresión para valorar la posibilidad de inferir información pertinente a la frecuencia de los eventos. Para esto se utilizán los métodos presentados ya en la seccion \ref{Cap_regresion} mediante una aproximación lineal como la propuesta en la ec. \ref{regresion} y con una red neuronal como la presentada en la Fig. \ref{neuronas}.
+Con la intención de realizar una caracterización eficiente de la cantidad de eventos de interés y de su dependencia con los parámetros de generación, se intenta utilizar métodos simples de regresión para valorar la posibilidad de inferir información pertinente a la frecuencia de los eventos. Para esto se utilizan los métodos presentados ya en la sección \ref{Cap_regresion} mediante una aproximación lineal como la propuesta en la ec. \ref{regresion} y con una red neuronal como la presentada en la Fig. \ref{neuronas}.
 
 \begin{figure}[!ht]
 \centering
@@ -112,7 +112,7 @@ Con la intención de realizar una caracterización eficiente de la cantidad de e
 
 Al implementar el método de regresión polinomial sobre los datos 
 $f^{(\mu, k)}_\textsf{e} (4)$ 
-hasta el orden $n = 9$ en la Fig. \ref{regresionALL}, se puede observar una mejora en los parámetros progresiva con el aumento del orden $n$. Se visualiza con facilidad la correspondencia entre los valores simulados y los predichos, esta es corrobarada por los parámetros de confianza \textbf{RMSE} y $\mathbf{R^2}$. 
+hasta el orden $n = 9$ en la Fig. \ref{regresionALL}, se puede observar una mejora en los parámetros progresiva con el aumento del orden $n$. Se visualiza con facilidad la correspondencia entre los valores simulados y los predichos, esta es corroborada por los parámetros de confianza \textbf{RMSE} y $\mathbf{R^2}$. 
 
 Haciendo uso del método \textbf{RNA} según una configuración semejante a la Fig. \ref{regresion} con $4$ capas ocultas con cantidad de nodos $m_k=\{9,~7,~5,~3\}$ por cada uno respectivamente, se obtuvo un modelo con valores de \textbf{RMSE} y $\mathbf{R^2}$ comparables con los del método de regresión lineal explicado con anterioridad.
 
@@ -123,7 +123,7 @@ Haciendo uso del método \textbf{RNA} según una configuración semejante a la F
 \label{regresionALL1}
 \end{figure}
 
-En la Fig. \ref{regresionALL1} también se puede observar una comparación de los resultados de los dos métodos al intentar reconstruir la información de los valores de frecuencia $f^{(4\mu,~k)}$ mostrando una alta linealidad en los resultados obtenidos válidando su implementación como método de análisis. Los resultados dan claridad de como el método de predicción del porciento de eventos con 4 muones puede ser utilizado para optimizar la selección del parámetro $N_e$ en el proceso de generación (ver Tabla \ref{table_genera_v5_value}).
+En la Fig. \ref{regresionALL1} también se puede observar una comparación de los resultados de los dos métodos al intentar reconstruir la información de los valores de frecuencia $f^{(4\mu,~k)}$ mostrando una alta linealidad en los resultados obtenidos validando su implementación como método de análisis. Los resultados dan claridad de como el método de predicción del porciento de eventos con 4 muones puede ser utilizado para optimizar la selección del parámetro $N_e$ en el proceso de generación (ver Tabla \ref{table_genera_v5_value}).
 
 %Al analizar los errores de estás predicciones con los datos originales se obtuvo que lo resultados diferencian hasta en un $\sim 30\%$, siendo una de las posibles consecuencias de estos altos errores el pequeño valor del parámetro de generación \texttt{Event} (ver sección \ref{Cap_genera}).
 
@@ -171,8 +171,10 @@ En la Fig. \ref{regresionALL1} también se puede observar una comparación de lo
 %
 
 
-\subsection{Variación de las propiedades de los muones con el parámetro $\alpha$*}
-La caracterización de las propiedades de los muones es parte importante de este estudio, obtener las dependencias empíricas entre ellas y los posibles cambios en los límites de estas propiedades resultado del cambio de la eficiencia de los detectores en sus diferentes configuraciones se hace necesario para comprender mejor como se visualiza la teoría investigada desde su reconstrucción por los detectores.
+\subsection{Variación de las propiedades de los muones}
+La caracterización de las propiedades de los muones es parte importante de este estudio $ \textsf{W}^{(\mu,k)} (\chi; \vec{\alpha})$ (usando la notación de la ec. \ref{Wpk}), obtener las dependencias con el parámetro de generación $\vec{\alpha}$ y los posibles cambios de estas propiedades resultado del cambio de la eficiencia de los detectores en sus diferentes configuraciones $k=\texttt{R2}, \texttt{HL}$ nos permitirá entender posteriormente las propiedades de los fotones oscuros $\gamma_D$ que se reconstruyen de estos. 
+
+
 
 
 
@@ -200,7 +202,7 @@ f_\chi^{(\mathtt{k})} (x)= \mathbb{F}_\chi^{(\mathtt{k})} (x)/ \sum_x \mathbb{F}
 
 En los gráficos superiores de la Fig. \ref{procesos_darksusy_PTyISO} se puede observar los valores de momento angular de todos los muones reconstruidos para eventos $\mathbb{E}_i^{(4\mu,~\mathtt{CMS})}$ (configuración \texttt{Run-2}) y $\mathbb{E}_i^{(4\mu,~\mathtt{HL})}$ (configuración en \texttt{High Luminosity}), en estos se puede visualizar las diferencias entre los rangos de detección donde para eventos $k=$\texttt{CMS} el $\backsim ~ 99\%$ de los muones poseen $\sim 10  < ~ P_t^{(4\mu,~\mathtt{CMS})} ~ <\sim 100$, en contraste para $k=$\texttt{HL} tenemos $\sim 0.1 < ~ P_t^{(4\mu,~\mathtt{HL})} ~ < \sim 100$. Este aumento de rango en \texttt{HL} para valores menores de $\backsim ~ 10~GeV$ se puede ver que no es sin pérdidas, se puede constatar un cambio en la forma de los gráficos, esto es debido a que la inclusión de nuevos sensores en la configuración \texttt{HL} no poseen la misma eficiencia en la reconstrucción de la información.
 
-\begin{figure}[!ht]
+\begin{figure}[!t]
 \centering
 \includegraphics[width=.8\textwidth]{Simulacion/imagenes/Datos_PT_ALL.png}
 %\includegraphics[width=.8\textwidth]{Simulacion/imagenes/Datos_IsolationVar_ALL.png}
@@ -210,12 +212,12 @@ En los gráficos superiores de la Fig. \ref{procesos_darksusy_PTyISO} se puede o
 
 
 
-\subsubsection{Valores de angulo}
-\begin{figure}[!ht]
+\subsubsection{Valores de ángulo}
+\begin{figure}[!t]
 \centering
 \includegraphics[width=.8\textwidth]{Simulacion/imagenes/Datos_Eta_ALL.png}
 \includegraphics[width=.8\textwidth]{Simulacion/imagenes/Datos_Phi_ALL.png}
-\caption{Grupo total de datos generados para los eventos de interes.}
+\caption{Grupo total de datos generados para los eventos de interés.}
 \label{procesos_darksusy_ETAyPHI}
 \end{figure}
 
