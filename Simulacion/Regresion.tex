@@ -23,14 +23,34 @@ donde $\alpha_\textsf{ni}$ son las constantes del polinomio, el orden de la regr
 \subsection{Redes neuronales}
 Las \textbf{RNA} son una estructura compuesta de un número de unidades interconectadas (neuronas artificiales), cada unidad posee una característica entrada/salida e implementa una computación local o función, la salida de cualquier unidad esta determinada, su interconexión con otras unidades, y posiblemente de sus unidades internas. La red desarrolla usualmente una funcionalidad por lo general a través de una o mas formas, por lo tanto es un arreglo masivo de elementos de procesamiento simple llamados neuronas, los cuales poseen un alto grado de interconectividad entre sus elementos, en los que la información puede fluir en cascada potenciando su capacidad para aproximar funciones, clasificar patrones y aumenta su inmunidad frente al ruido. 
 
+El modelo genérico de neurona artificial se puede ver en la Fig. \ref{neuronas}, en este se puede visualizar el funcionamiento simple de una neurona en forma de un procesador elemental, que a partir de un vector de entrada procedente del exterior o de otras neuronas, proporcionando una única respuesta o salida.
+
+\begin{figure}[!b]
+\centering
+\includegraphics[width=.7\textwidth]{Simulacion/imagenes/generico.png}
+\caption[Modelo genérico de una neurona artificial.]{Modelo genérico de una neurona artificial.\footnote{Página de origen: \href{https://grupo.us.es/gtocoma/pid/pid10/RedesNeuronales.htm}{https://\-gru\-po.\-us.\-es/\-gto\-coma/\-pid/\-pid10/\-Re\-des\-Neu\-ro\-na\-les.\-htm}}}
+\label{generico}
+\end{figure}
+
+Los elementos que constituyen neurona genérica se pueden observar en la Fig. \ref{generico}, siendo $x_i(t)$ las variables de entrada y salida, los pesos sinápticos $w_{ij}$ representan la intensidad de interacción entre cada neurona presináptica $j$ y la neurona postsináptica $i$. Las reglas de propagación $\sigma(w_{ij}, x_j(t))$ proporcionan el valor del potencial postsináptico, $h_i(t)$, de la neurona $i$ en función de sus pesos $w_{ij}$ y entradas $x_i(t)$, la usada en esta investigación es $h_i (t) = \sum w_{ij} x_j$. La función de activación o de transferencia $y_i(t) = f_i(h_i(t))$ representa la simultáneamente la salida de la neurona y su estado de activación. 
+
+Para la optimización de la red de la Fig. \ref{identificador} se implementa el algoritmo de optimización de Adam, siendo este una extensión del descenso de gradiente estocástico. La función de activación utilizada para relacionar todas las capas es una lineal rectificada\footnote{Las funciones https://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/} dada por:
+\begin{equation}\label{relu}
+\mathtt{f(x)=\max (0,x)} ~ = ~ \Bigg\{\begin{matrix}
+0 & \mathtt{para }~ x<0\\
+x & \mathtt{para }~ x\geq 0\\
+\end{matrix} 
+\end{equation}
+
+
 La función desarrollada para el uso en esta investigación utiliza la paquetería de $\textsf{keras}$ y permite la flexibilidad de cambiar la cantidad de $\textsf{k}$ capas ocultas y los nodos $m_\textsf{k}$ que posee cada una de ellas.
 
 %\url{https://github.com/franky8939/DarkSUSY/blob/master/modules/machine\_learning/regresion\_lineal\_ML.py}, 
 
 
-\begin{figure}[!ht]
+\begin{figure}[!t]
 \centering
-\includegraphics[width=1\textwidth]{Simulacion/imagenes/neuronas.png}
+\includegraphics[width=.9\textwidth]{Simulacion/imagenes/neuronas.png}
 \caption{Diagrama de la estructura general de la red neuronal para regresión.}
 \label{neuronas}
 \end{figure}

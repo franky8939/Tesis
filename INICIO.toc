@@ -35,19 +35,18 @@
 \contentsline {section}{\numberline {3.3}M\IeC {\'e}todos de regresi\IeC {\'o}n de datos}{44}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Forma anal\IeC {\'\i }tica}{44}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Redes neuronales}{45}{subsection.3.3.2}
-\contentsline {subsubsection}{Par\IeC {\'a}metros de confianza.}{46}{subsubsection*.33}
-\contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis de la se\IeC {\~n}al sin detectores}{46}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Variaci\IeC {\'o}n del contenido mu\IeC {\'o}nico}{47}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Variaci\IeC {\'o}n de las propiedades de los muones con el par\IeC {\'a}metro $\mathaccentV {vec}17E{\alpha }$}{49}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Caracter\IeC {\'\i }sticas del fot\IeC {\'o}n oscuro $\gamma _D$}{51}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Identificando y reconstruyendo el fot\IeC {\'o}n oscuro $\gamma _D$}{52}{subsection.3.4.4}
-\contentsline {section}{\numberline {3.5}An\IeC {\'a}lisis de la se\IeC {\~n}al con detector}{55}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Variaci\IeC {\'o}n del contenido mu\IeC {\'o}nico}{55}{subsection.3.5.1}
-\contentsline {subsubsection}{Correspondencia entre los eventos de inter\IeC {\'e}s y los par\IeC {\'a}metros de generaci\IeC {\'o}n.}{57}{subsubsection*.43}
-\contentsline {subsubsection}{Regresi\IeC {\'o}n de datos de frecuencia $f^{(\mu , k)}_\textsf {e} (\mathaccentV {vec}17E{\alpha }; x)$.}{58}{subsubsection*.46}
-\contentsline {subsection}{\numberline {3.5.2}Variaci\IeC {\'o}n de las propiedades de los muones con el par\IeC {\'a}metro $\alpha $*}{60}{subsection.3.5.2}
-\contentsline {subsubsection}{Valores de angulo}{60}{subsubsection*.50}
-\contentsline {subsection}{\numberline {3.5.3}Reconstruyendo el fot\IeC {\'o}n oscuro $\gamma $*}{60}{subsection.3.5.3}
-\contentsline {chapter}{\numberline {A}Experimentos de Materia Oscura}{62}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Name of Appendix B}{68}{appendix.Alph2}
-\contentsline {chapter}{Referencias Bibliogr\IeC {\'a}ficas}{73}{appendix*.53}
+\contentsline {subsubsection}{Par\IeC {\'a}metros de confianza.}{46}{subsubsection*.34}
+\contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis de la se\IeC {\~n}al sin detectores}{47}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Variaci\IeC {\'o}n del contenido mu\IeC {\'o}nico}{48}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Variaci\IeC {\'o}n de las propiedades de los muones}{50}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Caracter\IeC {\'\i }sticas del fot\IeC {\'o}n oscuro}{52}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Identificando y reconstruyendo el fot\IeC {\'o}n oscuro}{52}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}An\IeC {\'a}lisis de la se\IeC {\~n}al con detector}{56}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Variaci\IeC {\'o}n del contenido mu\IeC {\'o}nico}{56}{subsection.3.5.1}
+\contentsline {subsubsection}{Correspondencia entre los eventos de inter\IeC {\'e}s y los par\IeC {\'a}metros de generaci\IeC {\'o}n.}{58}{subsubsection*.44}
+\contentsline {subsubsection}{Regresi\IeC {\'o}n de datos de frecuencia}{59}{subsubsection*.47}
+\contentsline {subsection}{\numberline {3.5.2}Variaci\IeC {\'o}n de las propiedades de los muones}{61}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Reconstruyendo el fot\IeC {\'o}n oscuro}{61}{subsection.3.5.3}
+\contentsline {chapter}{\numberline {A}Experimentos de Materia Oscura}{63}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Name of Appendix B}{69}{appendix.Alph2}
+\contentsline {chapter}{Referencias Bibliogr\IeC {\'a}ficas}{74}{appendix*.52}
