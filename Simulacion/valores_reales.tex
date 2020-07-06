@@ -53,9 +53,9 @@ Algunos ejemplos del contenido muónico de los eventos se muestran en la Fig. \r
 \label{contenido_muonico}
 \end{figure}
 
-De la Fig. \ref{contenido_muonico}a se conoce que el contenido mínimo de muones por evento para $k=\textsf{True}$ es de 4 muones, estos son el resultado de la recreación de la señal \MC ~ proveniente de \MSSM\textbf{D} relacionada con el decaimiento de la Fig. \ref{fig:sketch_darksector}b. Los valores de $f^{(\mu, \textsf{True})}_\textsf{n} (x; \vec{\alpha}) $ con sus respectivos errores se pueden ver en la Tabla \ref{generacion0}, además se concluye de la caracterización de las Fig. \ref{contenido_muonico}b, que la fracción de los muones provenientes de señales de ruido es teóricamente un valor constante, y si valor con un 95\% de confianza está dado por:
+De la Fig. \ref{contenido_muonico}a se conoce que el contenido mínimo de muones por evento para $k=\textsf{True}$ es de 4 muones, estos son el resultado de la recreación de la señal \MC ~ proveniente de \MSSM\textbf{D} relacionada con el decaimiento de la Fig. \ref{fig:sketch_darksector}b. Los valores de $f^{(\mu, \textsf{True})}_\textsf{n} (x; \vec{\alpha}) $ con sus respectivos errores se pueden ver en la Tabla \ref{generacion0}, además, se hace supuesto de la caracterización de las Figs. \ref{contenido_muonico}b, que la fracción de los muones provenientes de señales de ruido se presenta alrededor de un valor constante, está dado por:
 \begin{equation}
-1- \frac{4 N_e}{\sum n_i^{(p,k)}} = 3.23 \pm 0.19
+1- \frac{4 N_e}{\sum n_i^{(\mu, \textsf{True})}} = 3.37 \pm 0.14
 \end{equation}
 
 
@@ -213,13 +213,13 @@ X & X & X &  &  &  & $0.93 \pm 0.01$ &
 \begin{figure}[!h]
 \centering
 \includegraphics[width=.5\textwidth]{Simulacion/imagenes/acc.png}
-\caption{Variación de la precisión del identificador durante el proceso de entrenamiento con las épocas para una configuración de entrada dada por los $x_i = \eta, \phi$.}
+\caption{Variación de la precisión del identificador durante el proceso de entrenamiento con el tiempo para una configuración de entrada dada por los $x_i = \eta, \phi$.}
 \label{identificador0}
 \end{figure}
 
-De la interpretación de los resultados de la Tabla \ref{ajuste1} se concluye que las propiedades $PT, ~ c\tau, ~ D_0, ~D_Z$ no son determinantes en la identificación de los di-muones, el origen de estos resultados puede estar dado por la inclusión de casos para tiempos teóricos de vida 0, cuestión no valorada en esta investigación. Por el contrario las propiedades $\eta$ y $\phi$ muestran potencial válidado en el \textsf{accy} > 0.80 razón por la cual son elegidos para formar parte de las entradas del entrenamiento final. 
+De la interpretación de los resultados de la Tabla \ref{ajuste1} se concluye que las propiedades $PT, ~ c\tau, ~ D_0, ~D_Z$ no son determinantes en la identificación de los di-muones, el origen de estos resultados puede estar dado por la inclusión de casos para tiempos teóricos de vida 0, cuestión no valorada en esta investigación. Por el contrario las propiedades $\eta$ y $\phi$ muestran potencial válidado en el \textsf{accy} $\gtrsim$ 0.80 razón por la cual son elegidos para formar parte de las entradas del entrenamiento final. 
 
-De concluyó que la creación de una herramienta identificadora de di-muones con las entradas $x_i=(\eta,\phi)$ es la más adecuada encontrada, con un \textsf{accy} $= (0.95 \pm 0.02)$ (ver Fig. \ref{identificador0}) se presenta con bajos errores que la hacen una herramienta suficientemente robusta para una investigación en la que se esperan resultados fiables. La implementación de un entrenamiento de está índole disminuiría el tiempo de cómputo y la fiabilidad de los resultados obtenidos.
+De concluyó que la creación de una herramienta identificadora de di-muones con las entradas $x_i=(\eta,\phi)$ es la más adecuada encontrada, con un \textsf{accy} $= 0.95 \pm 0.02$ (ver Fig. \ref{identificador0}) se presenta con bajos errores que la hacen una herramienta suficientemente robusta para una investigación en la que se esperan resultados fiables. La implementación de un entrenamiento de está índole disminuiría el tiempo de cómputo y la fiabilidad de los resultados obtenidos.
 
 
 
