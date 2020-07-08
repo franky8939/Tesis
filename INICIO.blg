@@ -3,57 +3,54 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: INICIO.aux
 The style file: UNAMThesis.bst
 Database file #1: ParticleUnison.bib
-Reallocated buffer (elt_size=1) to 40000 items from 20000.
-Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
-Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
-Reallocated out_buf (elt_size=1) to 40000 items from 20000.
-Reallocated name_tok (elt_size=4) to 40000 items from 20000.
-Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
-Reallocated buffer (elt_size=1) to 60000 items from 40000.
-Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
-Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
-Reallocated out_buf (elt_size=1) to 60000 items from 40000.
-Reallocated name_tok (elt_size=4) to 60000 items from 40000.
-Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Warning--I didn't find a database entry for "atlas_collaboration_search_2015-1"
+Warning--I didn't find a database entry for "cms_collaboration_search_2016-2"
+Warning--I didn't find a database entry for "cms_collaboration_search_2018-1"
+Warning--I didn't find a database entry for "de_favereau_delphes_2014-1"
+Warning--I didn't find a database entry for "sjostrand_introduction_2015-1"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 44 entries,
+Warning--there's a number but no volume in atlas_collaboration_search_2016-2
+Warning--there's a number but no volume in cms_collaboration_search_2018
+Warning--empty journal in kuroda_complete_2005
+You've used 37 entries,
             3165 wiz_defined-function locations,
-            912 strings with 13421 characters,
-and the built_in function-call counts, 28492 in all, are:
-= -- 2371
-> -- 1193
-< -- 32
-+ -- 439
-- -- 369
-* -- 2200
-:= -- 4226
-add.period$ -- 131
-call.type$ -- 44
-change.case$ -- 342
-chr.to.int$ -- 36
-cite$ -- 44
-duplicate$ -- 2215
-empty$ -- 2122
-format.name$ -- 471
-if$ -- 5682
-int.to.chr$ -- 9
+            832 strings with 13518 characters,
+and the built_in function-call counts, 20456 in all, are:
+= -- 1679
+> -- 935
+< -- 29
++ -- 339
+- -- 288
+* -- 1418
+:= -- 3218
+add.period$ -- 109
+call.type$ -- 37
+change.case$ -- 281
+chr.to.int$ -- 35
+cite$ -- 40
+duplicate$ -- 1643
+empty$ -- 1425
+format.name$ -- 373
+if$ -- 4032
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 467
-newline$ -- 270
-num.names$ -- 176
-pop$ -- 807
+missing$ -- 318
+newline$ -- 227
+num.names$ -- 148
+pop$ -- 748
 preamble$ -- 1
-purify$ -- 299
+purify$ -- 244
 quote$ -- 0
-skip$ -- 771
+skip$ -- 669
 stack$ -- 0
-substring$ -- 1260
-swap$ -- 1266
-text.length$ -- 1
+substring$ -- 515
+swap$ -- 726
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 396
-warning$ -- 0
-while$ -- 190
+type$ -- 333
+warning$ -- 3
+while$ -- 113
 width$ -- 0
-write$ -- 661
+write$ -- 524
+(There were 8 warnings)

@@ -1,5 +1,7 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.2}
+\contentsline {chapter}{\IeC {\'I}ndice de Tablas}{\es@scroman {iii}}{Doc-Start}
+\contentsline {chapter}{\IeC {\'I}ndice de Figuras}{\es@scroman {v}}{Doc-Start}
+\contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.1}
 \contentsline {chapter}{\numberline {1}Teor\IeC {\'\i }a y motivaci\IeC {\'o}n}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}Modelo Est\IeC {\'a}ndar}{5}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Composici\IeC {\'o}n de la materia e interacciones fundamentales}{5}{subsection.1.1.1}
@@ -9,23 +11,23 @@
 \contentsline {subsection}{\numberline {1.2.1}Evidencias observacionales}{10}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Composici\IeC {\'o}n de la materia oscura}{13}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Extensi\IeC {\'o}n del Modelo Est\IeC {\'a}ndar con Supersimetr\IeC {\'\i }a}{16}{subsection.1.2.3}
-\contentsline {subsubsection}{Lagrangiano del modelo MSSM.}{17}{subsubsection*.9}
-\contentsline {subsubsection}{M\IeC {\'a}s all\IeC {\'a} del modelo MSSM.}{18}{subsubsection*.10}
+\contentsline {subsubsection}{Lagrangiano del modelo MSSM.}{16}{subsubsection*.8}
+\contentsline {subsubsection}{M\IeC {\'a}s all\IeC {\'a} del modelo MSSM.}{18}{subsubsection*.9}
 \contentsline {chapter}{\numberline {2}Experimento \href {https://es.wikipedia.org/wiki/Gran_colisionador_de_hadrones}{\textbf {LHC}}~ y Detector \href {https://en.wikipedia.org/wiki/Compact_Muon_Solenoid}{\textbf {CMS}}}{22}{chapter.2}
 \contentsline {section}{\numberline {2.1}F\IeC {\'\i }sica de Altas Energ\IeC {\'\i }as}{22}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Actualizando HLC}{24}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Actualizando LHC}{24}{subsection.2.1.1}
 \contentsline {section}{\numberline {2.2}Experimento CMS}{26}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Identificaci\IeC {\'o}n y Reconstrucci\IeC {\'o}n de Muones}{29}{subsection.2.2.1}
-\contentsline {subsubsection}{Reconstrucci\IeC {\'o}n de muones.}{29}{subsubsection*.16}
-\contentsline {subsubsection}{Identificaci\IeC {\'o}n de muones.}{30}{subsubsection*.18}
-\contentsline {subsubsection}{Aislamiento de muones}{31}{subsubsection*.19}
-\contentsline {subsubsection}{Eficiencia Muon}{31}{subsubsection*.20}
-\contentsline {section}{\numberline {2.3}Simulaci\IeC {\'o}n en Altas Energ\IeC {\'\i }as}{32}{section.2.3}
+\contentsline {subsubsection}{Reconstrucci\IeC {\'o}n de muones.}{29}{subsubsection*.15}
+\contentsline {subsubsection}{Identificaci\IeC {\'o}n de muones.}{31}{subsubsection*.17}
+\contentsline {subsubsection}{Aislamiento de muones}{31}{subsubsection*.18}
+\contentsline {subsubsection}{Eficiencia Muon}{31}{subsubsection*.19}
+\contentsline {section}{\numberline {2.3}Simulaci\IeC {\'o}n en Altas Energ\IeC {\'\i }as}{33}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Implementando ROOT}{33}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Altas Energ\IeC {\'\i }as con MadGraph}{34}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Hadronizacion con Pythia 8}{36}{subsection.2.3.3}
-\contentsline {subsubsection}{Limitaciones}{36}{subsubsection*.22}
-\contentsline {subsubsection}{Procesos incluidos}{37}{subsubsection*.23}
+\contentsline {subsubsection}{Limitaciones}{36}{subsubsection*.21}
+\contentsline {subsubsection}{Procesos incluidos}{37}{subsubsection*.22}
 \contentsline {subsection}{\numberline {2.3.4}Simulando el detector con Delphes 3}{38}{subsection.2.3.4}
 \contentsline {chapter}{\numberline {3}Simulaci\IeC {\'o}n y an\IeC {\'a}lisis de la se\IeC {\~n}al MSSMD}{40}{chapter.3}
 \contentsline {section}{\numberline {3.1}Generaci\IeC {\'o}n de los datos}{41}{section.3.1}
@@ -36,7 +38,7 @@
 \contentsline {section}{\numberline {3.3}M\IeC {\'e}todos de regresi\IeC {\'o}n de datos}{46}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Forma anal\IeC {\'\i }tica}{46}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Redes neuronales}{47}{subsection.3.3.2}
-\contentsline {subsubsection}{Par\IeC {\'a}metros de confianza.}{48}{subsubsection*.34}
+\contentsline {subsubsection}{Par\IeC {\'a}metros de confianza.}{48}{subsubsection*.33}
 \contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis de la se\IeC {\~n}al sin detectores}{49}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Variaci\IeC {\'o}n del contenido mu\IeC {\'o}nico}{50}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Variaci\IeC {\'o}n de las propiedades de los muones}{52}{subsection.3.4.2}
@@ -44,11 +46,9 @@
 \contentsline {subsection}{\numberline {3.4.4}Identificando y reconstruyendo el fot\IeC {\'o}n oscuro}{54}{subsection.3.4.4}
 \contentsline {section}{\numberline {3.5}An\IeC {\'a}lisis de la se\IeC {\~n}al con detector}{58}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Variaci\IeC {\'o}n del contenido mu\IeC {\'o}nico}{58}{subsection.3.5.1}
-\contentsline {subsubsection}{Correspondencia entre los eventos de inter\IeC {\'e}s y los par\IeC {\'a}metros de generaci\IeC {\'o}n.}{60}{subsubsection*.44}
-\contentsline {subsubsection}{Regresi\IeC {\'o}n de datos de frecuencia}{61}{subsubsection*.47}
+\contentsline {subsubsection}{Correspondencia entre los eventos de inter\IeC {\'e}s y los par\IeC {\'a}metros de generaci\IeC {\'o}n.}{60}{subsubsection*.43}
+\contentsline {subsubsection}{Regresi\IeC {\'o}n de datos de frecuencia}{61}{subsubsection*.46}
 \contentsline {subsection}{\numberline {3.5.2}Variaci\IeC {\'o}n de las propiedades de los muones}{63}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Reconstruyendo el fot\IeC {\'o}n oscuro}{64}{subsection.3.5.3}
-\contentsline {subsubsection}{\IeC {\textbullet }}{65}{subsubsection*.51}
-\contentsline {chapter}{\numberline {A}Experimentos de Materia Oscura}{66}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Name of Appendix B}{72}{appendix.Alph2}
-\contentsline {chapter}{Referencias Bibliogr\IeC {\'a}ficas}{77}{appendix*.53}
+\contentsline {subsubsection}{\IeC {\textbullet }}{65}{subsubsection*.50}
+\contentsline {chapter}{Referencias}{70}{chapter*.54}

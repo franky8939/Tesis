@@ -3,44 +3,52 @@
 \usepackage{paquetes_todos}
 
 \usepackage[showboxes]{textpos}
+
 \begin{document}
 % Portada
 \title{Estudios de simulación en la búsqueda de nuevos bosones ligeros durante la fase de alta luminosidad del experimento CMS del CERN}
 \author{Francisco Martínez Sánchez}
-\prevdegrees{Bs. Physics}
+\prevdegrees{MBs. Physics}
 %\prevdegrees{Grados previos}
 \institute{UNISON}
 \department{Departamento de Investigación en Física}
 \degree{Maestro en Ciencias}
 \supervisor{Dr. Alfredo Castañeda}
-\city{Hermosillo, Sonora}
-\degreemonth{Mes}
+\city{Hermosillo, Sonora, México}
+\degreemonth{Julio}
 \degreeyear{2020}
 \maketitle
-\begin{acknowledgements}
+%\begin{acknowledgements}\thispagestyle{empty}
+%xxxx
+%\end{acknowledgements}
+%
+\begin{resumen}\thispagestyle{empty}
+xxxx
+\end{resumen}
+\begin{abstract}\thispagestyle{empty}%\addcontentsline{toc}{chapter}{Abstract}
+xxx
+\end{abstract}
 
-\end{acknowledgements}
-
+\setcounter{page}{1}
 \tableofcontents
 \clearpage
 \listoftables
+\addcontentsline{toc}{chapter}{Índice de Tablas}
 \clearpage
 \listoffigures
+\addcontentsline{toc}{chapter}{Índice de Figuras}
 \clearpage
-
-\begin{abstract}
-\end{abstract}
 
 %\begin{summary}
 %\end{summary}
 
-\pagenumbering{arabic}
-
-
-
 \input{link.tex}
+
 %overleaf
 %local
+\chapter*{Introducción}
+\addcontentsline{toc}{chapter}{Introducción}
+
 \input{Introduccion/Introduccion.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -50,43 +58,11 @@
 \chapter{Teoría y motivación}
 \input{Fisica_de_Particulas/Introduccion.tex}
 
-	%\section{El Universo y su evolución.} 
-	%\input{Fisica_de_Particulas/Universo.tex}
-	
 	\section{Modelo Estándar} 	
 	\input{Fisica_de_Particulas/Modelo_estandar.tex}
-	
-		\subsection{Composición de la materia e interacciones fundamentales} 
-		\input{Fisica_de_Particulas/Materia_y_Fuerzas.tex}
-		
-		\subsection{Simetrías y lagrangiano} 
-		\input{Fisica_de_Particulas/lagrangiano_modelo_estandar.tex}
-	
-		\subsection{Insuficiencias del modelo}
-		\input{Fisica_de_Particulas/Insuficiencias_ME.tex}
-	
-	
+
 	\section{M\'as all\'a del modelo est\'andar con la materia oscura}
 	\input{Fisica_de_Particulas/Materia_Oscura.tex}
-	
-		\subsection{Evidencias observacionales}
-		\input{Fisica_de_Particulas/Pruebas_Oscuras.tex}
-		
-		%\subsection{Alternativas Teóricas}
-		%\input{Fisica_de_Particulas/Alternativas_Oscura.tex}
-		
-		\subsection{Composición de la materia oscura}
-		\input{Fisica_de_Particulas/Materia_Oscura_Composicion.tex}
-		
-		%\subsection{Modelos de Extensión.}		
-		%\subsection{Partículas supersimetrías.}
-		%\input{Fisica_de_Particulas/Supersimetria.tex}
-		
-		
-		\subsection{Extensión del Modelo Estándar con Supersimetría}
-		\input{Fisica_de_Particulas/MSSM.tex}
-
-		
 				
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -97,10 +73,7 @@
 \input{Analisis_y_Resultados/Introduccion.tex}
 		
 	\section{Física de Altas Energías}
-	\input{Analisis_y_Resultados/materia_oscura_LHC.tex}
-		
-		\subsection{Actualizando HLC}	
-		\input{Analisis_y_Resultados/LHC_Actualizacion.tex}
+	\input{Analisis_y_Resultados/LHC.tex}
 	
 	\section{Experimento CMS}\label{Experimento_CMS}
 	\input{Analisis_y_Resultados/Experimento_CMS_del_CERN.tex}
@@ -189,13 +162,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Anexos %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
-\appendix
-\chapter{Experimentos de Materia Oscura}\label{anexoA}
-\input{Anexos/Experimentos_Oscura.tex}
+%\appendix
+%\chapter{Experimentos de Materia Oscura}\label{anexoA}
+%\input{Anexos/Experimentos_Oscura.tex}
 %\input{appendixA} % filename in curly brackets
-\chapter{Name of Appendix B}
-\label{whatever}
-%\input{appendixB} % filename in curly brackets**
+%\chapter{Name of Appendix B}
+%\label{whatever}
+%\input{appendixB} % filename in curly brackets
 
 \clearpage
 \phantomsection
@@ -203,7 +176,20 @@
 \bibliographystyle{UNAMThesis}
 %\bibliographystyle{abbrv}
 %\bibliographystyle{APA}
-%\bibliographystyle{UNAMThesis} % estilo bibliografico
 \bibliography{ParticleUnison}
-\addcontentsline{toc}{chapter}{Referencias Bibliográficas}
+%\bibliography{references}
+\addcontentsline{toc}{chapter}{Referencias}
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,8 +1,8 @@
-%%  PAQUETES    %% 
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[spanish,mexico]{babel}
-
+\usepackage{UNISONthesis}
 % Formato UNISON
 % =================================================================
 %			Preamble: page setup (non optional format style)
@@ -43,7 +43,7 @@
 	\setlength{\parindent}{15pt}
 
 % =================================================================
-\usepackage{UNISONthesis}
+
 
 \usepackage[square]{natbib}
 \usepackage{amsmath}
@@ -84,7 +84,6 @@
 \newtheorem{summary}{Resumen}[section]
 \newenvironment{proof}[1][Demostración]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
 
-\usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{color}
 \usepackage[colorlinks = True,
@@ -92,7 +91,6 @@
             urlcolor  = black,
             citecolor = black,
             anchorcolor = black]{hyperref}
-\usepackage{url}
 
 % La concentración esta en el orden rojo, verde y azul
 \definecolor{azul50}{rgb}{0.2,0.30,0.50} 
@@ -112,7 +110,6 @@
 %\titlespacing{\subsection}{1pt}{10pt}{10pt}
 %\titlespacing{\subsubsection}{1pt}{10pt}{10pt}
 
-%\setlength{\baselineskip}{1}
 
 \newenvironment{itemize_f}%
   {\begin{itemize}%
@@ -122,8 +119,6 @@
 %\setlength\itemsep{-.2cm} %
 \usepackage{framed}
 
-%\usepackage{lineno}
-%    \linenumbers
 \usepackage{dsfont}
 \usepackage{listings} % entorno para programacion
 \usepackage{pdflscape} % entorno para rotar hoja
