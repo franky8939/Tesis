@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.16)  8 JUL 2020 05:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.16)  10 JUL 2020 01:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1190,7 +1190,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ... recursos en ACARUS}{41}{subsection.3.1.1}
+l.36 ... recursos en ACARUS}{42}{subsection.3.1.1}
                                                    [1])
 \tf@toc=\write4
 \openout4 = `INICIO.toc'.
@@ -1224,44 +1224,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.IV}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 ...\textbf {SUSY}}}.}}{43}{figure.caption.26}
+l.17 ...un-2 y HL.\relax }}{34}{figure.caption.23}
                                                    [4
 
 ]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 22.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-Overfull \hbox (6.09227pt too wide) in paragraph at lines 27--27
+Overfull \hbox (6.09227pt too wide) in paragraph at lines 28--28
  [][] [][][]\T1/ptm/m/n/12 Variación de las dis-tri-bu-cio-nes de los muo-nes c
 a-rac-te-ris-ti-cos de la se-ñal [][]\T1/ptm/b/n/12 MSSM[][]D\T1/ptm/m/n/12 .[]
 [] []  
  []
 
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
 \tf@lof=\write6
 \openout6 = `INICIO.lof'.
 
- [5] (./link.tex) (./Introduccion/Introduccion.tex [1
+
+[6] (./link.tex) (./Introduccion/Introduccion.tex [1
 
 
-]
-
-Package natbib Warning: Citation `atlas_collaboration_search_2015-1' on page 2 
-undefined on input line 24.
-
-
-Package natbib Warning: Citation `cms_collaboration_search_2016-2' on page 2 un
-defined on input line 25.
-
-[2] [3]) [4]
+] [2] [3]) [4]
 Cap\'{\i }tulo 1.
 (./Fisica_de_Particulas/Introduccion.tex)
 (./Fisica_de_Particulas/Modelo_estandar.tex [5
 
 ]
-<Fisica_de_Particulas/imagenes/standard_model.png, id=468, 733.23938pt x 509.65
+<Fisica_de_Particulas/imagenes/standard_model.png, id=522, 733.23938pt x 509.65
 407pt>
 File: Fisica_de_Particulas/imagenes/standard_model.png Graphic file (type png)
 <use Fisica_de_Particulas/imagenes/standard_model.png>
@@ -1276,7 +1271,7 @@ Package pdftex.def Info: Fisica_de_Particulas/imagenes/standard_model.png  used
 l.56 ...lgebraicas, su conexidad y su compacidad.}
                                                   , estÃ¡s son referidas com...
 [7]
-<Fisica_de_Particulas/imagenes/simetria0.png, id=493, 552.56438pt x 260.47313pt
+<Fisica_de_Particulas/imagenes/simetria0.png, id=547, 552.56438pt x 260.47313pt
 >
 File: Fisica_de_Particulas/imagenes/simetria0.png Graphic file (type png)
 <use Fisica_de_Particulas/imagenes/simetria0.png>
@@ -1291,88 +1286,73 @@ Overfull \hbox (1.09747pt too wide) in paragraph at lines 75--77
 
 [8 <./Fisica_de_Particulas/imagenes/simetria0.png>] [9])
 (./Fisica_de_Particulas/Materia_Oscura.tex [10]
-<Fisica_de_Particulas/imagenes/lentes.jpg, id=544, 405.76593pt x 242.40562pt>
+<Fisica_de_Particulas/imagenes/lentes.jpg, id=605, 405.76593pt x 242.40562pt>
 File: Fisica_de_Particulas/imagenes/lentes.jpg Graphic file (type jpg)
 <use Fisica_de_Particulas/imagenes/lentes.jpg>
 Package pdftex.def Info: Fisica_de_Particulas/imagenes/lentes.jpg  used on inpu
 t line 35.
 (pdftex.def)             Requested size: 266.14978pt x 159.0043pt.
-<Fisica_de_Particulas/imagenes/fritz2.png, id=549, 877.02657pt x 272.51813pt>
+<Fisica_de_Particulas/imagenes/fritz2.png, id=610, 877.02657pt x 272.51813pt>
 File: Fisica_de_Particulas/imagenes/fritz2.png Graphic file (type png)
 <use Fisica_de_Particulas/imagenes/fritz2.png>
 Package pdftex.def Info: Fisica_de_Particulas/imagenes/fritz2.png  used on inpu
 t line 68.
 (pdftex.def)             Requested size: 399.21791pt x 124.04999pt.
- [11 <./Fisica_de_Particulas/imagenes/lentes.jpg>]
-
-LaTeX Warning: Reference `anexoA' on page 12 undefined on input line 103.
-
-<Fisica_de_Particulas/imagenes/AMS_positronflux.png, id=575, 255.354pt x 179.47
-05pt>
-File: Fisica_de_Particulas/imagenes/AMS_positronflux.png Graphic file (type png
-)
-<use Fisica_de_Particulas/imagenes/AMS_positronflux.png>
-Package pdftex.def Info: Fisica_de_Particulas/imagenes/AMS_positronflux.png  us
-ed on input line 108.
-(pdftex.def)             Requested size: 332.68385pt x 233.82643pt.
-[12 <./Fisica_de_Particulas/imagenes/fritz2.png>] [13 <./Fisica_de_Particulas/i
-magenes/AMS_positronflux.png>]
+ [11 <./Fisica_de_Particulas/imagenes/lentes.jpg>] [12 <./Fisica_de_Particulas/
+imagenes/fritz2.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 141.
+ [13]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 151.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [14]
-<Analisis_y_Resultados/imagenes/supersimetrias.png, id=617, 653.44125pt x 270.2
+<Analisis_y_Resultados/imagenes/supersimetrias.png, id=682, 653.44125pt x 270.2
 5969pt>
 File: Analisis_y_Resultados/imagenes/supersimetrias.png Graphic file (type png)
 
 <use Analisis_y_Resultados/imagenes/supersimetrias.png>
 Package pdftex.def Info: Analisis_y_Resultados/imagenes/supersimetrias.png  use
 d on input line 168.
-(pdftex.def)             Requested size: 399.21791pt x 165.11383pt.
+(pdftex.def)             Requested size: 421.3982pt x 174.28522pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 170.
- [15] [16 <./Analisis_y_Resultados/imagenes/supersimetrias.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
-[18]
+ [15 <./Analisis_y_Resultados/imagenes/supersimetrias.png>] [16] [17] [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `cms_collaboration_search_2018-1' on page 19 u
-ndefined on input line 264.
-
-
-Package natbib Warning: Citation `atlas_collaboration_search_2015-1' on page 19
- undefined on input line 269.
-
-
-Package natbib Warning: Citation `cms_collaboration_search_2016-2' on page 19 u
-ndefined on input line 270.
-
-[19]
-<Fisica_de_Particulas/imagenes/sketch_darksector.png, id=733, 359.3425pt x 182.
+ [19]
+[20]
+<Fisica_de_Particulas/imagenes/sketch_darksector.png, id=830, 359.3425pt x 182.
 6825pt>
 File: Fisica_de_Particulas/imagenes/sketch_darksector.png Graphic file (type pn
 g)
 <use Fisica_de_Particulas/imagenes/sketch_darksector.png>
 Package pdftex.def Info: Fisica_de_Particulas/imagenes/sketch_darksector.png  u
-sed on input line 325.
+sed on input line 343.
 (pdftex.def)             Requested size: 243.96951pt x 124.03288pt.
-<Fisica_de_Particulas/imagenes/darksusy_feynman.png, id=734, 314.17375pt x 253.
+<Fisica_de_Particulas/imagenes/darksusy_feynman.png, id=831, 314.17375pt x 253.
 94875pt>
 File: Fisica_de_Particulas/imagenes/darksusy_feynman.png Graphic file (type png
 )
 <use Fisica_de_Particulas/imagenes/darksusy_feynman.png>
 Package pdftex.def Info: Fisica_de_Particulas/imagenes/darksusy_feynman.png  us
-ed on input line 327.
+ed on input line 345.
 (pdftex.def)             Requested size: 155.25517pt x 125.49382pt.
- [20 <./Fisica_de_Particulas/imagenes/sketch_darksector.png> <./Fisica_de_Parti
-culas/imagenes/darksusy_feynman.png>]) [21]
+) [21 <./Fisica_de_Particulas/imagenes/sketch_darksector.png> <./Fisica_de_Part
+iculas/imagenes/darksusy_feynman.png>]
 Cap\'{\i }tulo 2.
-(./Analisis_y_Resultados/Introduccion.tex) (./Analisis_y_Resultados/LHC.tex
+(./Analisis_y_Resultados/Introduccion.tex) (./Analisis_y_Resultados/LHC.texpdfT
+eX warning (ext4): destination with the same identifier (name{Hfootnote.8}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 ...ef{https://home.cern/}{https://home.cern/}}
+                                                   es el laboratorio de fÃ­s...
 [22
 
 ]
@@ -1383,25 +1363,30 @@ ptm/b/n/12 b\T1/ptm/m/n/12 eauty) :[][] ex-pe-ri-men-to es-pe-cia-li-za-do en f
 í-si-ca del [][]quark[][] b,
  []
 
-<Analisis_y_Resultados/imagenes/cern.png, id=783, 980.16188pt x 456.95718pt>
+<Analisis_y_Resultados/imagenes/cern.png, id=871, 980.16188pt x 456.95718pt>
 File: Analisis_y_Resultados/imagenes/cern.png Graphic file (type png)
 <use Analisis_y_Resultados/imagenes/cern.png>
 Package pdftex.def Info: Analisis_y_Resultados/imagenes/cern.png  used on input
  line 20.
 (pdftex.def)             Requested size: 399.21791pt x 186.11253pt.
-[23 <./Analisis_y_Resultados/imagenes/cern.png>] [24]
+[23 <./Analisis_y_Resultados/imagenes/cern.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 53.
-<Analisis_y_Resultados/imagenes/CMS_upgrade.png, id=817, 1075.76906pt x 312.417
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+<Analisis_y_Resultados/imagenes/CMS_upgrade.png, id=904, 1075.76906pt x 312.417
 19pt>
 File: Analisis_y_Resultados/imagenes/CMS_upgrade.png Graphic file (type png)
 <use Analisis_y_Resultados/imagenes/CMS_upgrade.png>
 Package pdftex.def Info: Analisis_y_Resultados/imagenes/CMS_upgrade.png  used o
 n input line 66.
 (pdftex.def)             Requested size: 443.57848pt x 128.82123pt.
- [25 <./Analisis_y_Resultados/imagenes/CMS_upgrade.png>])
-(./Analisis_y_Resultados/Experimento_CMS_del_CERN.tex
-<Analisis_y_Resultados/imagenes/CMS_interaction.png, id=836, 848.4197pt x 405.0
+)
+(./Analisis_y_Resultados/CMS.tex [25 <./Analisis_y_Resultados/imagenes/CMS_upgr
+ade.png>]
+<Analisis_y_Resultados/imagenes/CMS_interaction.png, id=921, 848.4197pt x 405.0
 1312pt>
 File: Analisis_y_Resultados/imagenes/CMS_interaction.png Graphic file (type png
 )
@@ -1409,82 +1394,135 @@ File: Analisis_y_Resultados/imagenes/CMS_interaction.png Graphic file (type png
 Package pdftex.def Info: Analisis_y_Resultados/imagenes/CMS_interaction.png  us
 ed on input line 5.
 (pdftex.def)             Requested size: 443.57848pt x 211.75133pt.
- [26] [27 <./Analisis_y_Resultados/imagenes/CMS_interaction.png>] [28])
-(./Analisis_y_Resultados/Reconstruccion_Muones.tex
-<Analisis_y_Resultados/imagenes/Tracking_of_Muon.png, id=861, 1117.17375pt x 59
-9.23875pt>
+ [26 <./Analisis_y_Resultados/imagenes/CMS_interaction.png>] [27]
+<Analisis_y_Resultados/imagenes/track.png, id=947, 1378.39969pt x 499.8675pt>
+File: Analisis_y_Resultados/imagenes/track.png Graphic file (type png)
+<use Analisis_y_Resultados/imagenes/track.png>
+Package pdftex.def Info: Analisis_y_Resultados/imagenes/track.png  used on inpu
+t line 69.
+(pdftex.def)             Requested size: 421.3982pt x 152.81403pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28]
+<Analisis_y_Resultados/imagenes/Tracking_of_Muon.png, id=962, 782.925pt x 493.8
+45pt>
 File: Analisis_y_Resultados/imagenes/Tracking_of_Muon.png Graphic file (type pn
 g)
 <use Analisis_y_Resultados/imagenes/Tracking_of_Muon.png>
 Package pdftex.def Info: Analisis_y_Resultados/imagenes/Tracking_of_Muon.png  u
-sed on input line 10.
-(pdftex.def)             Requested size: 421.3982pt x 226.03065pt.
-<Analisis_y_Resultados/imagenes/Momentum_resolution_of_Muon.png, id=862, 1111.1
-5125pt x 593.21625pt>
+sed on input line 96.
+(pdftex.def)             Requested size: 399.21791pt x 251.8124pt.
+<Analisis_y_Resultados/imagenes/Momentum_resolution_of_Muon.png, id=963, 817.05
+25pt x 520.94624pt>
 File: Analisis_y_Resultados/imagenes/Momentum_resolution_of_Muon.png Graphic fi
 le (type png)
 <use Analisis_y_Resultados/imagenes/Momentum_resolution_of_Muon.png>
 Package pdftex.def Info: Analisis_y_Resultados/imagenes/Momentum_resolution_of_
-Muon.png  used on input line 13.
-(pdftex.def)             Requested size: 421.3982pt x 224.97192pt.
- [29]
+Muon.png  used on input line 99.
+(pdftex.def)             Requested size: 399.21791pt x 254.54254pt.
+ [29 <./Analisis_y_Resultados/imagenes/track.png>] [30 <./Analisis_y_Resultados
+/imagenes/Tracking_of_Muon.png> <./Analisis_y_Resultados/imagenes/Momentum_reso
+lution_of_Muon.png>]
+<Analisis_y_Resultados/imagenes/cono_mu.png, id=980, 737.00343pt x 673.76718pt>
+
+File: Analisis_y_Resultados/imagenes/cono_mu.png Graphic file (type png)
+<use Analisis_y_Resultados/imagenes/cono_mu.png>
+Package pdftex.def Info: Analisis_y_Resultados/imagenes/cono_mu.png  used on in
+put line 124.
+(pdftex.def)             Requested size: 199.60895pt x 182.47473pt.
+<Analisis_y_Resultados/imagenes/plano.png, id=981, 859.71187pt x 755.82375pt>
+File: Analisis_y_Resultados/imagenes/plano.png Graphic file (type png)
+<use Analisis_y_Resultados/imagenes/plano.png>
+Package pdftex.def Info: Analisis_y_Resultados/imagenes/plano.png  used on inpu
+t line 126.
+(pdftex.def)             Requested size: 199.60895pt x 175.48502pt.
+ [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./Analisis_y_Resultados/imagenes/Tracking_of_Muon.png> <./Analisis_y_Resu
-ltados/imagenes/Momentum_resolution_of_Muon.png>] [31]
-<Analisis_y_Resultados/imagenes/Eficiencia_of_Muon.png, id=887, 1107.13625pt x 
-591.20876pt>
+ [32 <./Analisis_y_Resultados/imagenes/cono_mu.png> <./Analisis_y_Resultados/im
+agenes/plano.png>] [33]
+<Analisis_y_Resultados/imagenes/Eficiencia_of_Muon.png, id=1012, 773.89125pt x 
+499.8675pt>
 File: Analisis_y_Resultados/imagenes/Eficiencia_of_Muon.png Graphic file (type 
 png)
 <use Analisis_y_Resultados/imagenes/Eficiencia_of_Muon.png>
 Package pdftex.def Info: Analisis_y_Resultados/imagenes/Eficiencia_of_Muon.png 
- used on input line 42.
-(pdftex.def)             Requested size: 443.57848pt x 236.86722pt.
-)
-(./Analisis_y_Resultados/Simulacion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ used on input line 164.
+(pdftex.def)             Requested size: 443.57848pt x 286.51392pt.
+) (./Analisis_y_Resultados/Simulacion.tex [34 <./Analisis_y_Resultados/imagenes
+/Eficiencia_of_Muon.png>]
 
- [32 <./Analisis_y_Resultados/imagenes/Eficiencia_of_Muon.png>])
-(./Analisis_y_Resultados/Root.tex [33]
-Overfull \hbox (4.51115pt too wide) in paragraph at lines 5--6
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 12.
+
+
+Overfull \hbox (9.37242pt too wide) in paragraph at lines 17--18
 []\T1/ptm/b/n/12 Acceso a los da-tos: \T1/ptm/m/n/12 se ac-ce-de a los da-tos g
-uar-da-dos en uno o va-rios ar-chi-vos [][]\T1/ptm/b/n/12 ROOT[][] \T1/ptm/m/n/
-12 des-
+uar-da-dos en uno o va-rios ar-chi-vos [][]$[]$[][] des-
  []
 
-) (./Analisis_y_Resultados/MadGraph.tex [34]
+[35]
 
-Package natbib Warning: Citation `de_favereau_delphes_2014-1' on page 35 undefi
-ned on input line 12.
-
-
-Package natbib Warning: Citation `sjostrand_introduction_2015-1' on page 35 und
-efined on input line 12.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
 
 
-Package natbib Warning: Citation `sjostrand_introduction_2015-1' on page 35 und
-efined on input line 12.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
 
-) (./Analisis_y_Resultados/Pythia.tex [35] [36] [37])
-(./Analisis_y_Resultados/Delphes.tex
-<Analisis_y_Resultados/imagenes/delphes.png, id=986, 1463.4675pt x 690.32906pt>
+[36]
+Overfull \hbox (3.29417pt too wide) in paragraph at lines 49--70
+[]\T1/ptm/m/n/12 El prin-ci-pal con-jun-to de he-rra-mien-tas que com-po-nen la
+ he-rra-mien-ta $[]$,
+ []
 
+
+Overfull \hbox (0.42657pt too wide) in paragraph at lines 49--70
+[]$ \T1/ptm/m/n/12 , $[]$ , $[]$ , $[]$ [[][]Sjös-trand \T1/ptm/m/it/12 et al.[
+][]\T1/ptm/m/n/12 , [][]2015[][]], $[]$ y $[]$
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 75.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 75.
+
+[37] [38]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 109.
+
+<Analisis_y_Resultados/imagenes/delphes.png, id=1094, 1463.4675pt x 690.32906pt
+>
 File: Analisis_y_Resultados/imagenes/delphes.png Graphic file (type png)
 <use Analisis_y_Resultados/imagenes/delphes.png>
 Package pdftex.def Info: Analisis_y_Resultados/imagenes/delphes.png  used on in
-put line 5.
-(pdftex.def)             Requested size: 443.57848pt x 209.23863pt.
- [38 <./Analisis_y_Resultados/imagenes/delphes.png>]) [39]
+put line 117.
+(pdftex.def)             Requested size: 421.3982pt x 198.7788pt.
+[39]) [40 <./Analisis_y_Resultados/imagenes/delphes.png>]
 Cap\'{\i }tulo 3.
 (./Simulacion/Introduccion.tex
-<Simulacion/imagenes/procesos_darksusy.png, id=1008, 1592.95125pt x 496.10344pt
+<Simulacion/imagenes/procesos_darksusy.png, id=1117, 1592.95125pt x 496.10344pt
 >
 File: Simulacion/imagenes/procesos_darksusy.png Graphic file (type png)
 <use Simulacion/imagenes/procesos_darksusy.png>
 Package pdftex.def Info: Simulacion/imagenes/procesos_darksusy.png  used on inp
 ut line 18.
 (pdftex.def)             Requested size: 443.57848pt x 138.14345pt.
- [40
+ [41
 
  <./Simulacion/imagenes/procesos_darksusy.png>]) (./Simulacion/Proyecto_Generac
 ion.tex
@@ -1492,28 +1530,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
  []
 
-[41]
-<Simulacion/imagenes/proyecto_darksusy.png, id=1039, 2978.12625pt x 1400.23125p
+[42]
+<Simulacion/imagenes/proyecto_darksusy.png, id=1147, 2978.12625pt x 1400.23125p
 t>
 File: Simulacion/imagenes/proyecto_darksusy.png Graphic file (type png)
 <use Simulacion/imagenes/proyecto_darksusy.png>
 Package pdftex.def Info: Simulacion/imagenes/proyecto_darksusy.png  used on inp
 ut line 53.
 (pdftex.def)             Requested size: 443.57848pt x 208.55138pt.
- [42]
-<Simulacion/imagenes/proceso_genera_darksusy.png, id=1061, 1173.63469pt x 372.6
+ [43]
+<Simulacion/imagenes/proceso_genera_darksusy.png, id=1169, 1173.63469pt x 372.6
 4218pt>
 File: Simulacion/imagenes/proceso_genera_darksusy.png Graphic file (type png)
 <use Simulacion/imagenes/proceso_genera_darksusy.png>
 Package pdftex.def Info: Simulacion/imagenes/proceso_genera_darksusy.png  used 
 on input line 131.
 (pdftex.def)             Requested size: 443.57848pt x 140.83788pt.
- [43 <./Simulacion/imagenes/proyecto_darksusy.png>])
+ [44 <./Simulacion/imagenes/proyecto_darksusy.png>])
 (./Simulacion/Procesamiento.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./Simulacion/imagenes/proceso_genera_darksusy.png>]
-<Simulacion/imagenes/class_darksusy.png, id=1078, 1285.80376pt x 506.6428pt>
+ [45 <./Simulacion/imagenes/proceso_genera_darksusy.png>]
+<Simulacion/imagenes/class_darksusy.png, id=1186, 1285.80376pt x 506.6428pt>
 File: Simulacion/imagenes/class_darksusy.png Graphic file (type png)
 <use Simulacion/imagenes/class_darksusy.png>
 Package pdftex.def Info: Simulacion/imagenes/class_darksusy.png  used on input 
@@ -1525,27 +1563,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 Dark-SUSY/-blob/-mas-ter/-00--Con-ver-ti-do-res/-ge-ne-
  []
 
-) (./Simulacion/Regresion.tex [45 <./Simulacion/imagenes/class_darksusy.png>]
-[46]
-<Simulacion/imagenes/generico.png, id=1107, 364.36125pt x 210.7875pt>
+) (./Simulacion/Regresion.tex [46 <./Simulacion/imagenes/class_darksusy.png>]
+[47]
+<Simulacion/imagenes/generico.png, id=1215, 364.36125pt x 210.7875pt>
 File: Simulacion/imagenes/generico.png Graphic file (type png)
 <use Simulacion/imagenes/generico.png>
 Package pdftex.def Info: Simulacion/imagenes/generico.png  used on input line 3
 0.
 (pdftex.def)             Requested size: 310.50357pt x 179.6366pt.
- [47 <./Simulacion/imagenes/generico.png>]
-<Simulacion/imagenes/neuronas.png, id=1120, 501.37312pt x 335.75438pt>
+ [48 <./Simulacion/imagenes/generico.png>]
+<Simulacion/imagenes/neuronas.png, id=1228, 501.37312pt x 335.75438pt>
 File: Simulacion/imagenes/neuronas.png Graphic file (type png)
 <use Simulacion/imagenes/neuronas.png>
 Package pdftex.def Info: Simulacion/imagenes/neuronas.png  used on input line 5
 3.
 (pdftex.def)             Requested size: 399.21791pt x 267.35893pt.
- [48 <./Simulacion/imagenes/neuronas.png>]) (./Simulacion/valores_reales.tex [4
-9]
+ [49 <./Simulacion/imagenes/neuronas.png>]) (./Simulacion/valores_reales.tex [5
+0]
 Underfull \vbox (badness 3930) has occurred while \output is active []
 
- [50]
-<Simulacion/imagenes/True_Entries.png, id=1152, 1005.7575pt x 253.69781pt>
+ [51]
+<Simulacion/imagenes/True_Entries.png, id=1261, 1005.7575pt x 253.69781pt>
 File: Simulacion/imagenes/True_Entries.png Graphic file (type png)
 <use Simulacion/imagenes/True_Entries.png>
 Package pdftex.def Info: Simulacion/imagenes/True_Entries.png  used on input li
@@ -1554,39 +1592,39 @@ ne 51.
 
 Underfull \vbox (badness 2512) has occurred while \output is active []
 
- [51 <./Simulacion/imagenes/True_Entries.png>]
+ [52 <./Simulacion/imagenes/True_Entries.png>]
 Overfull \hbox (0.87483pt too wide) in paragraph at lines 108--108
 []|$[]\OML/cmm/m/it/10.95 Pt$| 
  []
 
-<Simulacion/imagenes/propiedades_True_notMSSM.png, id=1170, 666.23906pt x 350.0
+<Simulacion/imagenes/propiedades_True_notMSSM.png, id=1279, 666.23906pt x 350.0
 5782pt>
 File: Simulacion/imagenes/propiedades_True_notMSSM.png Graphic file (type png)
 <use Simulacion/imagenes/propiedades_True_notMSSM.png>
 Package pdftex.def Info: Simulacion/imagenes/propiedades_True_notMSSM.png  used
  on input line 121.
 (pdftex.def)             Requested size: 399.21791pt x 209.76389pt.
-<Simulacion/imagenes/propiedades_True_MSSM.png, id=1171, 670.00313pt x 563.8565
+<Simulacion/imagenes/propiedades_True_MSSM.png, id=1280, 670.00313pt x 563.8565
 7pt>
 File: Simulacion/imagenes/propiedades_True_MSSM.png Graphic file (type png)
 <use Simulacion/imagenes/propiedades_True_MSSM.png>
 Package pdftex.def Info: Simulacion/imagenes/propiedades_True_MSSM.png  used on
  input line 125.
 (pdftex.def)             Requested size: 399.21791pt x 335.96773pt.
-[52]
+[53]
 
-LaTeX Warning: Text page 53 contains only floats.
+LaTeX Warning: Text page 54 contains only floats.
 
-[53 <./Simulacion/imagenes/propiedades_True_notMSSM.png> <./Simulacion/imagenes
+[54 <./Simulacion/imagenes/propiedades_True_notMSSM.png> <./Simulacion/imagenes
 /propiedades_True_MSSM.png>]
-<Simulacion/imagenes/True_PT5.png, id=1194, 674.52pt x 456.20438pt>
+<Simulacion/imagenes/True_PT5.png, id=1301, 674.52pt x 456.20438pt>
 File: Simulacion/imagenes/True_PT5.png Graphic file (type png)
 <use Simulacion/imagenes/True_PT5.png>
 Package pdftex.def Info: Simulacion/imagenes/True_PT5.png  used on input line 1
 46.
 (pdftex.def)             Requested size: 399.21791pt x 270.00749pt.
- [54]
-<Simulacion/imagenes/IDENTIFICADOR.png, id=1202, 867.99281pt x 593.21625pt>
+ [55]
+<Simulacion/imagenes/IDENTIFICADOR.png, id=1310, 867.99281pt x 593.21625pt>
 File: Simulacion/imagenes/IDENTIFICADOR.png Graphic file (type png)
 <use Simulacion/imagenes/IDENTIFICADOR.png>
 Package pdftex.def Info: Simulacion/imagenes/IDENTIFICADOR.png  used on input l
@@ -1599,18 +1637,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55 <./Simulacion/imagenes/True_PT5.png>]
+ [56 <./Simulacion/imagenes/True_PT5.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56 <./Simulacion/imagenes/IDENTIFICADOR.png>]
-<Simulacion/imagenes/acc.png, id=1221, 288.3272pt x 192.72pt>
+ [57 <./Simulacion/imagenes/IDENTIFICADOR.png>]
+<Simulacion/imagenes/acc.png, id=1330, 288.3272pt x 192.72pt>
 File: Simulacion/imagenes/acc.png Graphic file (type png)
 <use Simulacion/imagenes/acc.png>
 Package pdftex.def Info: Simulacion/imagenes/acc.png  used on input line 215.
 (pdftex.def)             Requested size: 221.78923pt x 148.25075pt.
- [57 <./Simulacion/imagenes/acc.png>])
+ [58 <./Simulacion/imagenes/acc.png>])
 (./Simulacion/Muones_por_Entradas.tex
-<Simulacion/imagenes/Distribucion_Entries.png, id=1240, 1192.455pt x 1666.225pt
+<Simulacion/imagenes/Distribucion_Entries.png, id=1349, 1192.455pt x 1666.225pt
 >
 File: Simulacion/imagenes/Distribucion_Entries.png Graphic file (type png)
 <use Simulacion/imagenes/Distribucion_Entries.png>
@@ -1623,16 +1661,16 @@ Underfull \hbox (badness 1028) in paragraph at lines 22--22
 -do de apli-car ``boots-trap'' so-bre los va-lo-res
  []
 
-[58]
+[59]
 
-LaTeX Warning: Text page 59 contains only floats.
+LaTeX Warning: Text page 60 contains only floats.
 
 
 Overfull \vbox (0.30258pt too high) has occurred while \output is active []
 
 
-[59 <./Simulacion/imagenes/Distribucion_Entries.png>]
-<Simulacion/imagenes/Comparacion_Distribucion_Entries0.png, id=1261, 1019.30812
+[60 <./Simulacion/imagenes/Distribucion_Entries.png>]
+<Simulacion/imagenes/Comparacion_Distribucion_Entries0.png, id=1369, 1019.30812
 pt x 738.50906pt>
 File: Simulacion/imagenes/Comparacion_Distribucion_Entries0.png Graphic file (t
 ype png)
@@ -1647,23 +1685,23 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
-<Simulacion/imagenes/ML_Entries3.png, id=1277, 1698.345pt x 390.45876pt>
+ [61]
+<Simulacion/imagenes/ML_Entries3.png, id=1385, 1698.345pt x 390.45876pt>
 File: Simulacion/imagenes/ML_Entries3.png Graphic file (type png)
 <use Simulacion/imagenes/ML_Entries3.png>
 Package pdftex.def Info: Simulacion/imagenes/ML_Entries3.png  used on input lin
 e 112.
 (pdftex.def)             Requested size: 443.57848pt x 101.9816pt.
-<Simulacion/imagenes/ML_Entries.png, id=1279, 1209.51875pt x 387.4475pt>
+<Simulacion/imagenes/ML_Entries.png, id=1387, 1209.51875pt x 387.4475pt>
 File: Simulacion/imagenes/ML_Entries.png Graphic file (type png)
 <use Simulacion/imagenes/ML_Entries.png>
 Package pdftex.def Info: Simulacion/imagenes/ML_Entries.png  used on input line
  121.
 (pdftex.def)             Requested size: 399.21791pt x 127.88171pt.
 
-[61 <./Simulacion/imagenes/Comparacion_Distribucion_Entries0.png> <./Simulacion
-/imagenes/ML_Entries3.png>] [62 <./Simulacion/imagenes/ML_Entries.png>]
-<Simulacion/imagenes/PT_comparacion.png, id=1298, 670.00313pt x 685.8122pt>
+[62 <./Simulacion/imagenes/Comparacion_Distribucion_Entries0.png> <./Simulacion
+/imagenes/ML_Entries3.png>] [63 <./Simulacion/imagenes/ML_Entries.png>]
+<Simulacion/imagenes/PT_comparacion.png, id=1407, 670.00313pt x 685.8122pt>
 File: Simulacion/imagenes/PT_comparacion.png Graphic file (type png)
 <use Simulacion/imagenes/PT_comparacion.png>
 Package pdftex.def Info: Simulacion/imagenes/PT_comparacion.png  used on input 
@@ -1672,61 +1710,67 @@ line 179.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [64]
 LaTeX Font Info:    Font shape `TS1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `TS1/ptm/b/n' tried instead on input line 196.
 
 Underfull \vbox (badness 2707) has occurred while \output is active []
 
- [64 <./Simulacion/imagenes/PT_comparacion.png>]
-<Simulacion/imagenes/foton_mass.png, id=1320, 461.47406pt x 270.25969pt>
+ [65 <./Simulacion/imagenes/PT_comparacion.png>]
+<Simulacion/imagenes/foton_mass.png, id=1428, 461.47406pt x 270.25969pt>
 File: Simulacion/imagenes/foton_mass.png Graphic file (type png)
 <use Simulacion/imagenes/foton_mass.png>
 Package pdftex.def Info: Simulacion/imagenes/foton_mass.png  used on input line
  201.
 (pdftex.def)             Requested size: 421.3982pt x 246.79031pt.
-) [65 <./Simulacion/imagenes/foton_mass.png>] [66] (./INICIO.bbl [67
+) [66 <./Simulacion/imagenes/foton_mass.png>] [67] (./INICIO.bbl [68
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 138--142
+] [69]
+Underfull \hbox (badness 10000) in paragraph at lines 177--181
 []\T1/ptm/m/sc/12 Dalton, John\T1/ptm/m/n/12 .  John Dal-ton Bio-graphy (1803).
   Web:
  []
 
-[68] [69])
 
-Package natbib Warning: There were undefined citations.
+Underfull \hbox (badness 6047) in paragraph at lines 240--246
+[]\T1/ptm/m/sc/12 Maniatis, M.  \T1/ptm/m/n/12 The Next-to-Minimal Su-persym-me
+-tric ex-ten-sion of the Stan-
+ []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-[70]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+
+Underfull \hbox (badness 2818) in paragraph at lines 240--246
+\T1/ptm/m/n/12 dard Mo-del re-vie-wed.  \T1/ptm/m/it/12 High Energy Phy-sics - 
+Phe-no-me-no-logy \T1/ptm/m/n/12 (2009).  [][]doi:
+ []
+
+[70] [71])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+ [72]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (./INICIO.aux
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `INICIO.out' has not changed.
-(rerunfilecheck)             Checksum: 48EF828098FB50670159C09D6BEE0BBC;3353.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: B66AB286FE8707BE9EC1E02CAF595397;3370.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 13536 strings out of 492982
- 199909 string characters out of 6134896
- 301788 words of memory out of 5000000
- 16477 multiletter control sequences out of 15000+600000
- 118644 words of font info for 136 fonts, out of 8000000 for 9000
+ 13582 strings out of 492982
+ 200210 string characters out of 6134896
+ 303905 words of memory out of 5000000
+ 16510 multiletter control sequences out of 15000+600000
+ 118100 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,14n,45p,1692b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not ex
 ist, replaced by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
@@ -1756,10 +1800,10 @@ exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on INICIO.pdf (79 pages, 9982402 bytes).
+Output written on INICIO.pdf (82 pages, 11187462 bytes).
 PDF statistics:
- 1545 PDF objects out of 1728 (max. 8388607)
- 1329 compressed objects within 14 object streams
- 257 named destinations out of 1000 (max. 500000)
- 504 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1673 PDF objects out of 1728 (max. 8388607)
+ 1445 compressed objects within 15 object streams
+ 282 named destinations out of 1000 (max. 500000)
+ 514 words of extra memory for PDF output out of 10000 (max. 10000000)
 

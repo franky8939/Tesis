@@ -11,14 +11,14 @@
 \BOOKMARK [2][-]{subsection.1.2.2}{Composici\363n de la materia oscura}{section.1.2}% 11
 \BOOKMARK [2][-]{subsection.1.2.3}{Extensi\363n del Modelo Est\341ndar con Supersimetr\355a}{section.1.2}% 12
 \BOOKMARK [0][-]{chapter.2}{Experimento LHC \040y Detector CMS}{}% 13
-\BOOKMARK [1][-]{section.2.1}{F\355sica de Altas Energ\355as}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.1.1}{Actualizando LHC}{section.2.1}% 15
-\BOOKMARK [1][-]{section.2.2}{Experimento CMS}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.1}{Identificaci\363n y Reconstrucci\363n de Muones}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.1}{F\355sica de Altas Energ\355as con LHC}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.2}{Experimento CMS}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.1}{Actualizando CMS }{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.2}{Identificaci\363n y Reconstrucci\363n de Muones}{section.2.2}% 17
 \BOOKMARK [1][-]{section.2.3}{Simulaci\363n en Altas Energ\355as}{chapter.2}% 18
 \BOOKMARK [2][-]{subsection.2.3.1}{Implementando ROOT}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.2}{Altas Energ\355as con MadGraph}{section.2.3}% 20
-\BOOKMARK [2][-]{subsection.2.3.3}{Hadronizacion con Pythia 8}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.2}{Generador Monte Carlos con Madgraph5}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.3}{Hadronizaci\363n con pythia8}{section.2.3}% 21
 \BOOKMARK [2][-]{subsection.2.3.4}{Simulando el detector con Delphes 3}{section.2.3}% 22
 \BOOKMARK [0][-]{chapter.3}{Simulaci\363n y an\341lisis de la se\361al MSSMD}{}% 23
 \BOOKMARK [1][-]{section.3.1}{Generaci\363n de los datos}{chapter.3}% 24
@@ -38,4 +38,4 @@
 \BOOKMARK [2][-]{subsection.3.5.1}{Variaci\363n del contenido mu\363nico}{section.3.5}% 38
 \BOOKMARK [2][-]{subsection.3.5.2}{Variaci\363n de las propiedades de los muones}{section.3.5}% 39
 \BOOKMARK [2][-]{subsection.3.5.3}{Reconstruyendo el fot\363n oscuro}{section.3.5}% 40
-\BOOKMARK [0][-]{chapter*.54}{Referencias}{}% 41
+\BOOKMARK [0][-]{chapter*.57}{Referencias}{}% 41
