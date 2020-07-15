@@ -1,0 +1,59 @@
+Ante la necesidad de investigar las relaciones entre diferentes variables cuantitativas los análisis de regresión son una herramienta de frecuente uso en estadística, dado que simula un proceso o modelo que analiza este vínculo entre una variable dependiente y una o varias variables independientes. 
+
+Una de las principales aplicaciones del análisis de regresión es la proyección con diferentes escenarios, teniendo en cuenta el grado de correlación sobre la variable dependiente y de esta manera construir una función que permita estimar el valor la variable de estudio\footnote{Ejemplos de implementación en python se pueden visualizar en el enlace \href{https://www.aprendemachinelearning.com/regresion-lineal-en-espanol-con-python/}{https://www.\-apren\-de\-machine\-learning\-.com/\-re\-gre\-si\-on-\-li\-neal-en-\-es\-pa\-nol-\-con-\-py\-thon/}.}. 
+
+\subsection{Modelo}
+La foma general analítica de una regresión no lineal tiene la forma matemática:
+\begin{equation}
+\textsf{Y}_i == f\textsf{(X}_i) + \varepsilon_i
+\end{equation}
+donde $\textsf{Y}_i$ y $\textsf{X}_i$ son los valores de salida y entrada multidimensionales, $\varepsilon_i$ es un parámetro multidimensional correspondiente a los residuos y $\textsf{f}$ es una función de correlación.
+
+Dado que los valores de $\textsf{Y}_i$ a los que se hará referencia en esta investigación son referidos a frecuencias resultado de la aplicación de métodos estadísticos sobre alguna propiedad de nuestro conjunto de datos, entonces, $\textsf{Y}_i \geqslant 0$. La presencia de valores positivos en el rango del codominio genera un problema de continuidad, una transformación se hace necesaria para ampliar este a todos los valores reales $\mathbb{R}$, la solución implementada es haciendo uso de una transformación logarítmica, quedando entonces:
+\begin{equation}
+\textsf{Y}_i\equiv\ln\textsf{y}_i ~~~ , ~~~ \textsf{X}_i\equiv\textsf{x}_i, ~~ \Rightarrow~~ \ln \textsf{y}_i = f(\textsf{x}_i)+\varepsilon_i
+\end{equation}
+Si hacemos supuesto que la forma de la función de $f$ sea polinomial, %y siendo $\epsilon_i \equiv \alpha_{j0}$ 
+ entonces:
+%\begin{equation}
+%\ln \textsf{y}_i = \sum_\textsf{i=0}^\textsf{k} (\alpha_\textsf{0i} + \alpha_\textsf{1i}\cdot x_i + \alpha_\textsf{2i}\cdot x_i^2 + \alpha_\textsf{3i}\cdot x_i^3 + \ldots+\alpha_\textsf{ni} \cdot x_i^n)+\epsilon
+%\end{equation}
+\begin{equation}\label{regresion}
+\ln \textsf{y}_{i} = \sum_{j=0}^\textsf{n}\sum_{k=1}^\textsf{m} \alpha_{jk} \cdot \textsf{x}_{ij}^k + \varepsilon_i
+\end{equation}
+
+donde $\alpha_{jk}$ son las constantes del polinomio, el orden de la regresión está dado por $\textsf{m}$ y los valores $x_{ij}$ serán las variables independientes de nuestro modelo, estas son integrados en una función en python implementando la paqueteria $\textsf{sklearn}$ con la flexibilidad de cambiar los valores $\textsf{k}$ y $\textsf{n}$. %La función desarrollada para el uso en esta investigación se puede encontrar en el enlace \url{https://github.com/franky8939/DarkSUSY/blob/master/modules/machine_learning/regresion_lineal.py}.
+La optimización se realiza con el algoritmo para la optimización de Adam\citep{adam}, siendo este basado en gradiente de primer orden de funciones objetivas estocásticas y en estimaciones adaptativas de momentos de orden inferior.
+
+\subsubsection{Parámetros de confianza.}
+Con el fin de determinar si el modelo es adecuado, se hace necesario utilizar conceptos de inferencia estadística tales como intervalos de confianza para los parámetros así como pruebas de bondad de ajuste. 
+
+El parámetro \textbf{RMSE} (\textbf{R}oot \textbf{M}ean \textbf{S}quare \textbf{E}rror) es el error cuadrático medio o raíz de la desviación cuadrática media. Este mide la cantidad de error que hay entre dos conjuntos de datos, comparando un valor predicho y un valor observado o conocido, la ecuación que la describe es:
+\begin{equation}
+\mathbf{RMSE} ~ = ~ \sqrt{\dfrac{\sum\limits_{i=1}^\textsf{N} |\textsf{Y}_{i}^\textsf{(sm)}  - \textsf{Y}_{i}^\textsf{(real)}|^2}{\textsf{N}}} 
+\end{equation}
+donde $\textsf{Y}_{i}^\textsf{(sm)}$  es conjunto de datos predichos o simulados y $\textsf{Y}_{i}^\textsf{(real)}$ se corresponde con el conjunto de datos experimentales o observados.
+
+El parámetro \textbf{RMSE} es siempre no negativa, y un valor de $0$ indicaría un ajuste perfecto a los datos. Dado que es una raíz cuadrada del promedio de errores cuadrados, este parámetro es proporcional al tamaño del error cuadrado; por lo tanto, los errores mayores tienen un efecto desproporcionadamente mas grande, de aquí que sea sensible a los valores atípicos.
+
+Otra prueba ampliamente utilizada es la prueba de correlación de Pearson o coeficiente de determinación $\mathbf{R^2}$, esta se considera una prueba no paramétrica que mide la discrepancia entre una distribución observada y otra teórica, indicando en qué medida las diferencias existentes entre ambas, una de sus bondades es que es independiente de la escala de medida de las variables. La fórmula que da el estadístico es:
+\begin{equation}
+\mathbf{R^2} ~ = ~ \dfrac{\sum\limits_{i=1}^\textsf{N} \textsf{Y}_{i}^\textsf{(sm)} \textsf{Y}_{i}^\textsf{(real)}}{\sqrt{\left[\sum\limits_{i=0}^\textsf{N} \textsf{Y}_{i}^\textsf{(sm)}\right]^2 \cdot \left[\sum\limits_{i=0}^\textsf{N} \textsf{Y}_{i}^\textsf{(real)}\right]^2}}
+\end{equation}  
+El valor de este índice de correlación varía en el intervalo $[-1,~1]$, indicando el signo el sentido de la relación, si $\mathbf{R^2} = 1(-1)$, existe una correlación positiva(negativa) perfecta. Si $\mathbf{R^2} = 0$, no existe relación lineal.
+
+%Además en estadística otro parámetro de gran importancia es el , este es un estadístico usado en el contexto de un modelo estadístico cuyo principal propósito es predecir futuros resultados o probar una hipótesis. El coeficiente determina la calidad del modelo para replicar los resultados, y la proporción de variación de los resultados que puede explicarse por el modelo.​
+
+%Hay varias definiciones diferentes para R² que son algunas veces equivalentes. Las más comunes se refieren a la regresión lineal. En este caso, el R² es simplemente el cuadrado del coeficiente de correlación de Pearson, lo cual es sólo cierto para la regresión lineal simple. Si existen varios resultados para una única variable, es decir, para una X existe una Y, Z... el coeficiente de determinación resulta del cuadrado del coeficiente de determinación múltiple. En ambos casos el R² adquiere valores entre 0 y 1. Existen casos dentro de la definición computacional de R² donde este valor puede tomar valores negativos.2​ 
+% \begin{tabular}{p{1.5cm}p{13cm}}
+
+% \end{tabular}
+
+
+
+
+
+
+
+
+

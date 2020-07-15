@@ -1,0 +1,185 @@
+Los procesos de simulación de física de altas energías poseen algunas desventajas, entre ellas están los altos conocimientos en programación y uso de software libre, además, de que los análisis poseen altos requerimientos computacionales para generar las simulaciones y para guardar los resultados. La configuración correcta de las herramientas computacionales a usar, la preparación del entorno o sistema sobre el que se ejecutarán y la optimización de los recursos a usar, deben ser objeto de planificación ante de la ejecución final.
+% por lo que se hace necesario para la investigación el uso de poderosas supercomputadoras como el \textbf{ACARUS}(\textbf{Á}rea de \textbf{C}ómputo de \textbf{A}lto \textbf{R}endimiento de la \textbf{U}niversidad de \textbf{S}onora), recurso dedicado a la investigación de los cuerpos académicos de la universidad.
+
+\subsection{Generalidades}
+Los programas principales requeridos para la simulación del proceso \textbf{Dark-}\SUSY, para su uso en esta investigación son los siguientes:
+\begin{itemize_f}
+\item  $\mathbf{MadGraph5}$: generador de eventos con método de Monte Carlos. 
+\item $\mathbf{pythia8}$: hadronizador.
+\item $\mathbf{Delphes}$: simulador del detector con el ``\textit{card}'' de \CMS ~ adecuado.
+\item  $\mathbf{C}^{++}$ y $\mathbf{python}$: recursos para análisis e integración.
+\end{itemize_f}
+
+El generador de \MC ~ utilizado para la generación de eventos es $\mathbf{MadGraph5}$, este es la herramienta que integra y proporciona todos los elementos necesarios para la fenomenología \ME ~ y la inclusión del \SUSY, como los cálculos de secciones transversales, la generación de eventos y su coincidencia con generadores de eventos, y el uso de una variedad de herramientas relevantes para la manipulación de eventos y análisis. Los procesos se pueden simular con precisión para cualquier Lagrangiano definido por el usuario. $\mathbf{MadGraph5}$ toma entradas en forma de varios ``\textit{string}'', algunos de estos mostrados a continuación:
+\begin{itemize_f}
+\item  $\mathbf{proc\_card.dat}$: descripción del proceso.
+\item  $\mathbf{param\_card.dat}$: masa, decaimiento y otros parámetros del modelo.
+\item  $\mathbf{run\_card.dat}$: energía del emisor, pdfset and otras configuraciones de colisión.
+\end{itemize_f}
+
+Los programas \ROOT (sec\-ción \ref{C_root}), $\mathbf{Madgraph5}$ (sec\-ción \ref{C_madgraph}), $\mathbf{Del\-phes}$ (sec\-ción \-\ref{C_delphes}) y $\mathbf{py\-thia8}$ (sec\-ción \ref{C_pythia8}) de\-ben ser integradas correctamente para correr sobre $\mathbf{py\-thon}$ en su versión 2, el procedimiento de instalación y configuración se pueden encontrar en su página oficial\footnote{ Página del proyecto: \href{https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial}{https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial}}. %Los programas $\mathbf{Delphes}$ y $\mathbf{pythia8}$ son integradas para trabajar dentro del entorno de $\mathbf{Madgraph5}$, 
+Además, para su funcionamiento, las dependencias $\mathbf{hepmc}$, $\mathbf{zlib}$, $\mathbf{boost}$, $\mathbf{gnu}\-\mathbf{plo}$t, $\mathbf{MG5aMC\_PY8\_interface}$ y $\mathbf{lhapdf}$ son necesarias, algunas referidas en la sección \ref{C_madgraph}.
+
+
+\subsection{Generando señal \textbf{Dark-}\SUSY}
+
+Ante la necesidad de flexibilizar la generación de eventos de decaimiento característicos de la Fig. \ref{fig:sketch_darksector} se crea un proyecto de programación con la capacidad de generar eventos en $\mathbf{Madgraph5}$ bajo la variación teórica de la masa del neutralino del sector visible $m_{n_1}$, el neutralino oscuro $m_{n_D}$, del fotón oscuro $m_{\gamma_D}$ y del tiempo de vida de este último $c\tau_{\gamma_D}$, además de recrear la simulación bajo condiciones del detector en Run-2 (referenciada en el trabajo como $\textsf{R2}$) y Alta Luminosidad (referenciada como $\textsf{HL}$). La estructura del proyecto se puede observar en la Fig. \ref{genera_darksusy0}.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=1\textwidth]{Cap3/imagenes/proyecto_darksusy.png}
+\caption[Estructura del proyecto de generación de eventos \textbf{Dark-\SUSY}.]{Estructura del proyecto de generación de eventos \textbf{Dark-\SUSY}\footnotemark.}
+\label{genera_darksusy0}
+\end{figure}
+
+\footnotetext{Página del proyecto \href{https://github.com/franky8939/GeneradorDarkSUSY}{https://\-git\-hub.\-com/\-fran\-ky\-8939/\-Ge\-ne\-ra\-dor\-Dark\-SUSY}}
+
+Para hacer uso eficiente de los recursos puestos a disposición, el proyecto generador de muestras para uso de esta investigación creado en $\mathbf{python}$, fue programado con la intencionalidad de automatizar las configuraciones necesarias para su correcta ejecución, basada en el procedimiento original de integración del modelo \textbf{Dark-}\SUSY ~ en $\mathbf{Madgraph5}$ presentado en \href{https://github.com/cms-tamu/DarkSUSY_MC_MG5}{https://\-git\-hub\-.com\-/\-cms-\-tamu\-/\-Dark\-SUSY\-\_MC\-\_MG5}. El programa automatiza el cambio de los parámetros de generación, inclusión del modelo \MSSM \textbf{D} o \textbf{Dark-}\SUSY ~ dentro de $\mathbf{Madgraph}$ y guardado automático de los resultados en un archivo externo predefinido, el flujo general del programa se puede observar en la Fig. \ref{genera_darksusy2} y los parámetros de generación con sus valores en la Tabla \ref{table_genera_v5_value}.
+
+La función generadora $\textsf{genera\_v5.py}$ en su versión 5, creada específicamente para esta investigación, incluye una descripción de los argumentos opcionales que permiten su adaptabilidad ante situaciones alternativas a su configuración original:
+
+\begin{table}[!ht]
+\begin{center}
+\small%\scriptsize
+\begin{tabular}{|ll|}
+\toprule
+%\begin{small}
+$\mathbf{genera\_v5.py}$ %\end{small} 
+& $\mathbf{[-h] ~ [-Event ~ EVENT]  ~ [-MNeuL ~ MNEUL] ~ [-MNeuD ~ MNEUD] }$\\
+& $\mathbf{[-MPhoD ~ MPHOD] ~ [-TcPhoD ~ TCPHOD] ~ [-Mode ~ MODE]}$\\
+& $\mathbf{[-Card ~CARD] ~ [-Name ~ NAME] ~ [-Dir\_Madg ~ DIR\_MADG]}$\\ 
+& $\mathbf{[-Dir\_Source ~ DIR\_SOURCE]}$\\
+& $\mathbf{[-Dir\_Out ~ DIR\_OUT] ~ [-Dir\_temp\_Madg ~ DIR\_TEMP\_MADG]}$\\
+\bottomrule 
+\end{tabular}%\\[.4cm]
+\caption{Función generadora de muestras \MSSM\textbf{D}~ y argumentos opcionales.}
+\label{table_genera_v5}
+\end{center}
+\end{table}
+
+\begin{table}[!ht]
+\begin{center}
+\small
+\begin{tabular}{|cclc|}
+\toprule
+Notación  & Notación  & Definición & Valor por defecto\\
+python & científica  & & \\
+\midrule
+\begin{scriptsize}EVENT\end{scriptsize} & $N_e$ & Numero de eventos & 1000\\
+\begin{scriptsize}MNEUL\end{scriptsize} & $m_{n_1}$ & Masa del neutralino ligero & 1, ~2, ~3, ~4, ~5, ~10\\
+\begin{scriptsize}MNEUD\end{scriptsize} & $m_{n_D}$ & Masa del neutralino oscuro & 1, ~2, ~3, ~4, ~5, ~10\\
+\begin{scriptsize}MPHOD\end{scriptsize} & $m_{\gamma_D}$ & Masa del fotón oscuro & 1, 2, 3, 4, 5, 6, 7, 8\\
+\begin{scriptsize}TCPHOD\end{scriptsize} & $c\tau_{\gamma_D}$ & Tiempo de vida del fotón oscuro &0, 0.5, 1, 2, 3, 4, 5, 10\\
+& & &20, 30, 40, 50, 100\\
+\begin{scriptsize}MODE\end{scriptsize} & $-$ & Condición de funcionamiento & $\textsf{``in''}$, $\textsf{``out''}$\\
+\begin{scriptsize}CARD\end{scriptsize} & $k$ & Selección de detector & R2, HL \\
+\begin{scriptsize}NAME\end{scriptsize} & $-$ & Nombre del archivo root de salida & $-$\\
+\begin{scriptsize}DIR\_MADG\end{scriptsize} & $-$ & Directorio de acceso a Madgraph & $-$\\
+\begin{scriptsize}DIR\_TEMP\_MADG\end{scriptsize} & $-$ & Directorio temporal de Madgraph & $-$\\
+\begin{scriptsize}DIR\_SOURCE\end{scriptsize} & $-$ & Directorio de recursos & $-$ \\
+\begin{scriptsize}DIR\_OUT\end{scriptsize} & $-$ & Directorio de salida & $-$\\
+\hline
+\end{tabular}
+\caption{Argumentos de la función generación de muestras \MSSM\textbf{D}, notación, definición y valores de los mismos.}
+\label{table_genera_v5_value}
+\end{center}
+\end{table}
+%\begin{tabular}{|ll|}
+%\hline
+%$\textsf{optional arguments:}$  & \\
+%$\textsf{-h, - -help}$          & $\textsf{Show this help message and exit}$\\
+%$\textsf{-Event EVENT}$         & $\textsf{Number of Event}$\\
+%$\textsf{-MNeuD MNEUD}$         & $\textsf{Mass of the Dark Neutralino}$\\
+%$\textsf{-MNeuL MNEUL}$         & $\textsf{Mass of the Lightest Neutalino}$\\
+%$\textsf{-MPhoD MPHOD}$         & $\textsf{Mass of the Dark Photon}$\\
+%$\textsf{-TcPhoD TCPHOD}$       & $\textsf{Life time of the Dark Photon}$\\
+%$\textsf{-Mode MODE}$           & $\textsf{Condition using ``in'' or ``out''}$\\
+%$\textsf{-Card CARD}$           & $\textsf{Card using ``CMS'' or ``HL''}$\\
+%$\textsf{-Name NAME}$           & $\textsf{Name of root file out}$\\
+%$\textsf{-Dir\_Madg DIR\_MADG}$     & $\textsf{Directory of Madgraph}$\\
+%$\textsf{-Dir\_temp\_Madg DIR\_TEMP\_MADG}$ & $\textsf{Directory of temporal install Madgraph}$\\
+%$\textsf{-Dir\_Source DIR\_SOURCE}$ & $\textsf{Directory where source stay}$\\
+%$\textsf{-Dir\_Out DIR\_OUT}$ & $\textsf{Directory of result}$\\
+%\hline
+%\end{tabular}\\
+
+
+%En el directorio base (Fig. \ref{genera_darksusy0}) la carpeta $\textsf{data}$ es donde se guardarán los resultados de la simulación, esta puede modificarse con la variable $\textsf{-Dir\_Out}$, lo mismo ocurre con las otras variables relacionadas con directorios. Además se permite numerosas entradas de posibles variables de los elementos de masa y tiempo de vida en forma de vectores, el programa se adaptará a todas las posibles combinaciones incluidas. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=1\textwidth]{Cap3/imagenes/proceso_genera_darksusy.png}
+\caption{Diagrama de flujo de programación del proyecto de generación.}
+\label{genera_darksusy2}
+\end{figure}
+
+Es importante tener en cuenta que los archivos generados por $\textsf{MadGraph5}$ con extensión $\textsf{*.lhe}$ se generan para diferentes condiciones de masas ($m_{n_1}, m_{n_D}$ y  $m_{\gamma_D}$)%($\textsf{MNeuL, MNeuD y MPhoD}$)
+, cuando  es requerido, en estos se adaptada el tiempo de vida del fotón oscuro $c\tau_{\gamma_D}$ %$\textsf{TcPhoD}$ 
+con la función $\textsf{replace\_lifetime\_in\_LHE.py}$. En esta investigación, las diferentes condiciones de generación de la señal, son referenciadas haciendo uso del vector:
+\begin{equation}
+\vec{\alpha} = (m_{n_1}, m_{n_D}, m_{\gamma_D}, c\tau_{\gamma_D})
+\end{equation}
+
+Una vez definida los valores del vector $\vec{\alpha}$ se continua con la implementación de la herramienta de hadronización $\textsf{pythia8}$ y por el simulador del detector $\textsf{Delphes}$, este último bajo las dos condiciones de configuración requeridas (Run-2 y Alta Luminosidad), de esta forma la estadística de comparación en la investigación se puede enfocar en las variaciones de las reconstrucciones del detector desechando el error por cambios de las condiciones iniciales. % dadas por el método Monte Carlos. 
+Por una cuestión de operatividad, se definen variables inicializadoras por defecto en el archivo $\textsf{variable\_default.py}$, estas se corresponden con las mostradas en la Tabla \ref{genera_darksusy2}, siendo las muestras utilizadas en esta investigación.
+
+Como se puede observar el valor predeterminado de generación $N_e$ es relativamente bajo para los requerimientos de una investigación riburosa, pero será suficiente por cuando es por motivo de exploración, el tamaño de los archivos de muestras es de $\backsim\textsf{ 800 MB}$, además por una cuestión de espacio la información de los eventos para valores de $m_{n_1}~>~\textsf{10 GeV/c}^2$ %$\textsf{MLNeu > 10}$ 
+se reduce para aquellos poseedores de mínimo 4 muones. La base de datos generada para propósitos de esta investigación es de $\backsim ~2$ Terasbyte.
+
+\subsection{Configuración e implementación de recursos en ACARUS}
+
+El recurso usado es el cluster \href{ocotillo.acarus.uson.mx}{ocotillo.acarus.uson.mx}%con un IP \url{148.225.111.150}\mathbf{
+, este es debidamente configurado con las herramientas necesarias para la ejecución del generador de muestras $\mathbf{genera
+\_v5.py}$. Se hace necesario una sección autorizada en el servidor, y seguir los pasos de conexión especificados en el portal del proyecto\footnote{ Página del proyecto: \href{http://acarus.uson.mx/clusters/guia.htm}{http://acarus.uson.mx/clusters/guia.htm}}, todo el trabajo se realiza por medio de una terminal, cuestión que imposibilita el uso del recurso sin conocimientos previos de Linux.
+
+%\subsection{Gestión de recursos con $\mathbf{Slurm}$}
+
+Este sistema gestiona el uso de los recursos entre sus usuarios mediante un sistema de gestión de tareas y de clús\-te\-res
+\href{https://es.wikipedia.org/wiki/Simple\_Linux\_Utility\_for\_Resource\_Management}{\textbf{SLURM} (\textbf{S}imple \-\textbf{L}inux \-\textbf{U}tility for \textbf{R}e\-sour\-ces \-\textbf{M}ana\-ge\-ment)}\footnote{La documentación relativa al uso de esta herramienta se puede encontrar en el enlace de sus desarrolladores \href{https://slurm.schedmd.com/documentation.html}{https://slurm.schedmd.com/documentation.html}}. Esta herramienta posibilita asignar a los usuarios acceso a nodos de cómputo durante un tiempo determinado, proporciona un framework que permite iniciar, ejecutar y supervisar el trabajo y además se encarga de arbitrar la necesidad de recursos, administrando una cola de tareas pendiente. 
+
+Para el caso que nos ocupa en nuestra investigación, para poder paralelizar el proyecto de generación desarrollado en $\mathbf{python}$ se prepara un fichero ``\textit{script}'' con los datos del trabajo a ejecutar y el modo de utilizar de los recursos requeridos, el usado en este proyecto posee la configuración mostrada en la Tabla \ref{table_slurm}. %\mathbf{
+\begin{table}[!t]
+\begin{center}
+\small
+\begin{tabular}{|ll|}
+\toprule
+%\textsf{
+\textbf{\#SBATCH} - -nodes=4                    &\# Max numero de nodos\\
+\textbf{\#SBATCH} - -ntasks-per-node=8          &\# Max numero de tareas por nodo\\
+\textbf{\#SBATCH} - -ntasks=40                  &\# Max numero de tareas totales\\
+\textbf{\#SBATCH} - -distribution=cyclic:cyclic &\# Modo de distribucion de tareas\\
+\textbf{\#SBATCH} - -mem-per-tasks=1000         &\# Memoria asignada por tarea\\
+\textbf{\#SBATCH} - -mail-type=END              &\# Momento de notificacion\\
+\textbf{\#SBATCH} - -mail-user=xxx@gmail.com    &\# Correo a notificar\\
+\textbf{\#SBATCH} - -job-name=DarkSUSY          &\# Nombre del trabajo\\
+\textbf{\#SBATCH} - -time=168:0:0               &\# Tiempo maximo de ejecucion\\
+\textbf{\#SBATCH} - -partition=general          &\# Nombre de la particion\\
+\textbf{\#SBATCH} - -constraint=broadwell       & \\
+& \\[-.3cm]
+~~ \textbf{srun python} $\mathbf{genera\_v5.py}$ & \\
+\bottomrule 
+%}
+\end{tabular}
+\caption{Configuración utilizada para gestionar el uso en paralelo del generador de muestras \textbf{Dark-}\SUSY.}
+\label{table_slurm}
+\end{center}
+\end{table}
+El código anterior gestiona los recursos del crúster para que se ejecute en paralelo el programa generador $\textsf{genera\_v5.py}$ siento este el desarrollado para generar las muestras que se precisan para la investigación.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
