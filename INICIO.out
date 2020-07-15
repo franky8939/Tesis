@@ -13,29 +13,29 @@
 \BOOKMARK [0][-]{chapter.2}{Experimento LHC \040y Detector CMS}{}% 13
 \BOOKMARK [1][-]{section.2.1}{F\355sica de Altas Energ\355as con LHC}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.2}{Experimento CMS}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.1}{Actualizando CMS }{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.1}{Actualizando CMS}{section.2.2}% 16
 \BOOKMARK [2][-]{subsection.2.2.2}{Identificaci\363n y Reconstrucci\363n de Muones}{section.2.2}% 17
 \BOOKMARK [1][-]{section.2.3}{Simulaci\363n en Altas Energ\355as}{chapter.2}% 18
 \BOOKMARK [2][-]{subsection.2.3.1}{Implementando ROOT}{section.2.3}% 19
 \BOOKMARK [2][-]{subsection.2.3.2}{Generador Monte Carlos con Madgraph5}{section.2.3}% 20
 \BOOKMARK [2][-]{subsection.2.3.3}{Hadronizaci\363n con pythia8}{section.2.3}% 21
 \BOOKMARK [2][-]{subsection.2.3.4}{Simulando el detector con Delphes 3}{section.2.3}% 22
-\BOOKMARK [0][-]{chapter.3}{Simulaci\363n y an\341lisis de la se\361al MSSMD}{}% 23
+\BOOKMARK [0][-]{chapter.3}{Herramientas de generaci\363n de datos y redes neuronales}{}% 23
 \BOOKMARK [1][-]{section.3.1}{Generaci\363n de los datos}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{Configuraci\363n e implementaci\363n de recursos en ACARUS}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{Gesti\363n de recursos con Slurm}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.1.3}{Generando se\361al MSSMD}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.1}{Generalidades}{section.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.1.2}{Generando se\361al Dark-SUSY}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.3}{Configuraci\363n e implementaci\363n de recursos en ACARUS}{section.3.1}% 27
 \BOOKMARK [1][-]{section.3.2}{Procesamiento y conversi\363n de los datos}{chapter.3}% 28
 \BOOKMARK [1][-]{section.3.3}{M\351todos de regresi\363n de datos}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.1}{Forma anal\355tica}{section.3.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.2}{Redes neuronales}{section.3.3}% 31
-\BOOKMARK [1][-]{section.3.4}{An\341lisis de la se\361al sin detectores}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.4.1}{Variaci\363n del contenido mu\363nico}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.2}{Variaci\363n de las propiedades de los muones}{section.3.4}% 34
-\BOOKMARK [2][-]{subsection.3.4.3}{Caracter\355sticas del fot\363n oscuro}{section.3.4}% 35
-\BOOKMARK [2][-]{subsection.3.4.4}{Identificando y reconstruyendo el fot\363n oscuro}{section.3.4}% 36
-\BOOKMARK [1][-]{section.3.5}{An\341lisis de la se\361al con detector}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.5.1}{Variaci\363n del contenido mu\363nico}{section.3.5}% 38
-\BOOKMARK [2][-]{subsection.3.5.2}{Variaci\363n de las propiedades de los muones}{section.3.5}% 39
-\BOOKMARK [2][-]{subsection.3.5.3}{Reconstruyendo el fot\363n oscuro}{section.3.5}% 40
-\BOOKMARK [0][-]{chapter*.57}{Referencias}{}% 41
+\BOOKMARK [2][-]{subsection.3.3.1}{Modelo}{section.3.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Redes neuronales}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.4.1}{Identificando y reconstruyendo el fot\363n oscuro}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.2}{Regresi\363n de datos}{section.3.4}% 33
+\BOOKMARK [0][-]{chapter.4}{An\341lisis y resultados}{}% 34
+\BOOKMARK [1][-]{section.4.1}{An\341lisis de la se\361al sin detectores}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.1.1}{Variaci\363n de las propiedades de los muones}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.2}{Caracter\355sticas del fot\363n oscuro}{section.4.1}% 37
+\BOOKMARK [1][-]{section.4.2}{An\341lisis de la se\361al con detector}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.2.1}{Variaci\363n de las propiedades de los muones}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.2}{Reconstruyendo el fot\363n oscuro}{section.4.2}% 40
+\BOOKMARK [0][-]{chapter*.61}{Referencias}{}% 41
