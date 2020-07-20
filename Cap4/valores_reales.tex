@@ -9,15 +9,15 @@ además el número de partículas $p$ en el i-ésimo evento generado está defin
 n_i^{(p,k)} \equiv n_i^{(p,k)} (\vec{\alpha})
 \end{equation}
 donde 
-$k =$ \begin{small}$\textsf{R2},~\textsf{HL}, ~\textsf{True}$\end{small}  declara la presencia del detector y su configuración, 
-$i = 1, \ldots, N_{e}$ hace referencia al evento y 
-$p = \mu^\pm, ~ \gamma_D, ~n_D, ~n_1$ a la partícula caracterizada.
+$k =\textsf{R2},~\textsf{HL}$ declara la presencia del detector y su configuración en las condiciones Run-2 o Alta Luminosidad respectivamente, estos datos se obtienen al acceder a la rama $\textsf{Muon}$ resultados de la clase de mismo nombre. Además, para los casos en los que $k=\textsf{True}$ estos hacen referencia a las propiedades de las partículas del evento resultado de la aplicación del método de \MC ~sobre la teoría sin la implementación del detector, esta información se encuentra en la rama $\textsf{Particle}$ del archivo $\textsf{*.root}$ y es el resultado de la aplicación de la clase $\textsf{GenParticle}$. También, $i = 1, \ldots, N_{e}$ hace referencia al evento y $p = \mu^\pm, ~ \gamma_D, ~n_D, ~n_1$ a la partícula caracterizada.
 %\begin{tabular}{lll}
 %$k$ & $= \textsf{R2},~\textsf{HL}, ~\textsf{True}$ & declara la presencia del detector y su configuración.\\
 %$i$ & $ = 1, \ldots, N_{e}$ & hace referencia al evento.\\
 %$p$ & $ = \mu^\pm, ~ \gamma_D, ~n_D, ~n_1$ & partícula caracterizada.
 %\end{tabular}
-Definiendo a $f^{(p, k)}_\textsf{e} (x)\equiv f^{(p, k)}_\textsf{e} (x; \vec{\alpha})$ como la fracción del total de eventos poseedores de un número $x$ de partículas tipo $p$ de la señal generada bajo las condiciones iniciales $\vec{\alpha}$ y con la configuración del detector $k$ se tiene entonces:
+
+Definiendo a $f^{(p, k)}_\textsf{e} (x)\equiv f^{(p, k)}_\textsf{e} (x; \vec{\alpha})$ como la fracción del total de eventos poseedores de un número $x$ de partículas tipo $p$ de la señal generada bajo las condiciones iniciales $\vec{\alpha}$, %y con la configuración del detector $k$ 
+se tiene entonces:
 %\mathbb{M} 
 \begin{equation}\label{fe}
 f^{(p, k)}_\textsf{e} (x)  = \dfrac{\sum\limits_{i=1}^{N_e} \delta_{x,n_i^{(p,k)}}}{\sum\limits_{i=1}^{N_e} \sum\limits_{x=0}^\infty \delta_{x,n_i^{(p,k)}}} = \dfrac{1}{N_e} \sum_{i=1}^{N_e} \delta_{x,n_i^{(p,k)}}
@@ -29,7 +29,7 @@ donde $x\in\mathbb{N}$ pertenece al grupo de lo números naturales, $\delta_{x,n
 % ~~~ y ~~~ ff^{(p, k)}_\textsf{e} (\vec{\alpha}; x) = 1- f^{(p, k)}_\textsf{e} (\vec{\alpha}; x)
 Finalmente, $f^{(p, k)}_\textsf{n} (x; \vec{\alpha}) \equiv f^{(p, k)}_\textsf{n} (x)$ es la fracción de partículas tipo $p$ que se encuentran en eventos con $x$ de estás partículas:
 \begin{eqnarray}\label{fn}
-f^{(p, k)}_\textsf{n} (x) & = \dfrac{\sum\limits_{i=1}^{N_e} n_i^{(p,k)} \delta_{x,n_i^{(p,k)}}}{\sum\limits_{i=1}^{N_e} \sum\limits_{n=0}^\infty n_i^{(p,k)} \delta_{n, n_i^{(p,k)}}}  = \dfrac{\sum\limits_{i=1}^{N_e} n_i^{(p,k)} \delta_{x, n_i^{(p,k)}}}{\sum\limits_{i=1}^{N_e} n_i^{(p,k)}}
+f^{(p, k)}_\textsf{n} (x) & = \dfrac{\sum\limits_{i=1}^{N_e} n_i^{(p,k)} \delta_{x,n_i^{(p,k)}}}{\sum\limits_{i=1}^{N_e} \sum\limits_{n=0}^\infty n_i^{(p,\textsf{True})} \delta_{n, n_i^{(p,\textsf{True})}}}  = \dfrac{\sum\limits_{i=1}^{N_e} n_i^{(p,k)} \delta_{x, n_i^{(p,k)}}}{\sum\limits_{i=1}^{N_e} n_i^{(p,\textsf{True})}}
 \end{eqnarray}
 
 %\begin{equation}
@@ -47,7 +47,7 @@ Algunos ejemplos del contenido muónico de los eventos se muestran en la Fig. \r
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=1\textwidth]{Cap4/imagenes/True_Entries.png}
-\caption{(a) Variación del contenido muónico de los eventos antes de pasar por el detector; (b) Variación del porciento de la fracción de muones de ruido con los parámetros de generación $m_{\gamma_D}$ y $M_{n_1}$.}
+\caption{(a) Variación del número de muónes por evento sin detector; (b) Variación del porciento de la fracción de muones de ruido con los parámetros de generación $m_{\gamma_D}$ y $m_{n_D}$.}
 \label{contenido_muonico}
 \end{figure}
 
@@ -95,11 +95,12 @@ donde $\textsf{x}_j$ hace referencia a la propiedad de interés, estás se puede
 \label{mu_True2}
 \end{figure}
 
-Las distribuciones correspondientes a las propiedades de los muones $\textsf{W}^{(\mu,\textsf{True})}_N (\textsf{x}_j)$ proveniente de procesos alternos al decaimiento  \MSSM\textbf{D} se consideran ruido en esta investigación, sus propiedades se pueden visualizar en la Fig. \ref{mu_True}. Como resultado de su caraterización, se concluyó que la morfología de las distribuciones de ruido se mantiene con la variación de los parámetros de generación $\vec{\alpha}$. Además, el dominio para los valores del momento tranversal se extiende hasta $P_T= [0, 80]~ \textsf{GeV}$, pero el 98\% de los datos se agrupan para valores $<10~\textsf{GeV}$ como se visualiza en su respectiva distribución de la Fig. \ref{mu_True}.
+Las distribuciones correspondientes a las propiedades de los muones $\textsf{W}^{(\mu,\textsf{True})}_N (\textsf{x}_j)$ proveniente de procesos alternos al decaimiento  \MSSM\textbf{D} se consideran ruido en esta investigación, sus propiedades se pueden visualizar en la Fig. \ref{mu_True}. Como resultado de su caraterización, se concluyó que la morfología de las distribuciones de ruido se mantiene con la variación de los parámetros de generación $\vec{\alpha}$. Además, el dominio para los valores del momento tranversal $P_T$ se extiende hasta $\sim 80~ \textsf{GeV}$, pero el 98\% de los datos se agrupan para valores $<10~\textsf{GeV}$ como se visualiza en su respectiva distribución de la Fig. \ref{mu_True}.
 
 
 
-Las distribuciones de las propiedades de los muones $\textsf{W}^{(\mu,\textsf{True})}_N (P_T)$ proveniente del decaimiento  \textbf{Dark-}\SUSY ~ (\MSSM\textbf{D}) se pueden visualizar en la Fig. \ref{mu_True2}. Con la comparación de las distribuciones con la variación de los elementos del parámetro de generación $\vec{\alpha}$, se comprobó la invarianza de la morfología de las distribuciones para los parámetros $\eta$ y $\phi$. Las distribuciones del momento transversal muestran variaciones con el parámetro de generación masa del fotón oscuro $m_{\gamma_D}$ y del neutralino oscuro $m_{n_D}$. Se concluye al comparar con las eficiencias de los detectores $k=\textsf{R2}, \textsf{HL}$ mostradas en las Figs. \ref{Compara_track_muon}, \ref{Compara_sol_muon} y \ref{Compara_eficiencia_muon}, que el aumento de la masa teórica del fotón oscuro permite un aumento de la probabilidad de detección de los muones que decaen de ellos, por el contrario el aumento teórico de la masa del neutralino oscuro dificultará la detección de muones de \MSSM\textbf{D} ya que estos estadisticamente tenderán a menores valores del momento. Los datos que se poseen no son adecuados para estudiar la correspondencia con la masa del neutralino ligero $m_{n_1}$, de aquí que las conclusiones dadas en la sección no la incluyen.
+Las distribuciones de las propiedades de los muones $\textsf{W}^{(\mu,\textsf{True})}_N (P_T)$ proveniente del decaimiento  \textbf{Dark-}\SUSY ~ (\MSSM\textbf{D}) 
+se pueden visualizar en la Fig. \ref{mu_True2}. Con la comparación de las distribuciones con la variación de los elementos del parámetro de generación $\vec{\alpha}$, se comprobó la invarianza de la morfología de las distribuciones para los parámetros $\eta$ y $\phi$. Las distribuciones del momento transversal $P_T$ muestran variaciones con el parámetro de generación masa del fotón oscuro $m_{\gamma_D}$ y del neutralino oscuro $m_{n_D}$. Se concluye al comparar con las eficiencias de los detectores $k=\textsf{R2}, \textsf{HL}$ mostradas en las Figs. \ref{Compara_track_muon}, \ref{Compara_sol_muon} y \ref{Compara_eficiencia_muon}, que el aumento de la masa teórica del fotón oscuro permite un aumento de la probabilidad de detección de los muones que decaen de ellos, por el contrario el aumento teórico de la masa del neutralino oscuro dificultará la detección de muones de \MSSM\textbf{D} ya que estos estadisticamente tenderán a menores valores del momento. Los datos que se poseen no son adecuados para estudiar la correspondencia con la masa del neutralino ligero $m_{n_1}$, de aquí que las conclusiones dadas en la sección no la incluyen.
 
 
 %Las distribuciones muestran que el $\sim 95$\% de los muones correspondientes al decaimiento \MSSM\textbf{D} ~ muestran su dominio para valores $PT < 80 \textsf{ GeV}$, para los muones resultantes de procesos de ruido tenemos $PT < 10 \textsf{ GeV}$. Además, se confirma una relación directa entre los estadísticos medios del momento transversal de los muones con el parámetro de generación masa del fotón oscuro $m_{\gamma_D}$, de forma inversa con el parámetro de masa del neutralino oscuro $m_{n_D}$.

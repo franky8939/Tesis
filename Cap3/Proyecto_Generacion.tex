@@ -1,14 +1,17 @@
-Los procesos de simulación de física de altas energías poseen algunas desventajas, entre ellas están los altos conocimientos en programación y uso de software libre, además, de que los análisis poseen altos requerimientos computacionales para generar las simulaciones y para guardar los resultados. La configuración correcta de las herramientas computacionales a usar, la preparación del entorno o sistema sobre el que se ejecutarán y la optimización de los recursos a usar, deben ser objeto de planificación ante de la ejecución final.
+Los procesos de simulación de física de altas energías poseen algunas desventajas, entre ellas están los altos conocimientos en programación requeridos para su utilizacion, los altos requerimientos computacionales para generar las simulaciones y para guardar los resultados. La configuración correcta de las herramientas computacionales a usar, la preparación del entorno o sistema sobre el que se ejecutarán y la optimización de los recursos a usar, deben ser objeto de planificación ante de la ejecución final.
 % por lo que se hace necesario para la investigación el uso de poderosas supercomputadoras como el \textbf{ACARUS}(\textbf{Á}rea de \textbf{C}ómputo de \textbf{A}lto \textbf{R}endimiento de la \textbf{U}niversidad de \textbf{S}onora), recurso dedicado a la investigación de los cuerpos académicos de la universidad.
 
 \subsection{Generalidades}
 Los programas principales requeridos para la simulación del proceso \textbf{Dark-}\SUSY, para su uso en esta investigación son los siguientes:
 \begin{itemize_f}
-\item  $\mathbf{MadGraph5}$: generador de eventos con método de Monte Carlos. 
-\item $\mathbf{pythia8}$: hadronizador.
-\item $\mathbf{Delphes}$: simulador del detector con el ``\textit{card}'' de \CMS ~ adecuado.
+\item  $\mathbf{MadGraph5}$: generador de eventos con método de Monte Carlos (sec\-ción \ref{C_madgraph}). 
+\item $\mathbf{pythia8}$: hadronizador (sec\-ción \ref{C_pythia8}).
+\item $\mathbf{Delphes}$: simulador del detector con el ``\textit{card}'' de \CMS ~ adecuado (sec\-ción \-\ref{C_delphes}).
 \item  $\mathbf{C}^{++}$ y $\mathbf{python}$: recursos para análisis e integración.
 \end{itemize_f}
+
+Los programas anteriores de\-ben ser integradas correctamente para correr sobre $\mathbf{py\-thon}$ en su versión 2, el procedimiento de instalación y configuración se pueden encontrar en su página oficial\footnote{ Página del proyecto: \href{https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial}{https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial}}. %Los programas $\mathbf{Delphes}$ y $\mathbf{pythia8}$ son integradas para trabajar dentro del entorno de $\mathbf{Madgraph5}$, 
+Además, para su funcionamiento, las dependencias \ROOT (sec\-ción \ref{C_root}), $\mathbf{hepmc}$, $\mathbf{zlib}$, $\mathbf{boost}$, $\mathbf{gnu}\-\mathbf{plo}$t, $\mathbf{MG5aMC\_PY8\_interface}$ y $\mathbf{lhapdf}$ son necesarias, algunas referidas en la sección \ref{C_madgraph}.
 
 El generador de \MC ~ utilizado para la generación de eventos es $\mathbf{MadGraph5}$, este es la herramienta que integra y proporciona todos los elementos necesarios para la fenomenología \ME ~ y la inclusión del \SUSY, como los cálculos de secciones transversales, la generación de eventos y su coincidencia con generadores de eventos, y el uso de una variedad de herramientas relevantes para la manipulación de eventos y análisis. Los procesos se pueden simular con precisión para cualquier Lagrangiano definido por el usuario. $\mathbf{MadGraph5}$ toma entradas en forma de varios ``\textit{string}'', algunos de estos mostrados a continuación:
 \begin{itemize_f}
@@ -17,8 +20,7 @@ El generador de \MC ~ utilizado para la generación de eventos es $\mathbf{MadGr
 \item  $\mathbf{run\_card.dat}$: energía del emisor, pdfset and otras configuraciones de colisión.
 \end{itemize_f}
 
-Los programas \ROOT (sec\-ción \ref{C_root}), $\mathbf{Madgraph5}$ (sec\-ción \ref{C_madgraph}), $\mathbf{Del\-phes}$ (sec\-ción \-\ref{C_delphes}) y $\mathbf{py\-thia8}$ (sec\-ción \ref{C_pythia8}) de\-ben ser integradas correctamente para correr sobre $\mathbf{py\-thon}$ en su versión 2, el procedimiento de instalación y configuración se pueden encontrar en su página oficial\footnote{ Página del proyecto: \href{https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial}{https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial}}. %Los programas $\mathbf{Delphes}$ y $\mathbf{pythia8}$ son integradas para trabajar dentro del entorno de $\mathbf{Madgraph5}$, 
-Además, para su funcionamiento, las dependencias $\mathbf{hepmc}$, $\mathbf{zlib}$, $\mathbf{boost}$, $\mathbf{gnu}\-\mathbf{plo}$t, $\mathbf{MG5aMC\_PY8\_interface}$ y $\mathbf{lhapdf}$ son necesarias, algunas referidas en la sección \ref{C_madgraph}.
+
 
 
 \subsection{Generando señal \textbf{Dark-}\SUSY}
@@ -128,7 +130,7 @@ se reduce para aquellos poseedores de mínimo 4 muones. La base de datos generad
 
 \subsection{Configuración e implementación de recursos en ACARUS}
 
-El recurso usado es el cluster \href{ocotillo.acarus.uson.mx}{ocotillo.acarus.uson.mx}%con un IP \url{148.225.111.150}\mathbf{
+El recurso usado para realizar las simulaciones es el cluster \href{ocotillo.acarus.uson.mx}{ocotillo.acarus.uson.mx}%con un IP \url{148.225.111.150}\mathbf{
 , este es debidamente configurado con las herramientas necesarias para la ejecución del generador de muestras $\mathbf{genera
 \_v5.py}$. Se hace necesario una sección autorizada en el servidor, y seguir los pasos de conexión especificados en el portal del proyecto\footnote{ Página del proyecto: \href{http://acarus.uson.mx/clusters/guia.htm}{http://acarus.uson.mx/clusters/guia.htm}}, todo el trabajo se realiza por medio de una terminal, cuestión que imposibilita el uso del recurso sin conocimientos previos de Linux.
 

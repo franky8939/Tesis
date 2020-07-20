@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.16)  15 JUL 2020 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.16)  20 JUL 2020 03:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,12 +1126,12 @@ LaTeX Info: Redefining \nameref on input line 7.
 \openout3 = `INICIO.out'.
 
 \c@lstlisting=\count165
-<Escudo-UNAM.png, id=167, 240.9pt x 275.0275pt>
+<Escudo-UNAM.png, id=171, 240.9pt x 275.0275pt>
 File: Escudo-UNAM.png Graphic file (type png)
 <use Escudo-UNAM.png>
 Package pdftex.def Info: Escudo-UNAM.png  used on input line 25.
 (pdftex.def)             Requested size: 72.26999pt x 82.50468pt.
-<Escudo-IBT.png, id=169, 208.78pt x 205.76875pt>
+<Escudo-IBT.png, id=173, 208.78pt x 205.76875pt>
 File: Escudo-IBT.png Graphic file (type png)
 <use Escudo-IBT.png>
 Package pdftex.def Info: Escudo-IBT.png  used on input line 25.
@@ -1169,14 +1169,18 @@ Overfull \vbox (7.22745pt too high) detected at line 25
 do-IBT.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
- [2]
+ [2] (./link.tex)
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
- [3] [4]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+) [3] [4]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 36.
  (./INICIO.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1186,7 +1190,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 ...3.1.1}Generalidades}{43}{subsection.3.1.1}
+l.36 ...3.1.1}Generalidades}{42}{subsection.3.1.1}
                                                    [1])
 \tf@toc=\write4
 \openout4 = `INICIO.toc'.
@@ -1195,7 +1199,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 \clearpage
+l.37 \clearpage
                 [2] (./INICIO.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1207,7 +1211,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.III}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \clearpage
+l.40 \clearpage
                 [3
 
 ] (./INICIO.lof
@@ -1221,11 +1225,6 @@ l.17 ...(derecha).\relax }}{34}{figure.caption.23}
                                                    [4
 
 ]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 23.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)
 Overfull \hbox (6.09227pt too wide) in paragraph at lines 31--31
  [][] [][][]\T1/ptm/m/n/12 Variación de las dis-tri-bu-cio-nes de los muo-nes c
 a-rac-te-ris-ti-cos de la se-ñal [][]\T1/ptm/b/n/12 MSSM[][]D\T1/ptm/m/n/12 .[]
@@ -1240,7 +1239,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout6 = `INICIO.lof'.
 
 
-[6] (./link.tex) (./Introduccion/Introduccion.tex [1
+[6] (./Introduccion/Introduccion.tex [1
 
 
 ] [2] [3]) [4]
@@ -1248,7 +1247,7 @@ Cap\'{\i }tulo 1.
 (./Cap1/Introduccion.tex) (./Cap1/Modelo_estandar.tex [5
 
 ]
-<Cap1/imagenes/standard_model.png, id=532, 733.23938pt x 509.65407pt>
+<Cap1/imagenes/standard_model.png, id=544, 733.23938pt x 509.65407pt>
 File: Cap1/imagenes/standard_model.png Graphic file (type png)
 <use Cap1/imagenes/standard_model.png>
 Package pdftex.def Info: Cap1/imagenes/standard_model.png  used on input line 1
@@ -1262,7 +1261,7 @@ red
 l.56 ...lgebraicas, su conexidad y su compacidad.}
                                                   , estÃ¡s son referidas com...
 [7]
-<Cap1/imagenes/simetria0.png, id=557, 552.56438pt x 260.47313pt>
+<Cap1/imagenes/simetria0.png, id=569, 552.56438pt x 260.47313pt>
 File: Cap1/imagenes/simetria0.png Graphic file (type png)
 <use Cap1/imagenes/simetria0.png>
 Package pdftex.def Info: Cap1/imagenes/simetria0.png  used on input line 62.
@@ -1274,12 +1273,12 @@ Overfull \hbox (1.09747pt too wide) in paragraph at lines 75--77
  []
 
 [8 <./Cap1/imagenes/simetria0.png>] [9]) (./Cap1/Materia_Oscura.tex [10]
-<Cap1/imagenes/lentes.jpg, id=615, 405.76593pt x 242.40562pt>
+<Cap1/imagenes/lentes.jpg, id=626, 405.76593pt x 242.40562pt>
 File: Cap1/imagenes/lentes.jpg Graphic file (type jpg)
 <use Cap1/imagenes/lentes.jpg>
 Package pdftex.def Info: Cap1/imagenes/lentes.jpg  used on input line 35.
 (pdftex.def)             Requested size: 266.14978pt x 159.0043pt.
-<Cap1/imagenes/fritz2.png, id=620, 877.02657pt x 272.51813pt>
+<Cap1/imagenes/fritz2.png, id=631, 877.02657pt x 272.51813pt>
 File: Cap1/imagenes/fritz2.png Graphic file (type png)
 <use Cap1/imagenes/fritz2.png>
 Package pdftex.def Info: Cap1/imagenes/fritz2.png  used on input line 68.
@@ -1295,7 +1294,7 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 151.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [14]
-<Cap2/imagenes/supersimetrias.png, id=692, 653.44125pt x 270.25969pt>
+<Cap2/imagenes/supersimetrias.png, id=703, 653.44125pt x 270.25969pt>
 File: Cap2/imagenes/supersimetrias.png Graphic file (type png)
 <use Cap2/imagenes/supersimetrias.png>
 Package pdftex.def Info: Cap2/imagenes/supersimetrias.png  used on input line 1
@@ -1311,13 +1310,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
 [20]
-<Cap1/imagenes/sketch_darksector.png, id=840, 359.3425pt x 182.6825pt>
+<Cap1/imagenes/sketch_darksector.png, id=851, 359.3425pt x 182.6825pt>
 File: Cap1/imagenes/sketch_darksector.png Graphic file (type png)
 <use Cap1/imagenes/sketch_darksector.png>
 Package pdftex.def Info: Cap1/imagenes/sketch_darksector.png  used on input lin
 e 343.
 (pdftex.def)             Requested size: 243.96951pt x 124.03288pt.
-<Cap1/imagenes/darksusy_feynman.png, id=841, 314.17375pt x 253.94875pt>
+<Cap1/imagenes/darksusy_feynman.png, id=852, 314.17375pt x 253.94875pt>
 File: Cap1/imagenes/darksusy_feynman.png Graphic file (type png)
 <use Cap1/imagenes/darksusy_feynman.png>
 Package pdftex.def Info: Cap1/imagenes/darksusy_feynman.png  used on input line
@@ -1343,7 +1342,7 @@ ptm/b/n/12 b\T1/ptm/m/n/12 eauty) :[][] ex-pe-ri-men-to es-pe-cia-li-za-do en f
 í-si-ca del [][]quark[][] b,
  []
 
-<Cap2/imagenes/cern.png, id=882, 980.16188pt x 456.95718pt>
+<Cap2/imagenes/cern.png, id=893, 980.16188pt x 456.95718pt>
 File: Cap2/imagenes/cern.png Graphic file (type png)
 <use Cap2/imagenes/cern.png>
 Package pdftex.def Info: Cap2/imagenes/cern.png  used on input line 20.
@@ -1355,21 +1354,21 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-<Cap2/imagenes/CMS_upgrade.png, id=915, 1075.76906pt x 312.41719pt>
+<Cap2/imagenes/CMS_upgrade.png, id=926, 1075.76906pt x 312.41719pt>
 File: Cap2/imagenes/CMS_upgrade.png Graphic file (type png)
 <use Cap2/imagenes/CMS_upgrade.png>
 Package pdftex.def Info: Cap2/imagenes/CMS_upgrade.png  used on input line 66.
 (pdftex.def)             Requested size: 443.57848pt x 128.82123pt.
 )
 (./Cap2/CMS.tex [25 <./Cap2/imagenes/CMS_upgrade.png>]
-<Cap2/imagenes/CMS_interaction.png, id=933, 848.4197pt x 405.01312pt>
+<Cap2/imagenes/CMS_interaction.png, id=945, 848.4197pt x 405.01312pt>
 File: Cap2/imagenes/CMS_interaction.png Graphic file (type png)
 <use Cap2/imagenes/CMS_interaction.png>
 Package pdftex.def Info: Cap2/imagenes/CMS_interaction.png  used on input line 
 5.
 (pdftex.def)             Requested size: 443.57848pt x 211.75133pt.
  [26 <./Cap2/imagenes/CMS_interaction.png>] [27]
-<Cap2/imagenes/track.png, id=960, 1378.39969pt x 499.8675pt>
+<Cap2/imagenes/track.png, id=971, 1378.39969pt x 499.8675pt>
 File: Cap2/imagenes/track.png Graphic file (type png)
 <use Cap2/imagenes/track.png>
 Package pdftex.def Info: Cap2/imagenes/track.png  used on input line 69.
@@ -1379,13 +1378,13 @@ Package pdftex.def Info: Cap2/imagenes/track.png  used on input line 69.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [28]
-<Cap2/imagenes/Tracking_of_Muon.png, id=977, 782.925pt x 493.845pt>
+<Cap2/imagenes/Tracking_of_Muon.png, id=988, 782.925pt x 493.845pt>
 File: Cap2/imagenes/Tracking_of_Muon.png Graphic file (type png)
 <use Cap2/imagenes/Tracking_of_Muon.png>
 Package pdftex.def Info: Cap2/imagenes/Tracking_of_Muon.png  used on input line
  96.
 (pdftex.def)             Requested size: 399.21791pt x 251.8124pt.
-<Cap2/imagenes/Momentum_resolution_of_Muon.png, id=978, 817.0525pt x 520.94624p
+<Cap2/imagenes/Momentum_resolution_of_Muon.png, id=989, 817.0525pt x 520.94624p
 t>
 File: Cap2/imagenes/Momentum_resolution_of_Muon.png Graphic file (type png)
 <use Cap2/imagenes/Momentum_resolution_of_Muon.png>
@@ -1401,12 +1400,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./Cap2/imagenes/Tracking_of_Muon.png> <./Cap2/imagenes/Momentum_resolutio
 n_of_Muon.png>]
-<Cap2/imagenes/cono_mu.png, id=995, 737.00343pt x 673.76718pt>
+<Cap2/imagenes/cono_mu.png, id=1006, 737.00343pt x 673.76718pt>
 File: Cap2/imagenes/cono_mu.png Graphic file (type png)
 <use Cap2/imagenes/cono_mu.png>
 Package pdftex.def Info: Cap2/imagenes/cono_mu.png  used on input line 124.
 (pdftex.def)             Requested size: 199.60895pt x 182.47473pt.
-<Cap2/imagenes/plano.png, id=996, 859.71187pt x 755.82375pt>
+<Cap2/imagenes/plano.png, id=1007, 859.71187pt x 755.82375pt>
 File: Cap2/imagenes/plano.png Graphic file (type png)
 <use Cap2/imagenes/plano.png>
 Package pdftex.def Info: Cap2/imagenes/plano.png  used on input line 126.
@@ -1415,7 +1414,7 @@ Package pdftex.def Info: Cap2/imagenes/plano.png  used on input line 126.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./Cap2/imagenes/cono_mu.png> <./Cap2/imagenes/plano.png>] [33]
-<Cap2/imagenes/Eficiencia_of_Muon.png, id=1027, 773.89125pt x 499.8675pt>
+<Cap2/imagenes/Eficiencia_of_Muon.png, id=1038, 773.89125pt x 499.8675pt>
 File: Cap2/imagenes/Eficiencia_of_Muon.png Graphic file (type png)
 <use Cap2/imagenes/Eficiencia_of_Muon.png>
 Package pdftex.def Info: Cap2/imagenes/Eficiencia_of_Muon.png  used on input li
@@ -1475,15 +1474,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 109.
 
-<Cap2/imagenes/delphes.png, id=1109, 1463.4675pt x 690.32906pt>
+<Cap2/imagenes/delphes.png, id=1119, 1463.4675pt x 690.32906pt>
 File: Cap2/imagenes/delphes.png Graphic file (type png)
 <use Cap2/imagenes/delphes.png>
 Package pdftex.def Info: Cap2/imagenes/delphes.png  used on input line 117.
 (pdftex.def)             Requested size: 421.3982pt x 198.7788pt.
-[39]) [40 <./Cap2/imagenes/delphes.png>] [41]
+[39]) [40 <./Cap2/imagenes/delphes.png>]
 Cap\'{\i }tulo 3.
 (./Cap3/Introduccion.tex
-<Cap3/imagenes/procesos_darksusy.png, id=1137, 1592.95125pt x 496.10344pt>
+<Cap3/imagenes/procesos_darksusy.png, id=1143, 1592.95125pt x 496.10344pt>
 File: Cap3/imagenes/procesos_darksusy.png Graphic file (type png)
 <use Cap3/imagenes/procesos_darksusy.png>
 Package pdftex.def Info: Cap3/imagenes/procesos_darksusy.png  used on input lin
@@ -1492,30 +1491,30 @@ e 17.
 
 Underfull \vbox (badness 1028) has occurred while \output is active []
 
- [42
+ [41
 
- <./Cap3/imagenes/procesos_darksusy.png>]) (./Cap3/Proyecto_Generacion.tex [43]
-<Cap3/imagenes/proyecto_darksusy.png, id=1164, 2978.12625pt x 1400.23125pt>
+ <./Cap3/imagenes/procesos_darksusy.png>]) (./Cap3/Proyecto_Generacion.tex [42]
+<Cap3/imagenes/proyecto_darksusy.png, id=1171, 2978.12625pt x 1400.23125pt>
 File: Cap3/imagenes/proyecto_darksusy.png Graphic file (type png)
 <use Cap3/imagenes/proyecto_darksusy.png>
 Package pdftex.def Info: Cap3/imagenes/proyecto_darksusy.png  used on input lin
-e 30.
+e 32.
 (pdftex.def)             Requested size: 443.57848pt x 208.55138pt.
 
-[44 <./Cap3/imagenes/proyecto_darksusy.png>]
-<Cap3/imagenes/proceso_genera_darksusy.png, id=1187, 1173.63469pt x 372.64218pt
+[43 <./Cap3/imagenes/proyecto_darksusy.png>]
+<Cap3/imagenes/proceso_genera_darksusy.png, id=1193, 1173.63469pt x 372.64218pt
 >
 File: Cap3/imagenes/proceso_genera_darksusy.png Graphic file (type png)
 <use Cap3/imagenes/proceso_genera_darksusy.png>
 Package pdftex.def Info: Cap3/imagenes/proceso_genera_darksusy.png  used on inp
-ut line 111.
+ut line 113.
 (pdftex.def)             Requested size: 443.57848pt x 140.83788pt.
- [45 <./Cap3/imagenes/proceso_genera_darksusy.png>]
+ [44 <./Cap3/imagenes/proceso_genera_darksusy.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46])
-(./Cap3/Procesamiento.tex [47]
-<Cap3/imagenes/class_darksusy.png, id=1219, 1285.80376pt x 506.6428pt>
+ [45])
+[46] (./Cap3/Procesamiento.tex
+<Cap3/imagenes/class_darksusy.png, id=1225, 1285.80376pt x 506.6428pt>
 File: Cap3/imagenes/class_darksusy.png Graphic file (type png)
 <use Cap3/imagenes/class_darksusy.png>
 Package pdftex.def Info: Cap3/imagenes/class_darksusy.png  used on input line 7
@@ -1543,9 +1542,9 @@ Overfull \hbox (4.43939pt too wide) in paragraph at lines 16--35
  [][] 
  []
 
-) (./Cap3/Regresion.tex [48 <./Cap3/imagenes/class_darksusy.png>] [49] [50])
-(./Cap3/Redes.tex [51]
-<Cap3/imagenes/generico.png, id=1265, 270.25969pt x 158.84344pt>
+) (./Cap3/Regresion.tex [47 <./Cap3/imagenes/class_darksusy.png>] [48] [49])
+(./Cap3/Redes.tex [50]
+<Cap3/imagenes/generico.png, id=1270, 270.25969pt x 158.84344pt>
 File: Cap3/imagenes/generico.png Graphic file (type png)
 <use Cap3/imagenes/generico.png>
 Package pdftex.def Info: Cap3/imagenes/generico.png  used on input line 8.
@@ -1553,18 +1552,18 @@ Package pdftex.def Info: Cap3/imagenes/generico.png  used on input line 8.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 <./Cap3/imagenes/generico.png>]
-<Cap4/imagenes/IDENTIFICADOR.png, id=1283, 867.99281pt x 593.21625pt>
+ [51 <./Cap3/imagenes/generico.png>]
+<Cap4/imagenes/IDENTIFICADOR.png, id=1289, 867.99281pt x 593.21625pt>
 File: Cap4/imagenes/IDENTIFICADOR.png Graphic file (type png)
 <use Cap4/imagenes/IDENTIFICADOR.png>
 Package pdftex.def Info: Cap4/imagenes/IDENTIFICADOR.png  used on input line 23
 .
 (pdftex.def)             Requested size: 399.21791pt x 272.83752pt.
- [53 <./Cap4/imagenes/IDENTIFICADOR.png>]
+ [52 <./Cap4/imagenes/IDENTIFICADOR.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap4/imagenes/acc.png, id=1294, 288.3272pt x 192.72pt>
+<Cap4/imagenes/acc.png, id=1300, 288.3272pt x 192.72pt>
 File: Cap4/imagenes/acc.png Graphic file (type png)
 <use Cap4/imagenes/acc.png>
 Package pdftex.def Info: Cap4/imagenes/acc.png  used on input line 86.
@@ -1572,66 +1571,69 @@ Package pdftex.def Info: Cap4/imagenes/acc.png  used on input line 86.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54] [55 <./Cap4/imagenes/acc.png>]
-<Cap3/imagenes/neuronas.png, id=1317, 501.37312pt x 335.75438pt>
+[53] [54 <./Cap4/imagenes/acc.png>]
+<Cap3/imagenes/neuronas.png, id=1323, 501.37312pt x 335.75438pt>
 File: Cap3/imagenes/neuronas.png Graphic file (type png)
 <use Cap3/imagenes/neuronas.png>
 Package pdftex.def Info: Cap3/imagenes/neuronas.png  used on input line 107.
 (pdftex.def)             Requested size: 399.21791pt x 267.35893pt.
-) [56 <./Cap3/imagenes/neuronas.png>]
+) [55 <./Cap3/imagenes/neuronas.png>]
 Cap\'{\i }tulo 4.
-(./Cap4/Introduccion.tex) (./Cap4/valores_reales.tex [57
+(./Cap4/Introduccion.tex) (./Cap4/valores_reales.tex [56
 
 ]
-<Cap4/imagenes/True_Entries.png, id=1339, 1005.7575pt x 253.69781pt>
+<Cap4/imagenes/True_Entries.png, id=1344, 1005.7575pt x 253.69781pt>
 File: Cap4/imagenes/True_Entries.png Graphic file (type png)
 <use Cap4/imagenes/True_Entries.png>
 Package pdftex.def Info: Cap4/imagenes/True_Entries.png  used on input line 49.
 
 (pdftex.def)             Requested size: 443.57848pt x 111.89061pt.
- [58 <./Cap4/imagenes/True_Entries.png>]
-<Cap4/imagenes/propiedades_True_notMSSM.png, id=1357, 666.23906pt x 350.05782pt
+ [57 <./Cap4/imagenes/True_Entries.png>]
+<Cap4/imagenes/propiedades_True_notMSSM.png, id=1363, 666.23906pt x 350.05782pt
 >
 File: Cap4/imagenes/propiedades_True_notMSSM.png Graphic file (type png)
 <use Cap4/imagenes/propiedades_True_notMSSM.png>
 Package pdftex.def Info: Cap4/imagenes/propiedades_True_notMSSM.png  used on in
 put line 89.
 (pdftex.def)             Requested size: 399.21791pt x 209.76389pt.
-<Cap4/imagenes/propiedades_True_MSSM.png, id=1358, 670.00313pt x 563.85657pt>
+<Cap4/imagenes/propiedades_True_MSSM.png, id=1364, 670.00313pt x 563.85657pt>
 File: Cap4/imagenes/propiedades_True_MSSM.png Graphic file (type png)
 <use Cap4/imagenes/propiedades_True_MSSM.png>
 Package pdftex.def Info: Cap4/imagenes/propiedades_True_MSSM.png  used on input
  line 93.
 (pdftex.def)             Requested size: 399.21791pt x 335.96773pt.
- [59]
+ [58]
 
-LaTeX Warning: Text page 60 contains only floats.
+LaTeX Warning: Text page 59 contains only floats.
 
-[60 <./Cap4/imagenes/propiedades_True_notMSSM.png> <./Cap4/imagenes/propiedades
+[59 <./Cap4/imagenes/propiedades_True_notMSSM.png> <./Cap4/imagenes/propiedades
 _True_MSSM.png>]
-<Cap4/imagenes/True_PT5.png, id=1382, 674.52pt x 456.20438pt>
+<Cap4/imagenes/True_PT5.png, id=1389, 674.52pt x 456.20438pt>
 File: Cap4/imagenes/True_PT5.png Graphic file (type png)
 <use Cap4/imagenes/True_PT5.png>
-Package pdftex.def Info: Cap4/imagenes/True_PT5.png  used on input line 111.
+Package pdftex.def Info: Cap4/imagenes/True_PT5.png  used on input line 112.
 (pdftex.def)             Requested size: 399.21791pt x 270.00749pt.
- [61 <./Cap4/imagenes/True_PT5.png>])
-(./Cap4/valores_reconstruidos.tex
-<Cap4/imagenes/Distribucion_Entries.png, id=1398, 1192.455pt x 1666.225pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Cap4/valores_reconstruidos.tex [60]
+<Cap4/imagenes/Distribucion_Entries.png, id=1404, 1192.455pt x 1666.225pt>
 File: Cap4/imagenes/Distribucion_Entries.png Graphic file (type png)
 <use Cap4/imagenes/Distribucion_Entries.png>
 Package pdftex.def Info: Cap4/imagenes/Distribucion_Entries.png  used on input 
 line 21.
 (pdftex.def)             Requested size: 399.21791pt x 557.81383pt.
- [62]
+ [61 <./Cap4/imagenes/True_PT5.png>]
 
-LaTeX Warning: Text page 63 contains only floats.
+LaTeX Warning: Text page 62 contains only floats.
 
 
 Overfull \vbox (1.01205pt too high) has occurred while \output is active []
 
 
-[63 <./Cap4/imagenes/Distribucion_Entries.png>]
-<Cap4/imagenes/Comparacion_Distribucion_Entries0.png, id=1422, 1019.30812pt x 7
+[62 <./Cap4/imagenes/Distribucion_Entries.png>]
+<Cap4/imagenes/Comparacion_Distribucion_Entries0.png, id=1428, 1019.30812pt x 7
 38.50906pt>
 File: Cap4/imagenes/Comparacion_Distribucion_Entries0.png Graphic file (type pn
 g)
@@ -1643,64 +1645,58 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 67.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [64]
-<Cap4/imagenes/ML_Entries3.png, id=1439, 1698.345pt x 390.45876pt>
+) [63]
+<Cap4/imagenes/ML_Entries3.png, id=1446, 1698.345pt x 390.45876pt>
 File: Cap4/imagenes/ML_Entries3.png Graphic file (type png)
 <use Cap4/imagenes/ML_Entries3.png>
-Package pdftex.def Info: Cap4/imagenes/ML_Entries3.png  used on input line 112.
+Package pdftex.def Info: Cap4/imagenes/ML_Entries3.png  used on input line 154.
 
 (pdftex.def)             Requested size: 443.57848pt x 101.9816pt.
-<Cap4/imagenes/ML_Entries.png, id=1441, 1209.51875pt x 387.4475pt>
+<Cap4/imagenes/ML_Entries.png, id=1448, 1209.51875pt x 387.4475pt>
 File: Cap4/imagenes/ML_Entries.png Graphic file (type png)
 <use Cap4/imagenes/ML_Entries.png>
-Package pdftex.def Info: Cap4/imagenes/ML_Entries.png  used on input line 121.
+Package pdftex.def Info: Cap4/imagenes/ML_Entries.png  used on input line 163.
 (pdftex.def)             Requested size: 399.21791pt x 127.88171pt.
- [65 <./Cap4/imagenes/Comparacion_Distribucion_Entries0.png> <./Cap4/imagenes/M
-L_Entries3.png>]
-[66 <./Cap4/imagenes/ML_Entries.png>]
-<Cap4/imagenes/PT_comparacion.png, id=1460, 670.00313pt x 685.8122pt>
+ [64 <./Cap4/imagenes/Comparacion_Distribucion_Entries0.png>]
+Underfull \vbox (badness 1708) has occurred while \output is active []
+
+ [65 <./Cap4/imagenes/ML_Entries3.png>]
+<Cap4/imagenes/PT_comparacion.png, id=1466, 670.00313pt x 685.8122pt>
 File: Cap4/imagenes/PT_comparacion.png Graphic file (type png)
 <use Cap4/imagenes/PT_comparacion.png>
-Package pdftex.def Info: Cap4/imagenes/PT_comparacion.png  used on input line 1
-79.
+Package pdftex.def Info: Cap4/imagenes/PT_comparacion.png  used on input line 2
+21.
 (pdftex.def)             Requested size: 434.705pt x 444.9564pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[66 <./Cap4/imagenes/ML_Entries.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 7796) has occurred while \output is active []
-
- [67]
+ [67 <./Cap4/imagenes/PT_comparacion.png>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 199.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 241.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 199.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 241.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 199.
-
-Underfull \vbox (badness 2486) has occurred while \output is active []
-
- [68 <./Cap4/imagenes/PT_comparacion.png>]
-<Cap4/imagenes/foton_mass.png, id=1480, 461.47406pt x 270.25969pt>
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 241.
+<Cap4/imagenes/foton_mass.png, id=1486, 461.47406pt x 270.25969pt>
 File: Cap4/imagenes/foton_mass.png Graphic file (type png)
 <use Cap4/imagenes/foton_mass.png>
-Package pdftex.def Info: Cap4/imagenes/foton_mass.png  used on input line 224.
+Package pdftex.def Info: Cap4/imagenes/foton_mass.png  used on input line 265.
 (pdftex.def)             Requested size: 421.3982pt x 246.79031pt.
+ [68] [69 <./Cap4/imagenes/foton_mass.png>]
+[70] [71]) [72
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+] (./Conclusiones/Conclusiones.tex) [73
+
+] (./INICIO.bbl [74
 
 
-Underfull \vbox (badness 3746) has occurred while \output is active []
-
- [69]
-Underfull \vbox (badness 2351) has occurred while \output is active []
-
- [70 <./Cap4/imagenes/foton_mass.png>]) [71] (./INICIO.bbl [72
-
-
-] [73]
+]
+[75]
 Underfull \hbox (badness 10000) in paragraph at lines 177--181
 []\T1/ptm/m/sc/12 Dalton, John\T1/ptm/m/n/12 .  John Dal-ton Bio-graphy (1803).
   Web:
@@ -1718,28 +1714,28 @@ Underfull \hbox (badness 2818) in paragraph at lines 254--260
 Phe-no-me-no-logy \T1/ptm/m/n/12 (2009).  [][]doi:
  []
 
-[74] [75])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
- [76]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+[76] [77])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+ [78]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (./INICIO.aux
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `INICIO.out' has not changed.
-(rerunfilecheck)             Checksum: 4C5FBF7567D6B7C5E566BEF024433F2B;3297.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+(rerunfilecheck)             Checksum: 4481DC7150215341AD1F8E89DFF73711;3347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 13622 strings out of 492982
- 198738 string characters out of 6134896
- 305562 words of memory out of 5000000
- 16529 multiletter control sequences out of 15000+600000
- 127346 words of font info for 142 fonts, out of 8000000 for 9000
+ 13638 strings out of 492982
+ 198972 string characters out of 6134896
+ 309742 words of memory out of 5000000
+ 16534 multiletter control sequences out of 15000+600000
+ 128611 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,14n,45p,1692b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,14n,45p,1692b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -1772,10 +1768,10 @@ e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on INICIO.pdf (86 pages, 11217468 bytes).
+Output written on INICIO.pdf (88 pages, 11225859 bytes).
 PDF statistics:
- 1753 PDF objects out of 2073 (max. 8388607)
- 1518 compressed objects within 16 object streams
- 295 named destinations out of 1000 (max. 500000)
- 514 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1786 PDF objects out of 2073 (max. 8388607)
+ 1549 compressed objects within 16 object streams
+ 301 named destinations out of 1000 (max. 500000)
+ 522 words of extra memory for PDF output out of 10000 (max. 10000000)
 

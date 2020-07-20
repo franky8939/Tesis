@@ -22,8 +22,11 @@
 %xxxx
 %\end{acknowledgements}
 %
+\input{link.tex}
 \begin{resumen}\thispagestyle{empty}
-xxxx
+Se analiza el decaimiento $h \rightarrow 2n_1 \rightarrow 2n_D + 2\gamma_D \rightarrow 2n_D + 4\mu$ correspondiente al modelo \textbf{Dark-}\SUSY ~o \MSSM\textbf{D}~ mediante la simulación en \textsf{Madgraph5} de muestras con diferentes valores valores de masa teoriza corrrespondiente al decaimiento $m_{n_1}$, $m_{n_D}$ y $m_{\gamma_D}$ y tiempo de vida del fotón del sector oscuro $c\tau_{\gamma_D}$, reconstruyendo el detector \CMS~ en las condiciones Run-2 y Alta Luminosidad. Se comparán las distribuciones de las propiedades del fotón oscuro y de los muones, se muestra un aumento del dominio de los valores de la pseudorapidez desde $|\eta|\lesssim 2.4$ a $|\eta|\lesssim 4$ y del momento transversal $P_T<10$ GeV a $P_T<.1$ GeV con la actualización del detector, resultando en un aumento de reconstrucción de un mínimo de $36\%$ muones. 
+
+Con la actualización a Alta Luminosidad, se disminuye el error en las distribuciones de masa invariante del fotón oscuro de $\sim 12\% - 28\%$ y permite reconstruir totalmente hasta un $400\%$ de ellos. Se implementan 2 métodos generales para la identificación de los di-muones, uno basado en el uso de un identificador usando redes neuronales, permitiendo la reconstrucción de un mínimo de $\sim 85\%$ del total de fotones permitido por el detector. Y otro, basado en un proceso de comparación de masas por eventos, permitiendo reconstruir entre $\sim 4\%-45\%$ del total de fotones permitido por el detector. 
 \end{resumen}
 \begin{abstract}\thispagestyle{empty}%\addcontentsline{toc}{chapter}{Abstract}
 xxx
@@ -42,7 +45,7 @@ xxx
 %\begin{summary}
 %\end{summary}
 
-\input{link.tex}
+
 
 %overleaf
 %local
@@ -63,6 +66,9 @@ xxx
 
 	\section{M\'as all\'a del modelo est\'andar con la materia oscura}
 	\input{Cap1/Materia_Oscura.tex}
+	
+	%\section{Análisis del capítulo}
+	%\input{Cap1/Resumen.tex}
 				
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -81,6 +87,9 @@ xxx
 		
 	\section{Simulación en Altas Energías}
 	\input{Cap2/Simulacion.tex}
+	
+	%\section{Resumen del capítulo}
+	%\input{Cap2/Resumen.tex}
 	
 
 	%\section{Modelo de señal y generación de eventos Monte Carlo.}	
@@ -121,8 +130,12 @@ xxx
 	\section{Análisis de la señal con detector}
     \input{Cap4/valores_reconstruidos.tex}
     
-    
-  
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Conclusiones %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Conclusiones}
+\input{Conclusiones/Conclusiones.tex}
+\addcontentsline{toc}{chapter}{Conclusiones}
 
     
     %\section{Muon efficiency parametrization}
