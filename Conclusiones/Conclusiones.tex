@@ -1,10 +1,31 @@
-%Dado lo cual, el objetivo de este proyecto es que se estudie, por medio de simulacion de \MC ~ el modelo teórico \textbf{Dark-}\SUSY, mediante la obtención teórica de las propiedades del fotón oscuro $\gamma_D$ en un entorno  simulado de los detectores que realizarían esta detección en dos  configuraciones ya conocidas del experimento \CMS, en la llamada Run-2 y en la  de Alta Luminosidad. En partícular en esta investigación se cumplen los objetivos partículares:
-\begin{itemize}
-\item Se crea una herramienta en \textsf{python} para la automatización en paralelo del proceso de simulación y generación de datos correspondiente al decaimiento $h \rightarrow 2n_1 \rightarrow 2n_D + 2\gamma_D \rightarrow 2n_D + 4\mu$ del modelo \textbf{Dark-}\SUSY ~ bajo las configuraciones del detector \CMS ~ correspondiente a Run-2 y Alta Luminosidad.
-\item Se crea un método de selección de máximo de eventos $N_e$ basado en regresión polinomial, permitiendo optimizar el proceso de generación para obtener la cantidad de eventos de interés con un mínimo de 4 muones que sea requerida por la investigación. 
-\item Se analiza las propiedades de los muones y fotones provenientes de la señal \textbf{Dark-}\SUSY ~ o reconstruida por el detector. Se comparan las distribuciones bajo diferentes condiciones de generación dada por el parámetro $\vec{\alpha}$, mostrando además el aumento del dominio de los valores de la pseudorapidez desde $|\eta|\lesssim 2.4$ a $|\eta|\lesssim 4$ y del momento transversal $P_T<10$ GeV a $P_T<.1$ GeV con la actualización del detector. Además, con la actualización se 
-reconstruyen un mínimo de $36\%$ muones más. 
-\item Como resultado de la actualización del detector \CMS, se disminuye el error en las distribuciones de masa invariante del fotón oscuro $m_{\gamma_D}$ de $\sim 12\% - 28\%$ y permite reconstruir totalmente hasta un $400\%$ más de ellos, variando este valor con los elementos del parámetro de generación $\vec{\alpha}$.
+Con el objetivo general de estudiar el decaimiento $h \rightarrow 2n_1 \rightarrow 2n_D + 2\gamma_D \rightarrow 2n_D + 4\mu$ correspondiente al modelo \textbf{Dark-}\SUSY, se crearon un grupo de herramientas que facilitan el trabajo de simulación y análisis, entre estas están:
+\begin{itemize_f}
+\item Un generador creado en \textsf{python} que automatiza la simulación del decaimiento \textbf{Dark-}\SUSY~ utilizando en \textsfSmall{ Madgraph5+pythia8+Delphes3} bajo condiciones que sean requeridas, con alta adaptabilidad.
+\item Una una clase basada en \textsfSmall{pyroot} para acceder a la información contenida en los arChivos \textsfSmall{*.root}, permitiendo estos ser exportados los datos requeridos en un formato \textbf{HDF5}.
+\item Es creado un método de selección de máximo de eventos $N_e$ basado en regresión polinomial y en \textbf{RNA}, permitiendo optimizar el proceso de generación para obtener la cantidad de eventos de interés con un mínimo de 4 muones que sea requerida por la investigación. 
+\item Se crea un identificador de di-muones basado en \textbf{RNA} utilizando la paquetería \textsf{keras} de \textsfSmall{python}.
+\end{itemize_f}
+Haciendo uso de estas herramientas se genero la base de datos simulada utilizada en la exploración y análisis generales de esta investigación, donde se logra recrear correctamente el decaimiento a dos muones del fotón oscuro predicho por el modelo \textbf{Dark-}\SUSY~ bajo las configuraciones del detector \CMS ~ correspondiente a Run-2 y Alta Luminosidad, con diferentes condiciones en las propiedades dadas por el parámetro $\vec{\alpha}$. Al analizar los resultados, se comprueba la mejora en la probabilidad de reconstrucción del decaimiento como resultado de la actualización del detector \CMS~%en la obtención de información del decaimiento
+fundamentado en:
+\begin{itemize_f}
+\item Un aumento del dominio de los valores de la pseudorapidez desde $|\eta|\lesssim 2.4$ hasta $|\eta|\lesssim 4$ permitiendo acceder desde un 68\% a un 98\% de total el espectro de la teoría.
+\item El espectro del momento transversal aumenta desde un $P_T>10$ GeV a $P_T>2$ GeV.
+\item Hay un aumento de la cantidad de eventos con potencial de reconstrucción total del decaimiento entre un $2.1 \lesssim f^{(\mu, \texttt{HL})}_\textsf{e} (4)/f^{(\mu, \texttt{R2})}_\textsf{e} (4) \lesssim 9$ veces.%, permitiendo aumentar las posibilidades de reconstruir completamente el decaimiento.
+\item Se aumenta la cantidad de muones provenientes de la teoría y reconstruidos por los detectores entre un $1.3 \lesssim  A^{\mu}_n(\textsfSmall{HL})/A^{\mu}_n(\textsfSmall{R2}) \lesssim 2.8$ veces.
+\end{itemize_f}
+Se concluye que los valores de masa del neutralino oscuro $m_{n_D}$ son determinantes junto con del fotón oscuro $m_{\gamma_D}$ y su tiempo de vida $c\tau_{\gamma_D}$ en la reconstrucción de los muones provenientes de la teoría \textbf{Dark-}\SUSY.
 
-\item Se implementan 2 métodos generales para la identificación de los di-muones. El primero, basado en el uso de un identificador usando redes neuronales, permitiendo la reconstrucción de un mínimo de $\sim 85\%$ del total de fotones permitido por el detector. El segundo, basado en un proceso de comparación de masas por eventos, permitiendo reconstruir entre $\sim 4\%-45\%$ del total de fotones permitido por el detector. 
-\end{itemize}
+Los análisis de los muones reconstruidos por el detector \CMS ~ permitieron analizar la capacidad total de reconstrucción correcta de los fotones oscuros como resultado del emparejamiento de los muones carga diferentes (di-muones) en las condiciones mostradas en la Tabla \ref{fotones_reconstruidos}, resultando en:
+\begin{itemize_f}
+\item La configuración Run-2 reconstruye entre un $0.024\lesssim  A_\textsf{True}^{\gamma_D} (\textsfSmall{R2})\lesssim 0.287$ del total de fotones predicho por la teoría, por otro lado, la configuración Alta Luminosidad reconstruye entre un $0.094\lesssim A_\textsf{True}^{\gamma_D} (\textsfSmall{HL})\lesssim 0.426$.
+\item Las distribuciones de masa invariante de los di-muones emparejados muestran una disminución entre un $\backsim 21\%-28\%$ menos de dispersión para el 95\% de las masas obtenidas con la actualización.
+\item Las diferencias de las masas invariantes reconstruidas en un 95\% mínimo de decaimientos no excede los 2 GeV.  
+\end{itemize_f}
+Este análisis permitió validar dos métodos de identificación de di-muones sobre el conjunto de datos reconstruidos por el detector. El primero, basado en el uso de un identificador usando redes neuronales $\mathbb{N}_\textsf{RNA}$, permitiendo la reconstrucción entre $92\% \lesssim \epsilon_{\textsf{RNA}} \lesssim 99\%$ del total de fotones oscuros que son posibles reconstruir con una precisión de $\textsf{acc}_\textsf{RNA}>0.93$. El segundo, basado en un proceso de comparación de masas por eventos $\mathbb{N}_\textsf{ite}$, permitiendo reconstruir entre $3.5 \% \lesssim \epsilon_{\textsf{ite}}\lesssim 44\%$ de la capacidad total de reconstrucción con una precisión de $\textsf{acc}_\textsf{ite}>0.94$. 
+
+Se concluye que el método $\mathbb{N}_\textsf{RNA}$ es mucho más eficiente en la reconstrucción de los di-muones que el método iterativo de comparación de masa, pero cada entrenamiento del identificador \textbf{RNA} hará que los resultados de su implementación sean diferentes dada la configuración y datos de entrenamiento a los que la investigación acceda. Por otro lado el método iterativo es simple en su implementación y sus resultados podrán ser comparados e implementados de forma estándar, además es mayormente más preciso.
+
+ 
+
+
+%Dado lo cual, el objetivo de este proyecto es que se estudie, por medio de simulacion de \MC ~ el modelo teórico \textbf{Dark-}\SUSY, mediante la obtención teórica de las propiedades del fotón oscuro $\gamma_D$ en un entorno  simulado de los detectores que realizarían esta detección en dos  configuraciones ya conocidas del experimento \CMS, en la llamada Run-2 y en la  de Alta Luminosidad. En partícular en esta investigación se cumplen los objetivos partículares:
