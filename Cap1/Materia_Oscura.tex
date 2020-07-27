@@ -300,24 +300,36 @@ donde $m_\ell$ es la masa del leptón y los diferentes modos de descomposición 
 \begin{equation}\label{ancho_foton}
 \Gamma_{\gamma_\mathbf{D} \rightarrow ~ \mathbf{hadrones}}= \dfrac{1}{3} \alpha \epsilon^2 m_{\gamma_D} \sqrt{1 -\dfrac{4 m_{\mu^2}}{m_{\gamma_D}^2}} \left( 1 + \dfrac{2 m_\mu^2}{m_{\gamma_D}^2}\right) R(s = m_{\gamma_D}^2)
 \end{equation}
-donde $R = \sigma_{e^+ e^- \rightarrow ~ \mathbf{hadrons}} / \sigma_{e^+ e^- \rightarrow \mu^+ \mu^-}$, donde $\sigma$ es la sección eficaz, los valores son calculados en la referencia \cite{foton_decae}. %Los datos de la sección transversal hadrónica están disponibles en la bibliografía científica resultado de varias mediciones experimentales, resultado de estas pero solo se mide a partir de $\sqrt{s}= 0.36G ~ eV / c^2$, que está por encima del umbral $2 m_\pi = 0.28~GeV / c^2$. Por lo tanto, en la región donde $ < ~ 0.36~GeV / c^2$, usamos la sección transversal para $e^+e^- \rightarrow \pi^+\pi^-$. Finalmente, para la región donde $\sqrt{s} < 2 m_\pi$, sumamos solo los anchos parciales de leptones.
+donde $R = \sigma_{e^+ e^- \rightarrow ~ \mathbf{hadrons}} / \sigma_{e^+ e^- \rightarrow \mu^+ \mu^-}$ \footnote{Valores en enlace \href{https://pdg.lbl.gov/2020/hadronic-xsections/rpp2020-hadronicrpp\_page1001.dat}{https://pdg.lbl.gov/2020/hadronic-xsections/rpp2020-hadronicrpp\_page1001.dat}}, donde $\sigma$ es la sección eficaz, los valores son calculados en la referencia \cite{foton_decae}. %Los datos de la sección transversal hadrónica están disponibles en la bibliografía científica resultado de varias mediciones experimentales, resultado de estas pero solo se mide a partir de $\sqrt{s}= 0.36G ~ eV / c^2$, que está por encima del umbral $2 m_\pi = 0.28~GeV / c^2$. Por lo tanto, en la región donde $ < ~ 0.36~GeV / c^2$, usamos la sección transversal para $e^+e^- \rightarrow \pi^+\pi^-$. Finalmente, para la región donde $\sqrt{s} < 2 m_\pi$, sumamos solo los anchos parciales de leptones.
 Según las ecs. (\ref{ancho_parcial}) y (\ref{ancho_foton}), los anchos de decaimientos son dependientes de $\epsilon$ y $m_{\gamma_D}$, estos pueden factorizarse como $ (\Gamma_{\gamma_{D}{\rightarrow \mu^+\mu^-}}/\epsilon^2)^{-1}= f (m_{\gamma_D})$, donde $f (m_{\gamma_D})$ es solo dependiente de la masa del fotón oscuro. Los anchos de decaimientos para los diferentes modos de decaimiento del fotón oscuro y su ancho total (todos divididos por $\epsilon^2$ para demostrar solo la dependencia de los anchos con $m_{\gamma_D}$) se muestran en la Tabla \ref{an-15-455:tb1}%y Fig. \ref{an-15-455:fig4}
 . La relación de ramificación para la descomposición del fotón oscuro a un par de muones $B_{\gamma_D\rightarrow \mu\mu} = \Gamma_{\gamma_D\rightarrow \mu^+\mu^-} /\Gamma_{\gamma_D}$ no depende de $\epsilon$, y se muestra %en la Fig. \ref{an-15-455:fig4} 
 como función de $m_{\gamma_D}$. % Esta relación de ramificación $B_{\gamma_D\rightarrow\mu\mu}$ tiene un mínimo en $m_{\gamma_D}\thicksim 0.8 ~ GeV/ c^2$, donde predomina el decaimiento del fotón oscuro en hadrones. 
+\begin{figure}[!t]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Cap1/imagenes/probabilidad.png}
+    \caption{Valores de $R$ (izquierda) y de probabilidad $B_{\gamma_D\rightarrow \mu\mu}$ (derecha) con el valores teóricos de masa del fotón oscuro.}
+    \label{probabilidades}
+\end{figure}
 
 \begin{table}[!ht]
   \begin{center}
-    \small
-    \begin{tabular}{|l|ccccccccc|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+    \scriptsize
+    \begin{tabular}{|l|ccccc|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
 		\toprule
-		$m_{\gamma_D}$ ~ $\mathbf{(GeV})$& 0.25 & 0.275 & 0.3 & 0.4 & 0.7 & 1 & 1.5 & 2 & 8.5\\
+		$m_{\gamma_D}$ & 0.5 GeV & 1 GeV & 2 GeV & 3 GeV & 4 GeV \\
 		\midrule
-       	$\Gamma_{\gamma_D} ~ \mathbf{(MeV)}$ & 1 & 1.2 & 1.9 & 2.1 & 11.4 & 8.0 & 15.5 & 20.3 & 114.6 \\
-       	\midrule
-       	$f(m_{\gamma_D}) ~ \mathbf{(GeV^{-1})}$ & 952.9 & 817.2 & 538.9 & 480.2 & 87.4 & 125.1 & 64.6 & 49.2 & 8.7 \\
+		$B_{\gamma_D\rightarrow \mu\mu}$ & $0.4021 \pm 0.0023$ & $0.301 \pm 0.012$ & $0.239 \pm 0.004$ & $0.2375 \pm 0.0028$ & $0.1938 \pm 0.0053$\\
+		\bottomrule
+		\toprule
+		$m_{\gamma_D}$ ~ $\mathbf{(GeV})$ & 5 GeV & 6 GeV & 7 GeV & 8 GeV & 8.5 GeV\\
+		\midrule
+		$B_{\gamma_D\rightarrow \mu\mu}$ & $0.1845 \pm 0.0041$ & $0.1818 \pm 0.00331$ & $0.1869 \pm 0.0035$ & $0.1764 \pm 0.0061$ & $0.1805 \pm 0.0055$\\
+       	%$\Gamma_{\gamma_D} ~ \mathbf{(MeV)}$ & 1 & 1.2 & 1.9 & 2.1 & 11.4 & 8.0 & 15.5 & 20.3 & 114.6 \\
+       	%\midrule
+       	%$f(m_{\gamma_D}) ~ \mathbf{(GeV^{-1})}$ & 952.9 & 817.2 & 538.9 & 480.2 & 87.4 & 125.1 & 64.6 & 49.2 & 8.7 \\
       	\bottomrule    
     \end{tabular}
-    \caption{Ancho total y $f(m_{\gamma_D})$.}
+    \caption{Probabilidades de descomposición del fotón oscuro $\gamma_D$ a par de muones.}
     \label{an-15-455:tb1}
   \end{center}
 \end{table}
