@@ -26,10 +26,10 @@ Es de gran interés en esta investigación la creación de una metodología de i
 \end{figure}
 
 Se crea una red artificial que dadas las propiedades de los di-muones, pueda informar si esta selección proviene o no de un fotón oscuro del decaimiento \textbf{Dark-}\SUSY%\MSSM\textbf{D} 
-~(ver Fig. \ref{identificador}). La creación de datos de entrada que serán usados para entrenamiento es resultado de generar todos los posibles emparejamientos por eventos dentro de la clase $\textsf{GenParticle}$ en el árbol de los archivos $\textsf{*.root}$ y generar una salida binaria correspondiente a las partículas que declara la correcta o incorrecta selección de muones segun sus propiedades $\textsf{x}_{ij}$, también se incluyen en los datos variaciones en los parámetros de generación $\vec{\alpha}$. Los datos que corresponden a las entrada de la red $\mathtt{x}_{ij}$ y las salidas $\mathtt{y}_i$ fueron obtenidos de las muestras simuladas con variación en los parámetros de generación $\vec{\alpha}$. 
+~(ver Fig. \ref{identificador}). La creación de datos de entrada que serán usados para entrenamiento es resultado de generar todos los posibles emparejamientos por eventos dentro de la clase $\textsf{GenParticle}$ en el árbol de los archivos $\textsf{*.root}$ y generar una salida binaria correspondiente a las partículas que declara la correcta o incorrecta selección de muones según sus propiedades $\textsf{x}_{ij}$, también se incluyen en los datos variaciones en los parámetros de generación $\vec{\alpha}$. Los datos que corresponden a las entrada de la red $\mathtt{x}_{ij}$ y las salidas $\mathtt{y}_i$ fueron obtenidos de las muestras simuladas con variación en los parámetros de generación $\vec{\alpha}$. 
 
 
-Este problema, es equivalente al perceptrón simple, siendo una de las caracterizaciones más básicas en el área de redes neuronales artificiales. Para implementar este identificador se hace uso de las paqueterías o herramientas de $\textsf{keras}$ programando en el entorno de $\textsf{python}$. Se hace necesario funciones de activación específicas que incluyan las entradas $\textsf{x}_{ij}$ y las salidas $\textsf{x}_i$, las primeras ante la necesidad de reacondicionamiento ante la gran diferencia de rango de los dominios de las variables $\textsf{x}_{ij}$, las salidas deben ser dadas en forma de probabilidades de tal manera que el sumatoria de las salidas sea normalizada y de esta manera poder imponer criterios de binarización. Dado lo cual, se utilizó la targente hiperbólica $\textsf{Tanh}$ para la que conexión entre las capas de entrada con las primeras capas ocultas $x_{ij} \longrightarrow m_1$:
+Este problema, es equivalente al perceptrón simple, siendo una de las caracterizaciones más básicas en el área de redes neuronales artificiales. Para implementar este identificador se hace uso de las paqueterías o herramientas de \textsfSmall{keras} programando en el entorno de \textsfSmall{python}. Se hace necesario funciones de activación específicas que incluyan las entradas $\textsf{x}_{ij}$ y las salidas $\textsf{x}_i$, las primeras ante la necesidad de reacondicionamiento ante la gran diferencia de rango de los dominios de las variables $\textsf{x}_{ij}$, las salidas deben ser dadas en forma de probabilidades de tal manera que el sumatoria de las salidas sea normalizada y de esta manera poder imponer criterios de binarización. Dado lo cual, se utilizó la tangente hiperbólica $\textsf{Tanh}$ para la que conexión entre las capas de entrada con las primeras capas ocultas $x_{ij} \longrightarrow m_1$:
 \begin{equation}
 f(x)=\dfrac{2}{1+e^{-2x}}-1
 \end{equation}
@@ -37,7 +37,7 @@ Para las capas de salida $m_k \longrightarrow y_i$ se utiliza la función $\text
 \begin{equation}
 f(x)_j = \dfrac{e^{Z_j}}{\sum_{k=1}^{K}e^{Z_k}}
 \end{equation}
-La función de activación utilizada para relacionar todas las capas ocultas es una lineal rectificada $\textsf{ReLU}$ \footnote{Las funciones https://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/} dada por:
+La función de activación utilizada para relacionar todas las capas ocultas es una lineal rectificada \textsfSmall{ReLU} \footnote{Las funciones https://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/} dada por:
 \begin{equation}\label{relu}
 \mathtt{f(x)=\max (0,x)} ~ = ~ \Bigg\{\begin{matrix}
 0 & \mathtt{para }~ x<0\\
@@ -47,7 +47,7 @@ x & \mathtt{para }~ x\geq 0\\
 
 Para poder caracterizar la precisión del modelo clasificatorio implementado, la relación entre el número de predicciones correctas y el número total de muestras de entrada nos permitirá conocer la eficiencia del clasificador:
 \begin{equation}\label{acc}
-\textsf{accy} =  \dfrac{\textsf{Número de predicciones correctas}}{\textsf{Numero total de predicciones}}
+\textsf{acc} =  \dfrac{\textsf{Número de predicciones correctas}}{\textsf{Numero total de predicciones}}
 \end{equation}
 
 Se implementa una caracterización para diferentes combinación de parámetros $\textsf{x}_{j}$ como entradas, manteniendo constante la cantidad de épocas y donde se consideraron $\textsf{k}=1,\ldots,6$ capas ocultas con una cantidad de neuronas dadas por $\textsf{m}_k = 128, 64, 32, 16, 8, 4$, los resultados se muestran en la Tabla \ref{ajuste1}.
@@ -95,9 +95,9 @@ De concluyó que la creación de una herramienta identificadora de di-muones con
 
 \subsection{Regresión de datos}
 
-Los modelos de redes neuronales pueden ser considerados como nuevos paradigmas para el análisis estadístico de regresión lineal. Una de las razones del uso de las redes neuronales es que no necesitan el cumplimiento de supuestos teóricos como en los modelos estadísticos clásicos. El modelo del Perceptron multicapa es equivalente a un modelo de regresión lineal, debido a la similitud de la variable de salida que se relaciona aplicando la función de activación sobre una combinación lineal de pesos con las variables de entrada. 
+Los modelos de redes neuronales pueden ser considerados como nuevos paradigmas para el análisis estadístico de regresión lineal. Una de las razones del uso de las redes neuronales es que no necesitan el cumplimiento de supuestos teóricos como en los modelos estadísticos clásicos. El modelo del Perceptrón multicapa es equivalente a un modelo de regresión lineal, debido a la similitud de la variable de salida que se relaciona aplicando la función de activación sobre una combinación lineal de pesos con las variables de entrada. 
 
-Para la implementación de la regresión mediante \textbf{RNA}, se hizo uso de una estructura como la mostrada en la Fig. \ref{neuronas}, esta posee como entrada los elementos del vector de generación $\vec{\alpha}$ y en caso de que sea necesario un elemento independiente en el caso de que se desee utilizar para reconstruir una distribución de una propiedad $\textsf{x}_j$ arbitraria. La función de activación utilizada para relacionar todas las capas es una lineal rectificada $\textsf{ReLU}$ como la presentada en la ec. \ref{relu}. Por lo demás, la configuración de capas internas y nodos es semejante al identificador de la sección \ref{identificador_sec}.%, la función desarrollada utiliza también la paquetería de $\textsf{keras}$ y permite la flexibilidad de cambiar la cantidad de $\textsf{k}$ capas ocultas y los nodos $m_\textsf{k}$ que posee cada una de ellas.
+Para la implementación de la regresión mediante \textbf{RNA}, se hizo uso de una estructura como la mostrada en la Fig. \ref{neuronas}, esta posee como entrada los elementos del vector de generación $\vec{\alpha}$ y en caso de que sea necesario un elemento independiente en el caso de que se desee utilizar para reconstruir una distribución de una propiedad $\textsf{x}_j$ arbitraria. La función de activación utilizada para relacionar todas las capas es una lineal rectificada \textsfSmall{ReLU} como la presentada en la ec. \ref{relu}. Por lo demás, la configuración de capas internas y nodos es semejante al identificador de la sección \ref{identificador_sec}.%, la función desarrollada utiliza también la paquetería de $\textsf{keras}$ y permite la flexibilidad de cambiar la cantidad de $\textsf{k}$ capas ocultas y los nodos $m_\textsf{k}$ que posee cada una de ellas.
 
 %\url{https://github.com/franky8939/DarkSUSY/blob/master/modules/machine\_learning/regresion\_lineal\_ML.py}, 
 

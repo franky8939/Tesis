@@ -24,10 +24,8 @@
 %
 \input{link.tex}
 \begin{resumen}\thispagestyle{empty}
-En el presente trabajo se analiza el decaimiento $h \rightarrow 2n_1 \rightarrow 2n_D + 2\gamma_D \rightarrow 2n_D + 4\mu$ correspondiente al modelo \textbf{Dark-}\SUSY ~o \MSSM\textbf{D}~ mediante la simulación en \textsf{Madgraph5} de muestras con diferentes valores valores de masa teoriza correspondiente al decaimiento $m_{n_1}$, $m_{n_D}$ y $m_{\gamma_D}$ y tiempo de vida del fotón del sector oscuro $c\tau_{\gamma_D}$, reconstruyendo el detector \CMS~ en las condiciones Run-2 y Alta Luminosidad. 
-
-
-Se comprobó que la configuración del detector \CMS~ correspondiente a Run-2 permite reconstruir hasta un máximo del $\sim 28.7\%$ de los fotones oscuros $\gamma_D$ predichos por la teoría, por otro lado en la configuración de Alta Luminosidad se podrá hasta un $\sim 42.6\%$. Además, con la actualización se disminuye el error en las distribuciones de masa invariante del fotón oscuro de $\sim 12\% - 28\%$. La implementación de dos métodos de identificación de fotones oscuros como resultado de emparejamiento en di-muones, uno basado en redes neuronales permitiendo reconstruir un mínimo de $93\%$ del total teórico posible y otro en un método iterativo de comparación con minimización de las diferencias de las masas invariantes reconstruidas permitiendo un máximo de $\sim 44\%$.
+En el presente trabajo se analiza el decaimiento $h \rightarrow 2n_1 \rightarrow 2n_D + 2\gamma_D \rightarrow 2n_D + 4\mu$ correspondiente al modelo \textbf{Dark-}\SUSY ~o \MSSM\textbf{D}~ el cual predice la existencia del fotón oscuro ($\gamma_{D}$), candidato a explicar la naturaleza de la materia oscura. El análisis se realiza usando muestras de simulación generadas con paquetes especializados (\textsfSmall{Madgraph5}, \textsfSmall{Pythia8} y \textsfSmall{Delphes}) y considerando variaciones en los par\'ametros del modelo $m_{n_1}$, $m_{n_D}$ y $m_{\gamma_D}$ y tiempo de vida del fotón oscuro $c\tau_{\gamma_D}$, la parte experimental considera la reconstrucción de la señal con la configuración actual del detector \CMS~ (Run-2) y las condiciones futuras en la etapa de alta luminosidad.
+Se comprobó que la configuración del detector \CMS~ correspondiente a Run-2 permite reconstruir hasta un máximo del $\sim 28.7\%$ de los fotones oscuros $\gamma_D$ predichos por la teoría, por otro lado en la configuración de Alta Luminosidad se podrá hasta un $\sim 42.6\%$. Además, con la actualización se disminuye el error en las distribuciones de masa invariante del fotón oscuro de $\sim 12\% - 28\%$. La implementación de dos métodos de identificación de fotones oscuros como resultado de emparejamiento en di-muones, uno basado en redes neuronales permitiendo reconstruir un mínimo de $92\%$ del total teórico posible y otro en un método iterativo de comparación con minimización de las diferencias de las masas invariantes reconstruidas permitiendo un máximo de $\sim 44\%$.
 
 
 
@@ -36,10 +34,8 @@ Se comprobó que la configuración del detector \CMS~ correspondiente a Run-2 pe
 
 \end{resumen}
 \begin{abstract}\thispagestyle{empty}%\addcontentsline{toc}{chapter}{Abstract}
-(por arreglar)
-In this work the decay $h \rightarrow 2n_1 \rightarrow 2n_D + 2\gamma_D \rightarrow 2n_D + 4\mu$ corresponding to the \textbf{Dark-}\SUSY ~or \MSSM\textbf{D} model is analyzed, by simulating in \textsf{Madgraph5} samples with different values of theorized mass $m_{n_1}$, $m_{n_D}$ y $m_{\gamma_D}$ and life time of the dark sector photon $c\tau_{\gamma_D}$, reconstructing the \CMS ~ detector in Run-2 and High Luminosity conditions.
-
-It was verified that the detector configuration \CMS ~ corresponding to Run-2 allows to reconstruct up to a maximum of $\sim 28.7 \%$ of the dark photons $\gamma_D$ predicted by the theory, on the other hand, in the High Luminosity configuration up to $\sim 42.6 \% $ will be allowed. In addition, the update reduces the error in the invariant mass distributions of the dark photon by $\sim 12 \% - 28 \% $. The implementation of two methods of identifying dark photons as a result of pairing in di-muons, one based on neural networks and the other in an iterative method of comparison with minimization of the differences of the reconstructed invariant masses, allowing the reconstruction of a minimum of $88.5\%$ and between $7\% - 44\%$ respectively.
+This work analyzes the decay $ h \rightarrow 2n_1 \rightarrow 2n_D + 2 \gamma_D \rightarrow 2n_D + 4 \mu$ corresponding to the model \textbf{Dark-}\SUSY ~ o \MSSM\textbf{D} which predicts the existence of the dark photon ($\gamma_{D}$), candidate to explain the nature of dark matter. The analysis is performed using simulation samples generated with specialized packages (\textsfSmall{Madgraph5}, \textsfSmall{Pythia8} and \textsfSmall{Delphes}) and considering variations in the parameters of the model $m_{n_1} $, $m_{n_D} $ and $m_{\gamma_D} $ and lifetime of the dark photon $c\tau_{\gamma_D}$, the experimental considers the reconstruction of the signal with the current configuration of the detector \CMS ~ (Run-2) and the future conditions in the high-light stage. It was verified that the detector configuration \CMS ~ corresponding to Run-2 allows to reconstruct up to a maximum of $\sim 28.7 \% $ of the dark photons $\gamma_D$ predicted by the theory, on the other hand in the High Luminosity configuration up to $\sim 42.6 \% $ will be allowed. In addition, the update reduces the error in the invariant mass distributions of the dark photon by $\sim 12 \% - 28 \%$. The implementation of two methods of identifying dark photons as a result of pairing in di-muons, one based on neural networks allowing the reconstruction of a minimum of $92 \%$ of the possible theoretical total and the other in an iterative method of comparison with minimization of differences of the reconstructed invariant masses allowing a maximum of $\sim 44 \%$.\\[1cm]
+%\textbf{Keywords:} Supersymmetry,\MSSM, \CMS, \CERN, \textbf{RNA}, 
 \end{abstract}
 
 \setcounter{page}{1}
@@ -68,7 +64,7 @@ It was verified that the detector configuration \CMS ~ corresponding to Run-2 al
 %% Cap1 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Teoría y motivación}
+\chapter{Antecedentes teóricos}
 \input{Cap1/Introduccion.tex}
 
 	\section{Modelo Estándar} 	

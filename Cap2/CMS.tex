@@ -60,9 +60,47 @@ permite determinar la relación carga/masa de partículas a partir de la pista c
 %%\label{Compara_track_muon}
 %\end{figure}
 
-\subsection{Actualizando \CMS }
+\subsection{Actualizando \CMS}
 
-El objetivo del programa \LHC ~ de Alta Luminosidad o \textbf{HL}(\textbf{H}igh \textbf{L}uminosity) es recopilar una luminosidad integrada de $3000 ~ fb^{-1}$, opcionalmente hasta $4500 ~ fb^{-1}$, en aproximadamente ocho años de operaciones a partir de 2028 y con una luminosidad máxima de $7.5 \times 1034~cm^{-2}s^{-1}$. Como la separación de cruce de racimo se mantendrá igual que hoy (25 ns), el aumento de la luminosidad instantánea dará como resultado hasta $200$ colisiones inelásticas protón-protón por cruce de racimo (pileup) mientras que la luminosidad integrada conducirá a un entorno de radiación hostil sin precedentes. %En el punto más expuesto en el volumen del Rastreador, a $r \simeq 3 ~ cm$ de la línea de luz, la fluencia esperada después de 3000 fb − 1 alcanzará 2.3 × 10161 MeV neq / cm2 y la dosis ionizante total correspondiente (TID) 12 MGy.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=.95\textwidth]{Cap2/imagenes/camaraZ.png}
+\caption[Una sección transversal R-z de un cuadrante del detector \CMS.]{Una sección transversal R-z de un cuadrante del detector \CMS.\footnotemark.}
+\label{transversal}
+\end{figure}
+\footnotetext{Sacada de la referencia \cite{hlhlc}}
+El detector de trazas de silicio %en Run-2 
+es reemplazado antes del inicio de la Fase 2, ya que se esperan daños por radiación significativos al final de Run-3. Para mantener óptima la reconstrucción se disminuye el tamaño de píxel y se acorta el tiempo de respuesta. Además, será posible una medición de momento en unos pocos microsegundos, permitiendo mejoras en la resolución $P_T$. %, y esta información se puede usar en el Level-1 (L1) ``trigger''. Las mejoras en la resolución $P_T$ resultando en las actualizaciones  combinadas del rastreador y los sistemas de muones, el umbral de $P_T$ se mantiene bajo a pesar de la alta tasa en \textbf{HL-}\LHC.
+
+En la actualización realizada durante la Fase 1 resultó en la incorporación de nuevas cámaras \textbf{RPC} mejoradas se denominan \textbf{iRPC} (ver Fig. \ref{transversal}), que se instalarán junto a las cámaras \textbf{CSC} (\textbf{C}athode \textbf{S}trip \textbf{C}hamber) \textbf{ME3/1} y \textbf{ME4/1}. Las marcas \textbf{RPC} en la Fig. \ref{transversal} se refiere a las cámaras \textbf{RPC} ya presentes en el año 2017. Los nuevos detectores de muones que se instalarán como parte de las actualizaciones del detector (\textbf{GEM} y \textbf{iRPC}) están diseñados para mantener un rendimiento excelente durante toda la operación del\textbf{ HL-}\LHC. Para proyectar el deterioro a largo plazo de los actuales detectores de muones y componentes electrónicos durante los próximos 20 años, se ha desarrollado un modelo de envejecimiento, basado en tasas de falla medidas y estimadas en función de la dosis y el tiempo de radiación, estos se reportan en la referencia \cite{hlhlc}. Los estudios demuestran claramente que las actualizaciones propuestas son necesarias para mantener el rendimiento actual del sistema de muones.
+
+\begin{table}[!h]
+\small
+\centering
+\begin{tabular}{|cccccccc|}
+\toprule
+%Variable &  \multicolumn{7}{c}{}\\
+Detector & \textbf{DT} & \textbf{CSC} & \textbf{RPC} & \textbf{iRPC} & \textbf{GE1/1} & \textbf{GE2/1} & \textbf{ME0}\\ 
+\midrule
+rango de $\eta$ & 0-1.2 & 0.9-2.4 & 0-1.9 & 1.8-2.4 & 1.6-2.15 & 1.6-2.4 & 2.0-2.8\\ 
+\bottomrule
+\end{tabular}
+\caption{Rango de detección de la pseudorapidez para los componentes del detector \CMS.}
+\label{camara}
+\end{table}
+
+
+El objetivo del programa \LHC ~ de Alta Luminosidad o \textbf{HL}(\textbf{H}igh \textbf{L}uminosity) es recopilar una luminosidad integrada de $3000 ~ fb^{-1}$, opcionalmente hasta $4500 ~ fb^{-1}$, en aproximadamente ocho años de operaciones a partir de 2028 y con una luminosidad máxima de $7.5 \times 1034~cm^{-2}s^{-1}$. El aumento de la luminosidad instantánea dará como resultado hasta $200$ colisiones inelásticas protón-protón por cruce de racimo (pileup) mientras que la luminosidad integrada conducirá a un entorno de radiación hostil sin precedentes. %En el punto más expuesto en el volumen del Rastreador, a $r \simeq 3 ~ cm$ de la línea de luz, la fluencia esperada después de 3000 fb − 1 alcanzará 2.3 × 10161 MeV neq / cm2 y la dosis ionizante total correspondiente (TID) 12 MGy.
+
+El diseño esperado después de Fase 2 del detector de trazas se muestra en la Fig. \ref{track}, la región interna o \textbf{I}nner \textbf{T}racker (\textbf{IT}), donde $r < 20 ~ cm$($r < 30 ~ cm$ para $|z|> 120 ~ cm$), se espera una instrumentaria con alta granularidad detectores de píxeles que garantizan un reconocimiento de patrones eficiente en el entorno de alta densidad de pistas para la de \textbf{HL}. %La región del Rastreador externo o \textbf{OT}(\textbf{O}uter \textbf{T}racker) se instrumentará con módulos pt que proporcionan una reducción de datos en el detector aO (10) para que las mediciones precisas de las trayectorias de partículas cargadas del Rastreador se puedan usar en el disparador de Nivel 1 (L1) del Experimento CMS. 
+Específicamente, las características principales del detector actualizado serán:
+\footnotetext{Adaptada de la Fig. 1 de la referencia \cite{HL_LHC_1}}
+\begin{itemize_f}
+\item Contribuir a que el disparador $L1$ mida a 40 MHz el momento de partículas cargadas y rechace aquellas con $P_T < 2$ GeV.
+\item Aumentar la eficiencia de detección para valores de $|\eta| < 4$ que previamente era de $|\eta| < 2.4$. 
+\item Garantizar una medición precisa del momento y mantener un bajo nivel de rastreos falsos mediante una óptimización de diseño y una reducción del ``\textit{material budget}''.
+\end{itemize_f}
 
 \begin{figure}[!h]
 \centering
@@ -71,33 +109,22 @@ El objetivo del programa \LHC ~ de Alta Luminosidad o \textbf{HL}(\textbf{H}igh 
 \label{track}
 \end{figure}
 
-
-
-El diseño esperado del detector de trazas se muestra en la Fig. \ref{track}, la región interna o \textbf{I}nner \textbf{T}racker (\textbf{IT}), donde $r < 20 ~ cm$($r < 30 ~ cm$ para $|z|> 120 ~ cm$), se espera una instrumentaria con alta granularidad detectores de píxeles que garantizan un reconocimiento de patrones eficiente en el entorno de alta densidad de pistas para la de \textbf{HL}. %La región del Rastreador externo o \textbf{OT}(\textbf{O}uter \textbf{T}racker) se instrumentará con módulos pt que proporcionan una reducción de datos en el detector aO (10) para que las mediciones precisas de las trayectorias de partículas cargadas del Rastreador se puedan usar en el disparador de Nivel 1 (L1) del Experimento CMS. 
-Específicamente, las características principales del detector actualizado serán:
-\footnotetext{Basada en la Fig. 1 del artículo \cite{HL_LHC_1}}
-\begin{itemize}
-\item Contribuir a que el disparador $L1$ mida a 40 MHz el momento de partículas cargadas y rechace aquellas con $p_T < 2 ~ GeV$.
-\item Aumentar la eficiencia de detección para valores de $|\eta| < 4$ que previamente era de $|\eta| < 2.4$. 
-\item Garantizar una medición precisa del momento y mantener un bajo nivel de rastreos falsos mediante una óptimización de diseño y una reducción del ``\textit{material budget}''.
-\end{itemize}
-
-
-
 \subsection{Identificación y Reconstrucción de Muones}
 
 La identificación de partículas es parte del proceso de análisis y estudio en el \LHC, para hacer eficiente el proceso de detección, algoritmos y nuevos conceptos tuvieron que definidos e implementados para un aprovechamiento del equipamiento, con la intención de maximizar las observaciones válidas de las partículas que se estudian, en especial la identificación de procesos en los que intervienen los muones sigue siendo uno de los objetivos del proyecto por lo que se hace necesario analizar parte del proceso de identificación y reconstrucción de muones.
 
 \subsubsection{Reconstrucción de muones.}
-La reconstrucción de muones es un algoritmo sistémico que se ejecuta en un software de reconstrucción que utiliza información de impacto para rechazar objetos físicos, muones. La reconstrucción de muones se realiza en el detector de trazas y el sistema de muones, y se compone de tres pasos secuenciales: reconstrucción local, reconstrucción independiente y reconstrucción global. 
+La reconstrucción de muones es resultado de la implementación de un algoritmo sistémico que se ejecuta en un software de reconstrucción que utiliza información de impacto para rechazar objetos físicos, muones. La reconstrucción de muones se realiza en el detector de trazas y el sistema de muones, y se compone de tres pasos secuenciales: reconstrucción local, reconstrucción independiente y reconstrucción global. 
 
 \begin{figure}[!t]
 \centering
 \includegraphics[width=.90\textwidth]{Cap2/imagenes/Tracking_of_Muon.png}
-\caption{Probabilidad de localización de los muones en condiciones de Run-2 (izquierda) y HL (derecha).}
+\caption{Eficiencia de reconstrucción %Muon tracking efficiency
+de los muones en condiciones de Run-2 (izquierda) y HL (derecha).}
 \label{Compara_track_muon}
 \includegraphics[width=.90\textwidth]{Cap2/imagenes/Momentum_resolution_of_Muon.png}
-\caption{Resolución del momento de los muones en condiciones de Run-2 (izquierda) y HL (derecha).}
+\caption{Resolución en la medición del momento de los muones %Momentum resolution for muons
+en condiciones de Run-2 (izquierda) y HL (derecha).}
 \label{Compara_sol_muon}
 \end{figure}
 En la Fig. \ref{Compara_track_muon} se puede observar como aumenta la capacidad del experimento \CMS ~ para diferentes condiciones del experimento, en esta se evidencia el aumento de la detección de los muones con valores de $\eta > 2.4$, esto es parte del proceso de actualización a Alta Luminosidad. Además la resolución de los valores de momento reconstruidos de los muones en las condiciones actuales del experimento y en las previstas de alta luminosidad se puede ver en la Fig. \ref{Compara_sol_muon}, es clara la disminución del error para la región común ($0<\eta < 2.4$).
@@ -163,7 +190,8 @@ La eficiencia de la reconstrucción muónica depende de dos factores principales
 \begin{figure}[!t]
 \centering
 \includegraphics[width=1\textwidth]{Cap2/imagenes/Eficiencia_of_Muon.png}
-\caption{Eficiencia de reconstrucción de los muones en condiciones de Run-2 (izquierda) y HL (derecha).}
+\caption{Eficiencia de reconstrucción de los muones %Muon efficiency
+en condiciones de Run-2 (izquierda) y HL (derecha).}
 \label{Compara_eficiencia_muon}
 \end{figure}
 
